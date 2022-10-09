@@ -14,6 +14,8 @@ map d delete
 map m
 cmd mkdir %IFS=" "; mkdir -- "$*"
 map md push :mkdir<space>
+map t push $touch<space>
+map g push !gedit<space>$fx
 
 # dynamically set number of columns
 ${{
