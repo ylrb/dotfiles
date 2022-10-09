@@ -18,6 +18,7 @@ map md push :mkdir<space>
 map t push $touch<space>
 map g push !gedit<space>$fx
 map E extract
+map c push !code<space>$fx
 
 ##########
 
