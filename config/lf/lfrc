@@ -10,10 +10,7 @@ set cleaner ctpvclear
 set icons
 
 # custom commands
-map d 
-map dd delete # cutting
-map dD $IFS=':'; rm -rf $fx # deleting
-
+map d delete
 map m
 cmd mkdir %IFS=" "; mkdir -- "$*"
 map md push :mkdir<space>
