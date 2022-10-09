@@ -8,6 +8,7 @@ set cleaner ctpvclear
 
 # settings
 set icons
+set ratios 1:2:2
 
 # custom commands
 map d delete
@@ -16,7 +17,7 @@ cmd mkdir %IFS=" "; mkdir -- "$*"
 map md push :mkdir<space>
 map t push $touch<space>
 map g push !gedit<space>$fx
-
+map E extract
 
 ##########
 
