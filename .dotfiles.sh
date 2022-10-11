@@ -34,4 +34,4 @@ git commit -m "Update" -q
 echo "Git commit done"
 echo "Username : IgrecL\nPAT : $(cat ~/.PAT)"
 git push origin main
-echo "Configuration files pushed to the Github repository."
+echo "Configuration files successfullypushed to the Github repository"
