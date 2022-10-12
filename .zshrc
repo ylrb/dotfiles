@@ -16,3 +16,4 @@ alias matlab="export MESA_LOADER_DRIVER_OVERRIDE=i965; /usr/local/MATLAB/R2022b/
 alias myip="curl ipinfo.io/ip"
 alias h="wihotspot"
 alias m="udiskie & wait 3"
+alias dotfiles="zsh ~/.dotfiles.sh"
