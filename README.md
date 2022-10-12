@@ -1,3 +1,2 @@
 # dotfiles
-My manjaro dotfiles\n
-Automatically updateed by running .dotfiles.run
+My manjaro dotfiles, automatically updated by running .dotfiles.run
