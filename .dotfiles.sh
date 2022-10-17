@@ -10,6 +10,7 @@ cp ~/.nanorc ~/.dotfiles/.nanorc
 #cp -r ~/.mozilla ~/.dotfiles/.mozilla TOO BIG!
 #cp -r ~/.thunderbird ~/.dotfiles/.thunderbird TOO BIG!
 cp -r ~/.fonts ~/.dotfiles/.fonts
+cp -r ~/.themes ~/.dotfiles/.themes
 
 # copy ~/.config files
 cp ~/.config/background ~/.dotfiles/.config/background
