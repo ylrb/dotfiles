@@ -4,7 +4,7 @@
 cp ~/.dotfiles.sh ~/.dotfiles/.dotfiles.sh
 cp ~/.zshrc ~/.dotfiles/.zshrc
 cp ~/.bashrc ~/.dotfiles/.bashrc
-cp ~/.pk10.zsh ~/.dotfiles/.pk10.zsh
+cp ~/.p10k.zsh ~/.dotfiles/.p10k.zsh
 
 # copy ~ folders
 #cp -r ~/.mozilla ~/.dotfiles/.mozilla TOO BIG!
