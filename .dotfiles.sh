@@ -17,7 +17,7 @@ cp ~/.config/user-dirs.dirs ~/.dotfiles/.config/user-dirs.dirs
 # copy ~/.config folders
 cp -r ~/.config/ctpv ~/.dotfiles/.config/ctpv
 cp -r ~/.config/kitty ~/.dotfiles/.config/kitty 
-cp -r ~/.config/lf ~/.dotfiles/.config/lfvsco
+cp -r ~/.config/lf ~/.dotfiles/.config/lf
 cp -r ~/.config/mpv ~/.dotfiles/.config/mpv
 
 echo "Configuration files copied to ~/.dotfiles"
