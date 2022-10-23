@@ -21,19 +21,29 @@ map gg
 map gr cd /
 map gd cd ~/Documents/
 map gt cd ~/Documents/TC/
-map gm cd /run/media/yl/
 map gs cd /run/media/yl/T7/
+map gm cd /run/media/yl/
+map gc cd ~/.config/
+map gp cd ~/Documents/TC/A.\ Pack\ Parrain/3TC/Semestre\ 1/
 
+cmd mountSSD ${{udisksctl mount -b /dev/sda1}}
+map ms mountSSD
+cmd unmountSSD ${{udisksctl unmount -b /dev/sda1}}
+map msu unmountSSD
 
 # Custom commands
 
 map d delete
 map e extract
 map m
+map b mark-save
 map md push $mkdir<space>
 map t push $touch<space>
+cmd gedit ${{gedit $fx}}
+map ge gedit
 cmd sudo_gedit ${{sudo gedit $fx}}
 map sg sudo_gedit
+map mpv push $mpv<space>$fx<space>--secondary-sid=2
 
 
 # Opener selection

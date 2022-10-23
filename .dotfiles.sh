@@ -7,18 +7,18 @@ cp ~/.bashrc ~/.dotfiles/.bashrc
 cp ~/.p10k.zsh ~/.dotfiles/.p10k.zsh
 
 # copy ~ folders
-cp -r ~/.fonts ~/.dotfiles/.fonts
-cp -r ~/.themes ~/.dotfiles/.themes
+cp -r ~/.fonts ~/.dotfiles
+cp -r ~/.themes ~/.dotfiles
 
 # copy ~/.config files
 cp ~/.config/background ~/.dotfiles/.config/background
 cp ~/.config/user-dirs.dirs ~/.dotfiles/.config/user-dirs.dirs
 
 # copy ~/.config folders
-cp -r ~/.config/ctpv ~/.dotfiles/.config/ctpv
-cp -r ~/.config/kitty ~/.dotfiles/.config/kitty 
-cp -r ~/.config/lf ~/.dotfiles/.config/lf
-cp -r ~/.config/mpv ~/.dotfiles/.config/mpv
+cp -r ~/.config/ctpv ~/.dotfiles/.config
+cp -r ~/.config/kitty ~/.dotfiles/.config
+cp -r ~/.config/lf ~/.dotfiles/.config
+cp -r ~/.config/mpv ~/.dotfiles/.config
 
 echo "Configuration files copied to ~/.dotfiles"
 
