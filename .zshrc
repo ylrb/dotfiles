@@ -24,6 +24,7 @@ alias h="wihotspot"
 alias m="udiskie & wait 3"
 alias dotfiles="zsh ~/.dotfiles.sh"
 alias time="date +"%H:%M:%S""
+alias icat="kitty +kitten icat"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

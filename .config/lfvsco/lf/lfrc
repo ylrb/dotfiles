@@ -39,8 +39,11 @@ map m
 map b mark-save
 map md push $mkdir<space>
 map t push $touch<space>
+cmd gedit ${{gedit $fx}}
+map ge gedit
 cmd sudo_gedit ${{sudo gedit $fx}}
 map sg sudo_gedit
+map mpv push $mpv<space>$fx<space>--secondary-sid=2
 
 
 # Opener selection

@@ -7,8 +7,6 @@ cp ~/.bashrc ~/.dotfiles/.bashrc
 cp ~/.p10k.zsh ~/.dotfiles/.p10k.zsh
 
 # copy ~ folders
-#cp -r ~/.mozilla ~/.dotfiles/.mozilla TOO BIG!
-#cp -r ~/.thunderbird ~/.dotfiles/.thunderbird TOO BIG!
 cp -r ~/.fonts ~/.dotfiles/.fonts
 cp -r ~/.themes ~/.dotfiles/.themes
 
@@ -22,6 +20,7 @@ cp -r ~/.config/BetterDiscord ~/.dotfiles/.config/BetterDiscord
 cp -r ~/.config/ctpv ~/.dotfiles/.config/ctpv
 cp -r ~/.config/kitty ~/.dotfiles/.config/kitty 
 cp -r ~/.config/lf ~/.dotfiles/.config/lfvsco
+cp -r ~/.config/mpv ~/.dotfiles/.config/mpv
 
 echo "Configuration files copied to ~/.dotfiles"
 
