@@ -1,0 +1,7 @@
+# Ignored files
+__pycache__
+.idea
+*.pickle
+/meta.json
+/manifest.json
+/*.ankiaddon
