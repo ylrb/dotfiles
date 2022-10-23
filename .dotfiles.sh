@@ -20,6 +20,14 @@ cp -r ~/.config/kitty ~/.dotfiles/.config
 cp -r ~/.config/lf ~/.dotfiles/.config
 cp -r ~/.config/mpv ~/.dotfiles/.config
 
+# copy ~/.local/share files
+
+# copy ~/.local/share folders
+cp -r ~/.local/share/gedit ~/.dotfiles/.local/share
+cp -r ~/.local/share/Anki2 ~/.dotfiles/.local/share
+cp -r ~/.local/share/gnome-shell/extensions ~/.dotfiles/.local/share/gnome-shell/
+
+
 echo "Configuration files copied to ~/.dotfiles"
 
 # git
