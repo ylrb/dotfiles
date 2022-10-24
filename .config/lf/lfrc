@@ -20,7 +20,9 @@ set findlen 2
 map gg
 map gr cd /
 map gd cd ~/Documents/
+map gD cd ~/Downloads/
 map gt cd ~/Documents/TC/
+map gf cd ~/Documents/Fiction
 map gs cd /run/media/yl/T7/
 map gm cd /run/media/yl/
 map gc cd ~/.config/
@@ -43,7 +45,6 @@ cmd gedit ${{gedit $fx}}
 map ge gedit
 cmd sudo_gedit ${{sudo gedit $fx}}
 map sg sudo_gedit
-map mpv push $mpv<space>$fx<space>--secondary-sid=2
 
 
 # Opener selection
