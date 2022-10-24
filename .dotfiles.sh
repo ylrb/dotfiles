@@ -5,6 +5,7 @@ cp ~/.dotfiles.sh ~/.dotfiles/.dotfiles.sh
 cp ~/.zshrc ~/.dotfiles/.zshrc
 cp ~/.bashrc ~/.dotfiles/.bashrc
 cp ~/.p10k.zsh ~/.dotfiles/.p10k.zsh
+cp ~/.vimrc ~/.dotfiles/.vimrc
 
 # copy ~ folders
 cp -r ~/.fonts ~/.dotfiles

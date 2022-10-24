@@ -15,6 +15,7 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 
+alias la="ls -a"
 alias py="python3"
 alias b="bluetoothctl connect 94:DB:56:6D:BC:48 && exit"
 alias b0="bluetoothctl disconnect && exit"
