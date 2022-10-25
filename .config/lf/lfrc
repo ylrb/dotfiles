@@ -36,6 +36,7 @@ map msu unmountSSD
 # Custom commands
 
 map d
+map dc cut
 map dy trash 
 map dD delete
 map E extract

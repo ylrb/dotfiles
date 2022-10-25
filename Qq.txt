@@ -3,7 +3,9 @@ abseil-cpp
 accountsservice
 acl
 adobe-source-code-pro-fonts
+adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
 adwaita-icon-theme
 alsa-card-profiles
 alsa-lib
@@ -31,6 +33,7 @@ baobab
 base
 bash
 bat
+bazel
 binutils
 bison
 bluez
@@ -248,6 +251,9 @@ hwdata
 hwloc
 hyphen
 iana-etc
+ibus
+ibus-libpinyin
+ibus-mozc
 icu
 ijs
 imagemagick
@@ -260,7 +266,12 @@ iputils
 iso-codes
 iw
 jansson
+java-environment-common
+java-runtime-common
 jbig2dec
+jdk11-openjdk
+jre11-openjdk
+jre11-openjdk-headless
 js91
 json-c
 json-glib
@@ -272,6 +283,7 @@ kitty-shell-integration
 kitty-terminfo
 kmod
 krb5
+kyotocabinet
 l-smash
 lame
 lcms2
@@ -397,6 +409,7 @@ libmtp
 libmwaw
 libnautilus-extension
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -428,6 +441,7 @@ libpciaccess
 libpeas
 libpgm
 libphonenumber
+libpinyin
 libpipeline
 libplacebo
 libplist
@@ -553,6 +567,7 @@ make
 malcontent
 man-db
 man-pages
+marisa
 md4c
 mdadm
 mdcat
@@ -562,6 +577,7 @@ mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
 mod_dnssd
+mozc
 mpfr
 mpg123
 mpv
@@ -585,6 +601,7 @@ ocs-url
 oniguruma
 ookla-speedtest-bin
 openal
+opencc
 opencore-amr
 openexr
 openjpeg2
@@ -599,6 +616,7 @@ os-prober
 osinfo-db
 ostree
 p11-kit
+p7zip
 pacman
 pacman-contrib
 pacman-mirrorlist
@@ -616,6 +634,7 @@ perl
 perl-error
 perl-mailtools
 perl-timedate
+pfetch
 pinentry
 pinta
 pipewire

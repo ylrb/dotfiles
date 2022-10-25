@@ -21,3 +21,4 @@ alias m="udiskie & wait 3"
 alias dotfiles="zsh ~/.dotfiles.sh"
 alias time="date +"%H:%M:%S""
 alias icat="kitty +kitten icat"
+export PATH=/home/yl/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/home/yl/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl

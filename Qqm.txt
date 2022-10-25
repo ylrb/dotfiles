@@ -1,9 +1,12 @@
 anki-official-binary-bundle
 ctpv-git
 gdm-tools
+ibus-mozc
 linux-wifi-hotspot
+mozc
 ocs-url
 ookla-speedtest-bin
+pfetch
 visual-studio-code-bin
 yay
 zsh-theme-powerlevel10k-git

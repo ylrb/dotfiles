@@ -1,4 +1,6 @@
+adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
 anki-official-binary-bundle
 atool
 autoconf
@@ -63,6 +65,8 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+ibus-libpinyin
+ibus-mozc
 kitty
 lf
 libreoffice-fresh
@@ -84,8 +88,10 @@ ocs-url
 ookla-speedtest-bin
 orca
 os-prober
+p7zip
 pacman-contrib
 patch
+pfetch
 pinta
 pkgconf
 python-pip
