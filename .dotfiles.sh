@@ -1,5 +1,10 @@
 #!/bin/sh/
 
+# create pacman -Qq -Qqm -Qqe output files
+pacman -Qq > ~/.dotfiles/Qq.txt
+pacman -Qqe > ~/.dotfiles/Qqe.txt
+pacman -Qqm > ~/.dotfiles/Qqm.txt
+
 # copy ~ files
 cp ~/.dotfiles.sh ~/.dotfiles/.dotfiles.sh
 cp ~/.zshrc ~/.dotfiles/.zshrc

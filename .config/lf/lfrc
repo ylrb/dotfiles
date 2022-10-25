@@ -54,7 +54,7 @@ cmd open ${{
     case $f in
     	*.py|*.java|*.c|*.cc|*.cs|*.go|*.hs|*.lhs) setsid -f code $fx;;
     	*.htm*) setsid -f firefox $fx;;
-    	*) for f in $fx; do setsid -f $OPENER $f > /dev/null 2> /dev/null & done;;
+    	*) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
 }}
 

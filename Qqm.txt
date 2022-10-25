@@ -1,0 +1,9 @@
+anki-official-binary-bundle
+ctpv-git
+gdm-tools
+linux-wifi-hotspot
+ocs-url
+ookla-speedtest-bin
+visual-studio-code-bin
+yay
+zsh-theme-powerlevel10k-git

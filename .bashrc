@@ -135,3 +135,4 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+zsh:1: command not found: wq
