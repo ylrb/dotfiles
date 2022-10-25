@@ -35,7 +35,9 @@ map msu unmountSSD
 
 # Custom commands
 
-map d delete
+map d
+map dy trash 
+map dD delete
 map e extract
 map m
 map b mark-save
@@ -72,7 +74,11 @@ map X !$f
 map o &mimeopen $f
 map O $mimeopen --ask $f
 
-cmd trash %set -f; mv $fx ~/.trash
+cmd trash ${{
+    set -f
+    mkdir -p ~/.trash
+    mv -- $fx ~/.trash
+}}
 
 cmd extract ${{
     set -f

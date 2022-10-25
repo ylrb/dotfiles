@@ -15,6 +15,7 @@ cp ~/.vimrc ~/.dotfiles/.vimrc
 # copy ~ folders
 cp -r ~/.fonts ~/.dotfiles
 cp -r ~/.themes ~/.dotfiles
+cp -r ~/.icons ~/.dotfiles
 
 # copy ~/.config files
 cp ~/.config/background ~/.dotfiles/.config/background
