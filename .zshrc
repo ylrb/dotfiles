@@ -9,7 +9,7 @@ source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-OPENER="vim"
+export EDITOR=/usr/bin/vim
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 alias la="ls -a"
 alias py="python3"

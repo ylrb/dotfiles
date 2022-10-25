@@ -38,7 +38,7 @@ map msu unmountSSD
 map d
 map dy trash 
 map dD delete
-map e extract
+map E extract
 map m
 map b mark-save
 map md push $mkdir<space>

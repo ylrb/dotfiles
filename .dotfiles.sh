@@ -11,6 +11,7 @@ cp ~/.zshrc ~/.dotfiles/.zshrc
 cp ~/.bashrc ~/.dotfiles/.bashrc
 cp ~/.p10k.zsh ~/.dotfiles/.p10k.zsh
 cp ~/.vimrc ~/.dotfiles/.vimrc
+cp ~/.bash_profile ~/.dotfiles/.bash_profile
 
 # copy ~ folders
 cp -r ~/.fonts ~/.dotfiles
@@ -45,6 +46,5 @@ git add .
 echo "Added all files"
 git commit -m "Update" -q
 echo "Git commit done"
-echo "Username : IgrecL\nPAT : $(cat ~/.PAT)"
 git push origin main
 echo "Configuration files successfully pushed to the Github repository"
