@@ -221,3 +221,12 @@ branches as a spider's web.	[sound:MahoutsukainoYome01_08m08s361ms-08m14s117ms.o
 1666765739306	1665428722564	今年	今年	jīn nián	this year,  	[sound:xiehanzi/cmn-今年.mp3]
 1666765739307	1665428722564	年	年	Nián, nián, nián	surname Nian,  grain, harvest (old), variant of 年[nian2],  	[sound:xiehanzi/cmn-年.mp3]
 1666765739308	1665428722564	明年	明年	míng nián	next year,  	[sound:xiehanzi/cmn-明年.mp3]
+1666783224172	1628169727230	虚構[きょこう]	<div style="text-align: left;">想像力によって、いかにも事実であるかのように小説・戯曲などとして仕組むこと。また、そのもの。フィクション。</div>	世界は虚構だって偉い人が言った	きょ<span style="text-decoration:overline;">こー</span>
+1666783305675	1628169727230	等価[とうか]	<div style="text-align: left;">とう‐か【等価】<br>価値や価格が等しいこと。「―交換」</div>	虚構と現実は等価であって	<span style="text-decoration:overline;">と</span>ꜜーか
+1666783374112	1628169727230	心頭[しんとう]	<div style="text-align: left;">しん‐とう【心頭】<br>心。心中。「怒り―に発する」</div>	心頭滅却すれば 火もまた冷たいよ	し<span style="text-decoration:overline;">んとー</span>・<span style="text-decoration:overline;">し</span>ꜜんとー
+1666783386702	1628169727230	滅却[めっきゃく]	<div style="text-align: left;">めっ‐きゃく【滅却】<br>（名・自他スル）ほろびて消えること。消し滅ぼすこと。「心頭―すれば火もまた涼し」</div>	心頭滅却すれば 火もまた冷たいよ	め<span style="text-decoration:overline;">っきゃく</span>
+1666783556836	1628169727230	派閥[はばつ]	<div style="text-align: left;">は‐ばつ【派閥】<br>組織の内部で、出身・所属・利害関係などで結びつき、他に対抗する人々の集団。「―争い」</div>	勝手に斬り裂き魔を やってる派閥があるのかもしれない	は<span style="text-decoration:overline;">ばつ</span>
+1666783603080	1628169727230	筋[きん]	<div style="text-align: left;">きん【筋】<br>〔教６〕キン<br>すじ<br>筆順：<br><br>（字義）<br>① すじ。骨に付着して運動を行う繊維状の肉。「筋肉・筋力・括約筋・随意筋・腹筋」<br>② 物の内部で中心となるすじ状のもの。「鉄筋」</div>	なるほど まあ筋は通ってるわな	<span style="text-decoration:overline;">き</span>ꜜん
+1666783635347	1638702287764	世界は虚構だって偉い人が言った		Some great person once said,
+ "The world is a construct of the mind."	[sound:S01E20_01m53s154ms-01m55s824ms.ogg]		虚構	虚構[きょこう]	きょ<span style="text-decoration:overline;">こー</span>		<div style="text-align: left;"><i>(旺文社国語辞典 第十一版 画像無し)</i> きょ‐こう【虚構】<br>① 事実でないことを事実のように作り上げること。作りごと。「―の説をなす」<br>② 〘文〙想像力によって、いかにも事実であるかのように小説・戯曲などとして仕組むこと。また、そのもの。フィクション。</div>	[sound:yomichan_audio_きょこう_虚構_2022-09-26-11-27-14.mp3]	<img alt="snapshot" src="S01E20_01m54s202ms.webp">		
+1666809792264	1628169727230	ああ	<div style="text-align: left;">ああ<br>（副）あのように。「―なってはおしまいだ」</div>	ああ	<span style="text-decoration:overline;">あ</span>ꜜー・あ<span style="text-decoration:overline;">ー</span>

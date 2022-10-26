@@ -16,6 +16,7 @@ ctpv-git
 debugedit
 discord
 dust
+echoping
 efibootmgr
 elinks
 eog
@@ -100,10 +101,12 @@ rygel
 simple-scan
 sudo
 sushi
+tcpdump
 texinfo
 thunderbird
 tk
 totem
+traceroute
 tracker3-miners
 ttf-hack
 ttf-hack-nerd
@@ -113,6 +116,9 @@ vim
 vino
 visual-studio-code-bin
 which
+whois
+wl-clipboard
+xclip
 xdg-user-dirs-gtk
 yay
 yelp

@@ -98,6 +98,7 @@ double-conversion
 duktape
 dust
 e2fsprogs
+echoping
 efibootmgr
 efivar
 elinks
@@ -725,6 +726,7 @@ taglib
 talloc
 tar
 tcl
+tcpdump
 tdb
 telepathy-glib
 tevent
@@ -735,6 +737,7 @@ tk
 totem
 totem-pl-parser
 tpm2-tss
+traceroute
 tracker3
 tracker3-miners
 tre
@@ -770,8 +773,10 @@ webkit2gtk-4.1
 webrtc-audio-processing
 wget
 which
+whois
 wildmidi
 wireplumber
+wl-clipboard
 woff2
 wpa_supplicant
 wpebackend-fdo
@@ -783,6 +788,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xclip
 xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-gnome
