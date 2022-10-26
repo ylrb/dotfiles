@@ -724,12 +724,14 @@ systemd-sysvcompat
 taglib
 talloc
 tar
+tcl
 tdb
 telepathy-glib
 tevent
 texinfo
 thin-provisioning-tools
 thunderbird
+tk
 totem
 totem-pl-parser
 tpm2-tss

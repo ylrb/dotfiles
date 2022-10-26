@@ -147,3 +147,77 @@ branches as a spider's web.	[sound:MahoutsukainoYome01_08m08s361ms-08m14s117ms.o
 1666527624721	1638702287764	やっぱり見えるのかい？それ		So you can see them.	[sound:MahoutsukainoYome01_05m58s024ms-06m00s234ms.ogg]		見える	見[まみ]える			<div style="text-align: left;">お目にかかる。<br></div>	[sound:yomichan_audio_まみえる_見える_2022-09-23-12-20-24.mp3]	<img alt="snapshot" src="MahoutsukainoYome01_05m59s282ms.webp">		
 1666547618439	1628169727230	連合国[れんごうこく]	<div style="text-align: left;">れん‐ごうこく【連合国】<br>共通の目的のために同じ行動をとり、協力する幾つかの国々。<br>狭義では、第一次世界大戦でドイツ・オーストリアなどと戦った諸国を、また第二次世界大戦で日本・ドイツ・イタリアなどと戦った諸国をさす。</div>	連合国軍占領下の日本（れんごうこくぐんせんりょうかのにほん）では、第二次世界大戦における日本の敗戦からサンフランシスコ平和条約締結までの約7年間にわたり、連合国軍最高司令官総司令部（GHQ／SCAP）の占領下に置かれた日本について解説する。
 1666547675766	1628169727230	未[いま]だに	<div style="text-align: left;">いまだに【未だに】<br>（副）今になってもまだ。「あの時の事は―覚えている」</div>	しかし、ドイツとは違い、未だに本土と首都が陥落していなかった上に、まだ相当の軍人と武器、航空機、船舶が残っていた。
+1665428879731	1665428722564	零		0		
+1665429231915	1665428722564	一[yī]		1		
+1665429245652	1665428722564	二[èr]		2		
+1665429265447	1665428722564	三[sān]		3		
+1665429293261	1665428722564	四[sì]		4		
+1665429310741	1665428722564	五[wŭ]		5		
+1665429335745	1665428722564	六[liù]		6		
+1665429348054	1665428722564	七[qī]		7		
+1665429372336	1665428722564	八[bā]		8		
+1665429389134	1665428722564	九[jiŭ]		9		
+1665429439112	1665428722564	十[shí]		10		
+1665429508344	1665428722564	百[băi]		100		
+1665429529852	1665428722564	手[shŏu]		main		
+1665429565232	1665428722564	手机[shŏujī]		téléphone		
+1665429596973	1665428722564	猫[māo]		chat		
+1665429607228	1665428722564	花[huā]		fleur		
+1665429737617	1665428722564	是[shì]		être		
+1665429756085	1665428722564	年[nián]		année		
+1665429833488	1665428722564	〜 月[yuè]		mois		
+1665429893375	1665428722564	星期[xīngqī]〜		jour de la semaine		
+1665429932041	1665428722564	你好[nĭhăo]		bonjour		
+1665429987875	1665428722564	谢谢[xièxie]		merci		
+1665430005357	1665428722564	再见[zàijiàn]		au revoir		
+1666765739258	1665428722564	我	我	wǒ	I, me, my	[sound:xiehanzi/cmn-我.mp3]
+1666765739259	1665428722564	你	你	nǐ	you (informal)  	[sound:xiehanzi/cmn-你.mp3]
+1666765739260	1665428722564	他	他	tā	he or him	[sound:xiehanzi/cmn-他.mp3]
+1666765739261	1665428722564	她	她	tā	she	[sound:xiehanzi/cmn-她.mp3]
+1666765739262	1665428722564	我们	我們	wǒ men	we, us	[sound:xiehanzi/cmn-我们.mp3]
+1666765739263	1665428722564	你们	你們	nǐ men	you (plural)	[sound:xiehanzi/cmn-你们.mp3]
+1666765739264	1665428722564	他们	他們	tā men	they	[sound:xiehanzi/cmn-他们.mp3]
+1666765739265	1665428722564	好	好	hǎo	good	[sound:xiehanzi/cmn-好.mp3]
+1666765739266	1665428722564	马	馬	Mǎ, mǎ	surname Ma, abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4],  horse, CL:匹[pi3], horse or cavalry piece in Chinese chess, knight in Western chess,  	[sound:xiehanzi/cmn-马.mp3]
+1666765739267	1665428722564	很	很	hěn	(adverb of degree), quite, very, awfully,  	[sound:xiehanzi/cmn-很.mp3]
+1666765739268	1665428722564	也	也	Yě, yě	surname Ye,  also, too, (in Classical Chinese) final particle implying affirmation,  	[sound:xiehanzi/cmn-也.mp3]
+1666765739269	1665428722564	都	都	Dū, doū, dū	surname Du,  all, both, entirely, (used for emphasis) even, already, (not) at all,  capital city, metropolis,  	[sound:xiehanzi/cmn-都.mp3]
+1666765739270	1665428722564	来	來	lái	to come, to arrive, to come round, ever since, next,  	[sound:xiehanzi/cmn-来.mp3]
+1666765739271	1665428722564	爸爸	爸爸	bà ba	(informal) father, CL:個|个[ge4],位[wei4],  	[sound:xiehanzi/cmn-爸爸.mp3]
+1666765739272	1665428722564	妈妈	媽媽	mā ma	mama, mommy, mother, CL:個|个[ge4],位[wei4],  	[sound:xiehanzi/cmn-妈妈.mp3]
+1666765739273	1665428722564	早	早	zǎo	early, morning, Good morning!, long ago, prematurely,  	[sound:xiehanzi/cmn-早.mp3]
+1666765739274	1665428722564	身体	身體	shēn tǐ	the body, one's health, CL:具[ju4],個|个[ge4], in person,  	[sound:xiehanzi/cmn-身体.mp3]
+1666765739275	1665428722564	谢谢	謝謝	xiè xie	to thank, thanks, thank you,  	[sound:xiehanzi/cmn-谢谢.mp3]
+1666765739276	1665428722564	再见	再見	zài jiàn	goodbye, see you again later,  	[sound:xiehanzi/cmn-再见.mp3]
+1666765739277	1665428722564	老师	老師	lǎo shī	teacher, CL:個|个[ge4],位[wei4],  	[sound:xiehanzi/cmn-老师.mp3]
+1666765739278	1665428722564	您	您	nín	you (courteous, as opposed to informal 你[ni3]),  	[sound:xiehanzi/cmn-您.mp3]
+1666765739279	1665428722564	一	一	yī	one, 1, single, a (article), as soon as, entire, whole, all, throughout, 'one' radical in Chinese characters (Kangxi radical 1), also pr. [yao1] for greater clarity when spelling out numbers digit by digit,  	[sound:xiehanzi/cmn-一.mp3]
+1666765739280	1665428722564	二	二	èr	two, 2, (Beijing dialect) stupid,  	[sound:xiehanzi/cmn-二.mp3]
+1666765739281	1665428722564	三	三	Sān, sān	surname San,  three, 3,  	[sound:xiehanzi/cmn-三.mp3]
+1666765739282	1665428722564	四	四	sì	four, 4,  	[sound:xiehanzi/cmn-四.mp3]
+1666765739283	1665428722564	五	五	wǔ	five, 5,  	[sound:xiehanzi/cmn-五.mp3]
+1666765739284	1665428722564	六	六	liù	six, 6,  	[sound:xiehanzi/cmn-六.mp3]
+1666765739285	1665428722564	七	七	qī	seven, 7,  	[sound:xiehanzi/cmn-七.mp3]
+1666765739286	1665428722564	八	八	bā	eight, 8,  	[sound:xiehanzi/cmn-八.mp3]
+1666765739287	1665428722564	九	九	jiǔ	nine, 9,  	[sound:xiehanzi/cmn-九.mp3]
+1666765739288	1665428722564	十	十	shí	ten, 10,  	[sound:xiehanzi/cmn-十.mp3]
+1666765739289	1665428722564	白	白	Bái, bái	surname Bai,  white, snowy, pure, bright, empty, blank, plain, clear, to make clear, in vain, gratuitous, free of charge, reactionary, anti-communist, funeral, to stare coldly, to write wrong character, to state, to explain, vernacular, spoken lines in opera,  	[sound:xiehanzi/cmn-白.mp3]
+1666765739290	1665428722564	零	零	líng	zero, nought, zero sign, fractional, fragmentary, odd (of numbers), (placed between two numbers to indicate a smaller quantity followed by a larger one), fraction, (in mathematics) remainder (after division), extra, to wither and fall, to wither,  	[sound:xiehanzi/cmn-零.mp3]
+1666765739291	1665428722564	号	號	háo, hào	roar, cry, CL:個|个[ge4],  ordinal number, day of a month, mark, sign, business establishment, size, ship suffix, horn (wind instrument), bugle call, assumed name, to take a pulse, classifier used to indicate number of people,  	[sound:xiehanzi/cmn-号.mp3]
+1666765739292	1665428722564	号日	號日	hàorì	Number day	[sound:xiehanzi/cmn-号日.mp3]
+1666765739293	1665428722564	今天	今天	jīn tiān	today, at the present, now,  	[sound:xiehanzi/cmn-今天.mp3]
+1666765739294	1665428722564	工作	工作	gōng zuò	to work, (of a machine) to operate, job, work, task, CL:個|个[ge4],份[fen4],項|项[xiang4],  	[sound:xiehanzi/cmn-工作.mp3]
+1666765739295	1665428722564	忙	忙	máng	busy, hurriedly, to hurry, to rush,  	[sound:xiehanzi/cmn-忙.mp3]
+1666765739296	1665428722564	呢	呢	ne, ní	particle indicating that a previously asked question is to be applied to the preceding word ('What about ...?', 'And ...?'), particle for inquiring about location ('Where is ...?'), particle signaling a pause, to emphasize the preceding words and allow the listener time to take them on board ('ok?', 'are you with me?'), (at the end of a declarative sentence) particle indicating continuation of a state or action, particle indicating strong affirmation,  woolen material,  	[sound:xiehanzi/cmn-呢.mp3]
+1666765739297	1665428722564	不	不	bù	(negative prefix), not, no,  	[sound:xiehanzi/cmn-不.mp3]
+1666765739298	1665428722564	不太	不太	bùtài	Not too much	[sound:xiehanzi/cmn-不太.mp3]
+1666765739299	1665428722564	累	纍	lěi, lèi, Léi, léi	to accumulate, to involve or implicate (Taiwan pr. [lei4]), continuous, repeated,  tired, weary, to strain, to wear out, to work hard,  surname Lei,  rope, to bind together, to twist around,  	[sound:xiehanzi/cmn-累.mp3]
+1666765739300	1665428722564	哥哥	哥哥	gē ge	older brother, CL:個|个[ge4],位[wei4],  	[sound:xiehanzi/cmn-哥哥.mp3]
+1666765739301	1665428722564	姐姐	姐姐	jiě jie	older sister, CL:個|个[ge4],  	[sound:xiehanzi/cmn-姐姐.mp3]
+1666765739302	1665428722564	弟弟	弟弟	dì di	younger brother, CL:個|个[ge4],位[wei4],  	[sound:xiehanzi/cmn-弟弟.mp3]
+1666765739303	1665428722564	妹妹	妹妹	mèi mei	younger sister, young woman, CL:個|个[ge4],  	[sound:xiehanzi/cmn-妹妹.mp3]
+1666765739304	1665428722564	月	月	yuè	moon, month, monthly, CL:個|个[ge4],輪|轮[lun2],  	[sound:xiehanzi/cmn-月.mp3]
+1666765739305	1665428722564	明天	明天	míng tiān	tomorrow,  	[sound:xiehanzi/cmn-明天.mp3]
+1666765739306	1665428722564	今年	今年	jīn nián	this year,  	[sound:xiehanzi/cmn-今年.mp3]
+1666765739307	1665428722564	年	年	Nián, nián, nián	surname Nian,  grain, harvest (old), variant of 年[nian2],  	[sound:xiehanzi/cmn-年.mp3]
+1666765739308	1665428722564	明年	明年	míng nián	next year,  	[sound:xiehanzi/cmn-明年.mp3]

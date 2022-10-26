@@ -102,6 +102,7 @@ sudo
 sushi
 texinfo
 thunderbird
+tk
 totem
 tracker3-miners
 ttf-hack
