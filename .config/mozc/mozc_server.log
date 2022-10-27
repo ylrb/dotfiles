@@ -120,3 +120,12 @@ Log file created at: 2022-10-27 15:46:48 1860 140198036711296
 2022-10-27 15:46:48 1860 140198036711296 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
 2022-10-27 15:46:48 1860 140198014416576 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
 2022-10-27 15:46:48 1860 140198014416576 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:54:19 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 15:54:21 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 15:54:23 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 15:54:30 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 16:04:02 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 17:02:55 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 17:02:59 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 17:07:11 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 17:16:53 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
