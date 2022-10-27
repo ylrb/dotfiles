@@ -16357,3 +16357,1205 @@ Log file created at: 2022-10-27 15:21:40 1470 140237198456704
 2022-10-27 15:23:15 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
 2022-10-27 15:23:15 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
 2022-10-27 15:23:15 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 unix/ibus/mozc_engine.cc(556) LOG(INFO) [VLOG_IS_ON(1)] Syncing data
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 11 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:51 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:26:59 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:46 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:53 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:55 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:29:57 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 71 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 143 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes sent
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:11 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 149 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 189 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 155 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 195 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 161 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 201 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 678 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 718 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 161 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 201 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 155 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 195 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 45 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 143 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes sent
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:30:13 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:36:25 1470 140237167257280 unix/ibus/selection_monitor.cc(285) LOG(ERROR) xcb_get_atom_name_reply failed. error_code: 5
+2022-10-27 15:36:25 1470 140237167257280 unix/ibus/selection_monitor.cc(386) LOG(ERROR) unexpected type: 
+2022-10-27 15:36:25 1470 140237167257280 unix/ibus/selection_monitor.cc(316) LOG(ERROR) reply type is XCB_NONE
+2022-10-27 15:36:25 1470 140237167257280 unix/ibus/selection_monitor.cc(316) LOG(ERROR) reply type is XCB_NONE
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:12 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 unix/ibus/mozc_engine.cc(556) LOG(INFO) [VLOG_IS_ON(1)] Syncing data
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 11 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 71 bytes sent
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:21 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:22 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:22 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:22 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:22 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:23 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:24 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 157 bytes received
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 197 bytes sent
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 197 bytes sent
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 150 bytes sent
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:25 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 156 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 155 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 195 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 246 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 286 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 250 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 290 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 247 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 287 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 227 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 267 bytes sent
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:26 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 171 bytes received
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 211 bytes sent
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:27 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 227 bytes received
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 267 bytes sent
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 227 bytes received
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 267 bytes sent
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:28 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 233 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 273 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 213 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 253 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 219 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 259 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 225 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 265 bytes sent
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:29 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 213 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 253 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 227 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 267 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 27 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 61 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 100 bytes sent
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:30 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 100 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 70 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:31 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 62 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:33 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 157 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 199 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 199 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 135 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 177 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 141 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 155 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 197 bytes sent
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:34 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 135 bytes received
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 177 bytes sent
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 42 bytes sent
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:35 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 44 bytes sent
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:36 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:37 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:38 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:39 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:40 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:41 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:44 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 50 bytes sent
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 54 bytes sent
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:47 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 29 bytes sent
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:48 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 64 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:50 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5816 bytes received
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:52 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 66 bytes sent
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 1 bytes received
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:42:54 1470 140237198456704 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+Log file created at: 2022-10-27 15:46:48 1849 139863670769536
+2022-10-27 15:46:48 1849 139863670769536 unix/ibus/selection_monitor.cc(264) LOG(INFO) XFixes ver: 6.6, first_event: 87
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: a4191878b196e60940bf679398e8e72b
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: a4191878b196e60940bf679398e8e72b
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:48 1849 139863670769536 client/client.cc(597) LOG(ERROR) Connection failure to session
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/named_event.cc(271) LOG(INFO) [VLOG_IS_ON(1)] NamedEventNotifier session is created
+2022-10-27 15:46:48 1849 139863670769536 base/process.cc(229) LOG(INFO) [VLOG_IS_ON(1)] posix_spawn: child pid is 1860
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: a4191878b196e60940bf679398e8e72b
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: a4191878b196e60940bf679398e8e72b
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:48 1849 139863670769536 client/client.cc(597) LOG(ERROR) Connection failure to session
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 client/server_launcher.cc(204) LOG(INFO) [VLOG_IS_ON(1)] Mozc is launched successfully within 20000 msec
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 8329da180e967839373a106c45fbcdee
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:48 1849 139863670769536 ipc/ipc_path_manager.cc(425) LOG(INFO) [VLOG_IS_ON(1)] server path: /usr/lib/mozc/mozc_server /usr/lib/mozc/mozc_server
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 4 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 2 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 10 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 10 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 18 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 22 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 12 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5815 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 12 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 5815 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 16 bytes sent
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 24 bytes received
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:48 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 renderer/renderer_client.cc(456) LOG(WARNING) Discards a HIDE command since the renderer is not running
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 16 bytes sent
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 24 bytes received
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 renderer/renderer_client.cc(456) LOG(WARNING) Discards a HIDE command since the renderer is not running
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(174) LOG(INFO) [VLOG_IS_ON(1)] 16 bytes sent
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(205) LOG(INFO) [VLOG_IS_ON(1)] 24 bytes received
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 renderer/renderer_client.cc(456) LOG(WARNING) Discards a HIDE command since the renderer is not running
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(552) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: 6c7fd693671028837cacb29002ec8e78
+2022-10-27 15:46:50 1849 139863670769536 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(291) LOG(WARNING) connect failed: Connection refused
+2022-10-27 15:46:50 1849 139863670769536 renderer/renderer_client.cc(456) LOG(WARNING) Discards a HIDE command since the renderer is not running
+2022-10-27 15:46:50 1849 139863670769536 ipc/unix_ipc.cc(316) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)

@@ -114,3 +114,9 @@ Log file created at: 2022-10-27 15:21:41 1638 140003595270016
 2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
 2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
 2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:42:30 1638 140003573003968 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+Log file created at: 2022-10-27 15:46:48 1860 140198036711296
+2022-10-27 15:46:48 1860 140198036711296 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:46:48 1860 140198036711296 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:46:48 1860 140198014416576 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:46:48 1860 140198014416576 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
