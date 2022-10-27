@@ -1,0 +1,116 @@
+Log file created at: 2022-10-25 22:18:20 2085 139809991407488
+2022-10-25 22:18:20 2085 139809991407488 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.registry.db
+2022-10-25 22:18:20 2085 139809991407488 storage/tiny_storage.cc(129) LOG(WARNING) cannot open:/home/yl/.config/mozc/.registry.db
+2022-10-25 22:18:20 2085 139809991407488 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-25 22:18:20 2085 139809991407488 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-25 22:18:20 2085 139809985234624 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-25 22:18:20 2085 139809985234624 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-25 22:18:20 2085 139809985234624 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-25 22:18:20 2085 139809985234624 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+2022-10-25 22:18:20 2085 139809991407488 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-25 22:18:21 2085 139809901242048 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-25 22:18:21 2085 139809901242048 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-25 22:18:21 2085 139809985234624 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-25 22:18:21 2085 139809985234624 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-25 22:18:21 2085 139809985234624 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-25 22:18:21 2085 139809985234624 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+Log file created at: 2022-10-25 23:18:36 14114 140580078708608
+2022-10-25 23:18:36 14114 140580078708608 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-25 23:18:36 14114 140580078708608 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-25 23:18:36 14114 140580073309888 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-25 23:18:36 14114 140580073309888 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-25 23:18:36 14114 140580073309888 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-25 23:18:36 14114 140580073309888 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+2022-10-25 23:18:36 14114 140580078708608 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-25 23:18:36 14114 140579983849152 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-25 23:18:36 14114 140579983849152 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-25 23:18:36 14114 140580073309888 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-25 23:18:36 14114 140580073309888 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-25 23:18:36 14114 140580073309888 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-25 23:18:36 14114 140580073309888 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+Log file created at: 2022-10-26 10:01:45 73643 140342949926784
+2022-10-26 10:01:45 73643 140342949926784 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 10:01:45 73643 140342949926784 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 10:01:45 73643 140342944405184 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-26 10:01:45 73643 140342944405184 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-26 10:01:45 73643 140342944405184 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-26 10:01:45 73643 140342944405184 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+2022-10-26 10:01:45 73643 140342949926784 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 10:01:45 73643 140342927619776 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 10:01:45 73643 140342927619776 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 10:01:45 73643 140342944405184 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.history.db
+2022-10-26 10:01:45 73643 140342944405184 storage/encrypted_string_storage.cc(72) LOG(ERROR) cannot open user history file
+2022-10-26 10:01:45 73643 140342944405184 prediction/user_history_predictor.cc(231) LOG(ERROR) Can't load user history data.
+2022-10-26 10:01:45 73643 140342944405184 prediction/user_history_predictor.cc(464) LOG(ERROR) UserHistoryStorage::Load() failed
+2022-10-26 10:13:45 73643 140342944405184 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.encrypt_key.db
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(129) LOG(ERROR) cannot open: /home/yl/.config/mozc/.encrypt_key.db
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(191) LOG(ERROR) LoadPassword failed
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(295) LOG(WARNING) Cannot get password. call InitPassword
+2022-10-26 10:13:45 73643 140342944405184 base/mmap.cc(153) LOG(WARNING) open failed: /home/yl/.config/mozc/.encrypt_key.db
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(129) LOG(ERROR) cannot open: /home/yl/.config/mozc/.encrypt_key.db
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(191) LOG(ERROR) LoadPassword failed
+2022-10-26 10:13:45 73643 140342944405184 base/password_manager.cc(77) LOG(WARNING) file not found: /home/yl/.config/mozc/.encrypt_key.db: NOT_FOUND: Cannot stat /home/yl/.config/mozc/.encrypt_key.db: errno=2
+Log file created at: 2022-10-26 12:15:49 50555 140444138059648
+2022-10-26 12:15:49 50555 140444138059648 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 12:15:49 50555 140444138059648 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 12:15:49 50555 140444138059648 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 12:15:49 50555 140444115756736 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 12:15:49 50555 140444115756736 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-26 13:01:59 1791 139713656362880
+2022-10-26 13:01:59 1791 139713656362880 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 13:01:59 1791 139713656362880 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 13:01:59 1791 139713656362880 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 13:01:59 1791 139713633674944 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 13:01:59 1791 139713633674944 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-26 13:47:46 31750 140412847179648
+2022-10-26 13:47:46 31750 140412847179648 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 13:47:46 31750 140412847179648 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 13:47:46 31750 140412847179648 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 13:47:46 31750 140412824151744 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 13:47:46 31750 140412824151744 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-26 18:20:40 2997 139920277321600
+2022-10-26 18:20:40 2997 139920277321600 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 18:20:40 2997 139920277321600 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 18:20:40 2997 139920277321600 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 18:20:40 2997 139920255022784 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 18:20:40 2997 139920255022784 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-26 20:47:13 5444 140255094683520
+2022-10-26 20:47:13 5444 140255094683520 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 20:47:13 5444 140255094683520 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 20:47:13 5444 140255094683520 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-26 20:47:13 5444 140255072184000 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 20:47:13 5444 140255072184000 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-26 22:12:44 5444 140255072184000 session/session_handler.cc(494) LOG(WARNING) SessionID 18244220956702699940 is not available
+2022-10-26 22:12:44 5444 140255072184000 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-26 22:12:44 5444 140255072184000 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-27 11:32:58 2293 140718017312640
+2022-10-27 11:32:58 2293 140718017312640 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 11:32:58 2293 140718017312640 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 11:32:58 2293 140718017312640 config/config_handler.cc(237) LOG(ERROR) user://config1.db is not found
+2022-10-27 11:32:58 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 11:32:58 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 14:58:03 2293 140717994866368 session/session_handler.cc(494) LOG(WARNING) SessionID 13089469338103279260 is not available
+2022-10-27 14:58:03 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 14:58:03 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:09:28 2293 140717994866368 rewriter/user_segment_history_rewriter.cc(159) LOG(WARNING) Cannot find default candidate. key: おおさかべん, candidates_size: 2
+2022-10-27 15:12:09 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:12:09 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:12:10 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:12:10 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:20:33 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:20:33 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:20:34 2293 140717994866368 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:20:34 2293 140717994866368 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+Log file created at: 2022-10-27 15:21:41 1638 140003595270016
+2022-10-27 15:21:41 1638 140003595270016 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:21:41 1638 140003595270016 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:21:41 1638 140003573003968 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:21:41 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:22:05 1638 140003573003968 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 15:22:18 1638 140003573003968 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+2022-10-27 15:22:47 1638 140003573003968 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:22:47 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading
+2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(253) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: errno=2
+2022-10-27 15:22:48 1638 140003573003968 dictionary/user_dictionary.cc(491) LOG(INFO) MaybeStartReload() didn't start reloading

@@ -122,5 +122,6 @@ xclip
 xdg-user-dirs-gtk
 yay
 yelp
+youtube-dl
 zsh
 zsh-theme-powerlevel10k-git

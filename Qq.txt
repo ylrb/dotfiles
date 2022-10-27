@@ -818,6 +818,7 @@ xz
 yay
 yelp
 yelp-xsl
+youtube-dl
 zbar
 zenity
 zeromq

@@ -1,0 +1,13 @@
+Log file created at: 2022-10-27 15:11:47 54710 140672257207552
+2022-10-27 15:11:47 54710 140672257207552 gui/base/debug_util.cc(59) LOG(INFO) Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Log file created at: 2022-10-27 15:12:11 54906 140452448902400
+2022-10-27 15:12:11 54906 140452448902400 gui/base/debug_util.cc(59) LOG(INFO) Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Log file created at: 2022-10-27 15:13:09 55496 140684988521728
+2022-10-27 15:13:09 55496 140684988521728 gui/base/debug_util.cc(59) LOG(INFO) Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+2022-10-27 15:13:19 55496 140684988521728 session/internal/keymap.cc(162) LOG(ERROR) Keymap type: -1 appeared at key map initialization.
+Log file created at: 2022-10-27 15:17:04 57387 140541490867456
+2022-10-27 15:17:04 57387 140541490867456 gui/base/debug_util.cc(59) LOG(INFO) Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+2022-10-27 15:17:10 57387 140541490867456 session/internal/keymap.cc(162) LOG(ERROR) Keymap type: -1 appeared at key map initialization.
+Log file created at: 2022-10-27 15:22:39 2972 140635084434688
+2022-10-27 15:22:39 2972 140635084434688 gui/base/debug_util.cc(59) LOG(INFO) Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+2022-10-27 15:22:50 2972 140635084434688 session/internal/keymap.cc(162) LOG(ERROR) Keymap type: -1 appeared at key map initialization.
