@@ -85,6 +85,7 @@ gzip
 haveged
 htop
 ibus
+ibus-anthy
 ibus-libpinyin
 inetutils
 intel-ucode

@@ -20,6 +20,7 @@ alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
 anki-official-binary-bundle
+anthy
 aom
 appstream-glib
 archlinux-appstream-data
@@ -251,6 +252,7 @@ hwloc
 hyphen
 iana-etc
 ibus
+ibus-anthy
 ibus-libpinyin
 icu
 ijs
