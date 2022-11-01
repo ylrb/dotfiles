@@ -28,6 +28,7 @@ cp -r ~/.config/kitty ~/.dotfiles/.config
 cp -r ~/.config/lf ~/.dotfiles/.config
 cp -r ~/.config/mpv ~/.dotfiles/.config
 cp -r ~/.config/mozc ~/.dotfiles/.config
+cp -r ~/.config/desmume ~/.dotfiles/.config
 
 # copy ~/.local/share files
 

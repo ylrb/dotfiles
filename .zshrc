@@ -1,14 +1,14 @@
-# p10k config
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# Manjaro default settings
+USE_POWERLINE="true"
+# Source manjaro-zsh-configuration
+if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
+  source /usr/share/zsh/manjaro-zsh-config
 fi
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo)
-source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
+  source /usr/share/zsh/manjaro-zsh-prompt
+fi
 
+# Personal config
 export EDITOR=/usr/bin/vim
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 alias la="ls -a"
@@ -21,4 +21,3 @@ alias m="udiskie & wait 3"
 alias dotfiles="zsh ~/.dotfiles.sh"
 alias time="date +"%H:%M:%S""
 alias icat="kitty +kitten icat"
-export PATH=/home/yl/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/home/yl/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
