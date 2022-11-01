@@ -8,10 +8,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 - yay
 - bluez-utils: configure bluetooth from terminal
-- make
-
-### Settings
-
+- make: for compilation
 - gdm-tools: change GDM login screen background [AUR]
 - udiskie: auto-mount
 - vim: text editor
@@ -32,19 +29,12 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 ### Tools
 
+- visual-studio-code-bin [AUR]
 - anki-official-binary-bundle [AUR]
 - ookla-speedtest-bin [AUR]
-- visual-studio-code-bin [AUR]
 - baobab: disk usage analyzer
 - mpv: video viewer
 - pinta: image editor
 - thunderbird: mail client
-  
 - discord (or discord-git [AUR] for updates?)
-- desmume
-
-
-### Other
-
-- neofetch
-- cmatrix
+- desmume: DS emulator
