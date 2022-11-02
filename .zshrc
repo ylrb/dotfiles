@@ -12,6 +12,8 @@ fi
 export EDITOR=/usr/bin/vim
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 alias la="ls -a"
+
+# Aliases
 alias py="python3"
 alias b="bluetoothctl connect 94:DB:56:6D:BC:48 && exit"
 alias b0="bluetoothctl disconnect && exit"

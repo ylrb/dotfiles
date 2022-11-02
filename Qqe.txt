@@ -107,7 +107,6 @@ libva-vdpau-driver
 licenses
 linux515
 logrotate
-lollypop
 lvm2
 make
 man-db
@@ -197,6 +196,7 @@ vulkan-radeon
 wget
 which
 wireless-regdb
+wl-clipboard
 wpa_supplicant
 xcursor-breeze
 xdg-user-dirs-gtk

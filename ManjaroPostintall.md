@@ -11,12 +11,17 @@ Check les trucs à installer pour que ctpv puisse tout preview dans lf (sur Gith
 - Fond noir : yay gdm-tools puis set-gdm-theme set -b black
 - [Changer la langue](https://wiki.archlinux.org/title/GDM#Change_the_language)
 
-# Changer l'action du bouton power
+# Grub fond noir
 
-Gnome 42.4 est buggé donc il faut le faire via command line
-- sudo gsettings set org.gnome.settings-daemon.plugins.power power-button-action 'interactive'
+Prendre n'importe quel thème sur www.gnome-look.org et changer l'image en image toute noire.
 
 # Lancer automatiquement Linux dans Grub
 
-Permet de skip Grub sauf si on appuie sur ESC : [GRUB/Tips and Tricks](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Hide_GRUB_unless_the_Shift_key_is_held_down)
+Permet de skip Grub sauf si on appuie sur SHIFT : [GRUB/Tips and Tricks](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Hide_GRUB_unless_the_Shift_key_is_held_down)
 
+# Ibus dans Firefox
+
+Il faut changer les variable suivantes dans /etc/environment :
+GTK_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus

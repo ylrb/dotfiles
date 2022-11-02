@@ -237,3 +237,352 @@ branches as a spider's web.	[sound:MahoutsukainoYome01_08m08s361ms-08m14s117ms.o
 1666882915332	1638702287764	まちまちですねまちまち？		Whenever I wake up	[sound:TerraceHouseS01E01_16m52s256ms-16m53s799ms.ogg]		区々	区々[まちまち]	<span style="text-decoration:overline;"><span style="color: royalblue;">く</span></span>&#42780;く・<span style="color: royalblue;">く</span><span style="text-decoration:overline;">く</span>&#42780;		<div style="text-align: left;"><i>(旺文社国語辞典 第十一版 画像無し)</i> まち‐まち【◇区◇区】<br>（名・形動ダ）それぞれ異なること。また、そのさま。「―の服装」「皆の意見が―だ」</div>		<img alt="snapshot" src="TerraceHouseS01E01_16m52s646ms.webp">		
 1666883726188	1638702287764	ＤＶＤ鑑賞する？する？どっちでもいいよ			[sound:TerraceHouseS01E01_22m00s316ms-22m02s401ms.ogg]		鑑賞	鑑賞[かんしょう]	か<span style="text-decoration:overline;">んしょー</span>		<div style="text-align: left;"><i>(旺文社国語辞典 第十一版 画像無し)</i> かん‐しょう【鑑賞】――シヤウ<br>（名・他スル）芸術作品などに接して、その芸術的価値を理解し味わうこと。「名画を―する」<br><br>〘使い分け〙<br>観賞・鑑賞<br>「観賞」は、景色や草花など、美しいものをながめて楽しむ意で、「バラを観賞する」「庭園を観賞する」「ツツジの観賞会」などと使われる。「鑑賞」は、芸術作品などをよく味わって楽しむ意で、「絵画を鑑賞する」「名曲鑑賞ガイド」などと使われる。<br></div>		<img alt="snapshot" src="TerraceHouseS01E01_22m01s388ms.webp">		
 1666883757851	1638702287764	ＤＶＤ鑑賞する？する？どっちでもいいよ		Okay	[sound:TerraceHouseS01E01_22m00s216ms-22m02s301ms.ogg]		鑑賞	鑑賞[かんしょう]	か<span style="text-decoration:overline;">んしょー</span>		<div style="text-align: left;"><i>(旺文社国語辞典 第十一版 画像無し)</i> かん‐しょう【鑑賞】――シヤウ<br>（名・他スル）芸術作品などに接して、その芸術的価値を理解し味わうこと。「名画を―する」<br><br>〘使い分け〙<br>観賞・鑑賞<br>「観賞」は、景色や草花など、美しいものをながめて楽しむ意で、「バラを観賞する」「庭園を観賞する」「ツツジの観賞会」などと使われる。「鑑賞」は、芸術作品などをよく味わって楽しむ意で、「絵画を鑑賞する」「名曲鑑賞ガイド」などと使われる。<br></div>		<img alt="snapshot" src="TerraceHouseS01E01_22m00s687ms.webp">		
+1636618348259	1628169727230	説[と]く	to explain | to advocate | to preach	恋愛や歴史、そして老いなどをテーマに数々の小説を発表し、法話を通じて多くの人たちに生き方を説いた作家で僧侶の瀬戸内寂聴さんが9日、心不全のため京都市内の病院で亡くなりました。	<span style="text-decoration:overline;">と</span>ꜜく
+1638392598246	1628169727230	焦燥[しょうそう] 感[かん]	feeling of impatience | sense of uneasiness	八十年生きるつもりでいたときの俺には、どうしても「あと六十年もある」という慢心が無意識にあったようだが、残り三か月ともなると、「何かしなければならない」という焦燥感に襲われた。	しょ<span style="text-decoration:overline;">ーそー</span>、<span style="text-decoration:overline;">か</span>ꜜん
+1638799801973	1628169727230	償[つぐな]う	to compensate for		つ<span style="text-decoration:overline;">く<span style="color: red;">&#176;</span>な</span>&#42780;う
+1667390976080	1628169727230	東京[とうきょう]	<div style="text-align: left;">とうきょう【東京】トウキヤウ<br>日本の首都。関東地方南西部にあり、政治・経済・文化・教育・交通・商工業の中心地。</div>	2022年10月11日(火)24:00より テレビ東京他にて放送開始	
+1667390940987	1628169727230	錠剤[じょうざい]	<div style="text-align: left;">じょう‐ざい【錠剤】ヂヤウ――<br>粉薬などを飲みやすい形に固めた薬剤。タブレット。</div>	錠剤	
+1667390940987	1628169727230	錠剤[じょうざい]	<div style="text-align: left;">じょう‐ざい【錠剤】ヂヤウ――<br>粉薬などを飲みやすい形に固めた薬剤。タブレット。</div>	錠剤	
+1667391676981	1628169727230	読[よ]む	<div style="text-align: left;">to read</div>			
+1667391740654	1628169727230	読[よ]む	<div style="text-align: left;">to read</div>	読め	No pitch accent data	
+1632944638962	394747089	個人的[こじんてき]に	personnellement	
+1632944735607	394747089	鬼[おに] 可愛[かわい]い	très mignon	
+1632944851505	394747089	~ 庁[ちょう]	ministère/section de ...	
+1632944903678	394747089	気[き]になる	s'intéresser | être gêné par	
+1632944932205	394747089	気[き]がつく	s'apercevoir	
+1632944944080	394747089	そっこう	immédiatement (=すぐ)	
+1632944969567	394747089	地味[じみ]	discret, pas voyant	
+1632944990629	394747089	音[おと]を 大[おお]きくする	augmenter le volume	
+1632945045369	394747089	(vb)ほどではない	pas au point de	
+1632945073960	394747089	水素[すいそ]	hydrogène	
+1632945092168	394747089	酸素[さんそ]	oxygène	
+1632945108739	394747089	ほどほどに	avec modération/pas excessivement	
+1632945127137	394747089	思[おも]っていたのと(は) 違[ちが]った	différent de ce à quoi je m'attendais	
+1632945187128	394747089	整備[せいび]	entretien (ex : d'une voiture)	= entretenir
+1633450186878	394747089	あだ 名[な]	surnom	
+1633452306020	394747089	トレー	plateau	
+1633467801217	394747089	一石二鳥[いっせきにちょう]	d'une pierre deux coups	
+1633782533637	394747089	焚[た]き 火[び]	feu de camp, feu de joie	
+1633782709696	394747089	竈[かまど]	four	
+1633782780806	394747089	松[まつ]ぼっくり	pomme de pin	
+1633782808922	394747089	にらめっこする	regarder avec attention	
+1633782853280	394747089	灯台[とうだい]	phare	
+1633782866576	394747089	方面[ほうめん]	domaine, direction	
+1634064971224	394747089	失態[しったい]	faute, déshonneur	
+1634065003892	394747089	蔵[くら]	grenier, entrepôt (=/= 臓)	
+1634065115163	394747089	凍結[とうけつ]	gel	= geler
+1634065140524	394747089	溶[と]かす	faire fondre	
+1634065256799	394747089	入居[にゅうきょ]	emménagement	= emménager
+1634065313302	394747089	~と 休[やす]みを 過[す]ごす	passer les vacances avec ~	
+1634154596689	394747089	都合[つごう]が 悪[わる]い	cela ne convient pas	
+1634154645022	394747089	処世術[しょせいじゅつ]	secret pour réussir dans la vie	
+1634154690316	394747089	あぐら	en tailleur	
+1634154713249	394747089	信[しん]じられない	incroyable	
+1634154738736	394747089	掛[か]け 算[ざん]	multiplication	
+1634154783539	394747089	足し算[たしざん]	addition	
+1634154798040	394747089	引[ひ]き 算[ざん]	soustraction	
+1634154816971	394747089	割[わ]り 算[ざん]	division	
+1634154835098	394747089	近頃[ちかごろ]	récemment	
+1634154852712	394747089	込[こ]める	charger, inclure	
+1634154866539	394747089	煙突[えんとつ]	cheminée	
+1634154959797	394747089	通信手段[つうしんしゅだん]	moyen de communication	
+1634213799140	394747089	市町村[しちょうそん]	municipalité	
+1634213819720	394747089	開[ひら]く	organiser (différent de あく)	
+1634213843092	394747089	日食[にっしょく]	éclipse solaire	
+1634213899479	394747089	断絶[だんぜつ]	rupture	
+1634213922478	394747089	私[わたし]の 考[かんが]えでは	selon moi, à mon avis	
+1634213951558	394747089	循環[じゅんかん]	cycle, rotation	= tourner
+1634213983880	394747089	悪循環[あくじゅんかん]	cercle vicieux	
+1634214024501	394747089	割合[わりあい]	pourcentage	
+1634214061665	394747089	～ 倍[ばい]に 増[ふ]える	être multiplié par ~	
+1634214089676	394747089	NPO	association à but non lucratif	
+1634214145385	394747089	行事[ぎょうじ]	événement	
+1634720610908	394747089	資本主義[しほんしゅぎ]	capitalisme	
+1634720666364	394747089	民主主義[みんしゅしゅぎ]	démocratie	
+1634720740560	394747089	太平洋[たいへいよう]	océan pacifique	
+1634720760204	394747089	なくす	perdre	
+1634720803456	394747089	物質[ぶっしつ]	matière	
+1634843376216	394747089	植民地主義[しょくみんちしゅぎ]	colonialisme	
+1634843413860	394747089	共産主義[きょうさんしゅぎ]	communisme	
+1635324535559	394747089	嘆[なげ]く	se lamenter, regretter	
+1635324642860	394747089	癒[いや]す	guérir, apaiser	
+1635324680297	394747089	揺[ゆ]り 籠[かご]	berceau	
+1635324703011	394747089	安[やす]らかに	paisiblement	
+1635324721420	394747089	罠[わな]	piège	
+1635324737607	394747089	とは 限[かぎ]らない	ne peut pas être comparé à	
+1635324765966	394747089	引力[いんりょく]	gravitation, force d'attraction	
+1635324799763	394747089	予想[よそう]	prévisions	= prévoir
+1635324814006	394747089	差[さ]をつける	faire la différence, se distinguer	
+1635324838457	394747089	太字[ふとじ]	caractères gras	
+1635324855231	394747089	気[き]にもせず	ne pas s'en inquiéter	
+1635324880104	394747089	個性[こせい]	individualité	
+1635324893713	394747089	流行[りゅうこう]	mode, vogue	= être en vogue
+1635324908399	394747089	匿名[とくめい]	anonymat	
+1635324922620	394747089	傍観者[ぼうかんしゃ]	spectateur	
+1635324949123	394747089	枯[か]れる	flétrir	
+1635324965293	394747089	零[こぼ]れる	déborder, renverser	
+1635324987350	394747089	懐[なつ]かしい	nostalgique	
+1635325003383	394747089	身[み]を 委[ゆだ]ねる	céder, se résigner à quelque chose	
+1635776178038	394747089	無謀[むぼう]	téméraire, imprudent	
+1635776614777	394747089	成[な]り 下[さ]がる	s'abaisser à	
+1635776990279	394747089	ばっさり	d'un coup sec, résolument	
+1635777030574	394747089	栄光[えいこう]	gloire	
+1635777111463	394747089	救済[きゅうさい]	secours, assistance, aide	= aider
+1635777148892	394747089	理不尽[りふじん]	irrationnel, absurde	
+1635777368164	394747089	潜[ひそ]む	se dissimuler	
+1635777415924	394747089	挫[くじ]ける	se laisser abattre, se décourager	
+1635777445603	394747089	敗北[はいぼく]	défaite	= perdre
+1635777551223	394747089	純粋[じゅんすい]	pur	
+1635777846235	394747089	捩[ね]じる	tordre | torturer	
+1635778235885	394747089	鼓動[こどう]	battement (de cœur)	
+1635778278296	394747089	瞬[まばた]く	scintiller, clignoter	
+1635921481672	394747089	〜 代[だい]	frais de, facture de	
+1635921512175	394747089	原子[げんし]	atome	
+1635921527596	394747089	原発[げんぱつ]	centrale nucléaire	
+1635921546140	394747089	政策[せいさく]	politique (ex: politique sur le nucléaire)	
+1635921614715	394747089	原爆[げんばく]	bombe nucléaire	
+1635921638448	394747089	お 年寄[としよ]り	personnes âgées	
+1635933868854	394747089	取[と]り 組[く]み	projet, engagement	
+1635933885695	394747089	祝日[しゅくじつ]	jour férié	
+1635933965741	394747089	武道[ぶどう]	arts martiaux	
+1636311936305	394747089	脅[おび]える	s'effrayer	
+1636311954886	394747089	組立[くみたて]	assemblage, construction	
+1636311974550	394747089	立[た]ち 寄[よ]る	passer par, passer chez	
+1636312003980	394747089	捲[めく]る	feuilleter, tourner les pages	
+1636312034276	394747089	めがける	viser	
+1636312044074	394747089	ぼそり	chuchotant	
+1636312065172	394747089	透[す]かさず	sans perdre un instant	
+1636488752770	394747089	自立[じりつ]	indépendant	
+1636488887324	394747089	自律[じりつ]	autonome	
+1636488903139	394747089	体調[たいちょう]	condition physique	
+1636488950423	394747089	調子[ちょうし]	condition physique / rythme	
+1636488988843	394747089	エモい	touchant (fam)	
+1636489024565	394747089	高速道路[こうそくどうろ]	autoroute	
+1636489057897	394747089	往復[おうふく]	aller-retour	= faire des aller-retour
+1636489137775	394747089	回復[かいふく]	rétablissement	= se rétablir
+1636489165878	394747089	独特[どくとく]	"spécial", particulier	
+1636489269990	394747089	関心[かんしん]	intérêt	! 関心 ≠ 感心 !
+1636489352037	394747089	感心[かんしん]	admiration	&nbsp;
+1636489366632	394747089	優秀[ゆうしゅう]	brillant, excellent	
+1636489431851	394747089	冒[おか]す	risquer	
+1636547863415	394747089	解釈[かいしゃく]	interprétation	= interpréter
+1636547928583	394747089	比喩[ひゆ]	métaphore, allégorie, comparaison	
+1636548053231	394747089	複数[ふくすう]	nombreux	
+1636548067736	394747089	道徳[どうとく]	morale	
+1636548085654	394747089	教訓[きょうくん]	enseignements	
+1636548109128	394747089	適切[てきせつ]	adéquat, approprié	
+1636548140976	394747089	当[あ]たる	correspondre | frapper	
+1636663273097	394747089	敷[し]く	étendre, couvrir de	
+1636787609858	394747089	敵[かたき]	ennemi (utilisé uniquement pour un ennemi personnel, avec une idée de vengeance)	
+1636823959092	394747089	髭[ひげ]	barbe	
+1636823978442	394747089	禿[はげ]	chauve, calvitie	
+1636876467537	394747089	張[は]り	dans le style de, à la manière de	
+1636876507265	394747089	派手[はで]	éclatant, voyant | gai, somptueux	
+1636876534178	394747089	たらふく	manger et boire à sa guise	
+1636876573723	394747089	憮然[ぶぜん]	déçu, insatisfait | abattu | surpris	
+1636876592187	394747089	落[お]ち 着[つ]く	se calmer	
+1637087130954	394747089	減少[げんしょう]	diminution	
+1637087175268	394747089	増加[ぞうか]	augmentation	
+1637087245608	394747089	主観性[しゅかんせい]	subjectivité	
+1637087289902	394747089	客観性[きゃっかんせい]	objectivité	
+1637087338860	394747089	開催[かいさい]	ouverture d'un événement	= organiser, tenir
+1637087360677	394747089	宇宙飛行士[うちゅうひこうし]	astronaute	
+1637087384204	394747089	机[つくえ]	bureau (meuble), table	
+1637087400869	394747089	野生[やせい]	sauvage	
+1637087708430	394747089	行動的[こうどうてき]	entreprenant	
+1637087750978	394747089	開発[かいはつ]	développement	= développer
+1637087834330	394747089	出場[しゅつじょう]	participation	= participer
+1637267482575	394747089	陰謀[いんぼう]	complot, conspiration	
+1637700213316	394747089	申[もう]し 込[こ]み	inscription, candidature	
+1637700236481	394747089	大胆[だいたん]	audacieux, téméraire	
+1637700275075	394747089	圧倒的[あっとうてき]	écrasant, imposant	
+1637777471635	394747089	すずめの 涙[なみだ]	très petite quantité, "une goutte dans l'océan"	
+1637777549739	394747089	七転[ななころ]び 八起[やお]き	c'est en faisant des échecs que l'on devient meilleur	
+1637777585418	394747089	顔[かお]が 広[ひろ]い	connaître beaucoup de gens	
+1637777628429	394747089	顔[かお]から 火[ひ]が 出[で]る	être rouge de honte	
+1637777687738	394747089	目[め]が 無[な]い	avoir un faible pour, être friand de	
+1637777719254	394747089	目[め]が 回[まわ]る	ne pas savoir où donner de la tête, être débordé	
+1637777767128	394747089	うろこ	écaille	
+1637777834636	394747089	目[め]からうろこが 落[お]ちる	comprendre soudainement quelque chose qu'on ne comprenait pas jusqu'alors	
+1637777879364	394747089	げらげら 笑[わら]う	éclater de rire	
+1637777907361	394747089	くすくす 笑[わら]う	glousser	
+1637777946605	394747089	にやにや 笑[わら]う	sourire avec des pensées mauvaises derrière la tête	
+1637777978105	394747089	おいおい 泣[な]く	pleurer à chaudes larmes	
+1637778006868	394747089	しくしく 泣[な]く	sangloter	
+1637778018913	394747089	わあわあ 泣[な]く	fondre en larmes	
+1637778047375	394747089	めそめそする	larmoyer	
+1637778077405	394747089	すらすら 話[はな]す	parler en continu	
+1637778106139	394747089	べらべら 話[はな]す	dire des choses désagréables à n'importe qui	
+1637778123632	394747089	ひそひそ 話[はな]す	chuchoter	
+1637778149663	394747089	ぶつぶつ 言[い]う	grommeler, marmonner	
+1637778184126	394747089	ぶうぶう 言[い]う	grogner, râler	
+1637778200889	394747089	ちびちび 飲[の]む	boire à petites gorgées	
+1637778214190	394747089	がぶがぶ 飲[の]む	boire comme un trou	
+1637778243367	394747089	ごくごく 飲[の]む	boire cul sec	
+1638387165063	394747089	産業[さんぎょう]	industrie	
+1638387323975	394747089	中止[ちゅうし]	annulation,&nbsp;suspension	= annuler (avant ou pendant)
+1638387379584	394747089	中断[ちゅうだん]	interruption	= annuler (en cours)
+1638387413464	394747089	このままにする	laisser tel quel	
+1638387428748	394747089	炭素[たんそ]	carbone	
+1638387465710	394747089	二酸化炭素[にさんかたんそ]	dioxyde de carbone	
+1638387647383	394747089	首肯[しゅこう]	approbation	
+1638387670780	394747089	露骨[ろこつ]	grossier, cru	
+1638387696119	394747089	唯[ただ]でさえ	mêmes dans des circonstances ordinaires	
+1638387772117	394747089	不本意[ふほんい]	répugnance, à contrecœur	
+1638387850424	394747089	誠実[せいじつ]	honnête, sincère | fidèle, loyal	
+1638387909322	394747089	整然[せいぜん]	précis, exact, bien organisé, ordonné, méthodique	
+1638387937596	394747089	攻[せ]める	attaquer, assiéger	
+1638387960161	394747089	拭[ふ]く	essuyer, sécher	
+1638387988323	394747089	処置[しょち]	mesures, arrangements, dispositions	
+1638388019085	394747089	乱[みだ]れる	être en désordre, se troubler, sombrer dans le chaos	
+1638388039916	394747089	そそり 立[た]つ	se dresser, s'élever	
+1638388137105	394747089	ぐっと	soudainement | beaucoup	
+1638478209217	394747089	実力[じつりょく] 主義[しゅぎ]	méritocratie	
+1638730125002	394747089	残響[ざんきょう]	réverbération, écho	
+1638730880522	394747089	添[そ]える	attacher, joindre	
+1638730895669	394747089	只[ただ]	simple, banal	
+1638730917103	394747089	躓[つまず]く	trébucher	
+1638730995340	394747089	滲[にじ]む	couler | s'estomper | se deviner, transparaître	
+1638731012104	394747089	響[ひび]き 渡[わた]る	résonner	
+1638731065214	394747089	不確[ふたし]か	incertain, indeterminé	
+1638731089660	394747089	葛藤[かっとう]	désaccord, différend | complications	
+1638731161385	394747089	辿[たど]る	suivre une route, cheminer	
+1638731203163	394747089	寄[よ]る 辺[べ]	endroit où aller, personne à qui s'adresser	
+1638731224377	394747089	限界[げんかい]	limite	
+1638731338811	394747089	袖[そで]	manche	
+1638983264047	394747089	陛下[へいか]	sa majesté	
+1638983296076	394747089	勲章[くんしょう]	médaille, décoration	
+1638983376020	394747089	風采[ふうさい]があがらない	apparence pas très distinguée	
+1638983393263	394747089	ぱっとしない	vague insatisfaction	
+1638983502817	394747089	体現[たいげん]	incarnation	= incarner
+1638983572031	394747089	統一[とういつ]	unification	= unifier
+1638983610120	394747089	まとめる	rassembler, grouper, réunion	
+1638983631417	394747089	仮定[かてい]	hypothèse	= supposer
+1638983683976	394747089	答案[とうあん]	copie d'examen	
+1638983702007	394747089	提案[ていあん]	proposition	= proposer
+1638983721060	394747089	義体[ぎたい]	imitation	= imiter
+1639232877847	394747089	提[さ]げる	porter, tenir à la main	
+1639232877848	394747089	好転[こうてん]	amélioration	= s'améliorer
+1639232877849	394747089	呻[うめ]く	gémir	
+1639232877850	394747089	切[き]り 詰[つ]める	réduire | économiser	
+1639232877851	394747089	拭[ぬぐ]う	essuyer	
+1639232877852	394747089	割[わ]れる	se briser | se diviser	
+1639232877853	394747089	貧乏[びんぼう]	pauvreté	
+1639232877854	394747089	無粋[ぶすい]	grossier	
+1639232877855	394747089	鋭[するど]い	tranchant, acéré	
+1639232877856	394747089	継続[けいぞく]	continuation	= continuer
+1639232877857	394747089	重厚[じゅうこう]	grave	
+1639232877858	394747089	訝[いぶか]しげ	perplexe, indécis	
+1639232877859	394747089	精悍[せいかん]	viril, intrépide	
+1639232877860	394747089	繁[しげ]る	gagner en épaisseur	
+1639232877861	394747089	設置[せっち]	installer, fonder	
+1639232877862	394747089	ほっと	soulagement	
+1639232877863	394747089	介入[かいにゅう]	intervention	= intervenir
+1639232877864	394747089	補給[ほきゅう]	ravitaillement, provisions	= ravitailler
+1639232877865	394747089	技量[ぎりょう]	talents	
+1639232877866	394747089	肺[はい]	poumon	
+1639232877867	394747089	改正[かいせい]	réforme, révision	&nbsp;
+1639232877868	394747089	滅[ほろ]ぶ	être ruiné	
+1639232877869	394747089	さぞかし	certainement, sûrement	
+1639232877870	394747089	溢[あふ]れる	déborder, inonder	
+1639232877871	394747089	爽[さわ]やか	frais	
+1639232877872	394747089	着実[ちゃくじつ]	constant, régulier, sérieux	
+1639232877873	394747089	淡々[たんたん]	indifférent, pas concerné	
+1639232877874	394747089	心地[ここち]よい	agréable, confortable	
+1639232877875	394747089	崇[あが]める	respecter, adorer	
+1639232877876	394747089	絶句[ぜっく]	rester coi	
+1639232877877	394747089	築[きず]く	amasser | construire, bâtir	
+1639232877879	394747089	装置[そうち]	dispositif, mécanisme	
+1639232877880	394747089	沽券[こけん]	dignité	
+1639232877881	394747089	ぼんやり	terne | nonchalamment	= être distrait, rester là à ne rien faire
+1639232877882	394747089	丁重[ていちょう]	poli, courtois	
+1639232877883	394747089	辱[はずかし]める	humilier, insulter | violer	
+1639483915096	394747089	聞[き]き 手[て]	auditeur, auditoire	
+1639483951742	394747089	難題[なんだい]	problème, question difficile	
+1639484018666	394747089	学説[がくせつ]	théorie | doctrine	
+1639484086926	394747089	民族[みんぞく],&nbsp; 民俗[みんぞく]	peuple, ethnie, nation	
+1639484159001	394747089	根源的[こんげんてき]	fondamental	
+1639484207794	394747089	身近[みぢか]	proche, familier	
+1639484321377	394747089	遺産[いさん]	patrimoine, héritage	
+1639506918797	394747089	孤児[こじ]	orphelin	孤児[みなしご]
+1639506953503	394747089	報道[ほうどう]	la presse	報道[ほうどう]の 自由[じゆう] = liberté de la presse
+1639507137879	394747089	透明[とうめい]	transparent	
+1639507163560	394747089	合理性[ごうりせい]	rationalité	合理[ごうり] 的[てき] = rationnel
+1639507203021	394747089	支持[しじ]	soutien	= soutenir
+1640180021537	394747089	口癖[くちぐせ]	tic de langage	
+1640180043543	394747089	相応[ふさわ]しい	convenable, approprié	
+1640180092260	394747089	心当[こころあ]たり	déjà-vu	
+1640180148780	394747089	健闘を祈る	souhaiter bonne chance	
+1640180185024	394747089	健闘[けんとう]	efforts acharnés	= lutter courageusement
+1640775603330	394747089	親愛[しんあい]なる	cher (courrier)	
+1641323299853	394747089	捩子[ねじ]	vis	
+1641323333546	394747089	液体[えきたい]	liquide	
+1641323366781	394747089	一見[いっけん]	apparemment, en superficie (alors que la réalité est différent)	
+1641323436183	394747089	クレーン	grue	
+1641323468356	394747089	祓[はら]う	purifier	
+1641329709659	394747089	追[お]い 払[はら]う	chasser	
+1641329741073	394747089	神主[かんぬし]	prêtre shintō	
+1641329784710	394747089	迷信[めいしん]	superstition	
+1641329803410	394747089	迷信[めいしん] 深[ぶか]い	superstitieux	
+1641329875450	394747089	名[めい]~	~ de renommée, ~ célèbre	名所/名店/名家/名探偵
+1641329910525	394747089	占[うらな]い	divination	
+1641330019377	394747089	当[あ]たり 障[さわ]りのない	sujet anodin, inoffensif	
+1641413878684	394747089	慌[あわ]てる	se précipiter	
+1641413909449	394747089	ためらう	hésiter	
+1641413965153	394747089	恋[こい]しい	[...] me manque	
+1641414016652	394747089	有[あ]り 難[がた]い	reconnaissant	
+1641414069423	394747089	見[み]っともない	honteux, déshonorant | hideux	
+1641414129732	394747089	惜[お]しい	regrettable	tout seul : "ah presque !"
+1642001551417	394747089	脈[みゃく]	pouls	
+1642001579148	394747089	会場[かいじょう]	lieu de réunion/d'un événement	
+1642001630012	394747089	訪問[ほうもん]	visite	= rendre visite
+1642001735823	394747089	提供[ていきょう]	mécénat, sponsoring	「この番組は御覧のスポンサーの提供で送りします」
+1642594338101	394747089	玖[きゅう]	9 (大字)	
+1642594418833	394747089	肆[し]	4 (大字)	
+1642594476358	394747089	佰[ひゃく]	100 (大字)	
+1642594523956	394747089	壱[いち]	1 (大字)	
+1642594586166	394747089	阡[せん]	1000 (大字)	
+1642594608246	394747089	仟[せん]	1000 (大字)	
+1642594639609	394747089	陸[ろく]	6 (大字)	
+1642594672471	394747089	拾[じゅう]	10 (大字)	
+1642594718818	394747089	弐[に]	2 (大字)	
+1642594776722	394747089	萬[まん]	1 0000 (大字)	
+1642594816164	394747089	漆[しち]	7 (大字)	
+1642594826848	394747089	柒[しち]	7 (大字)	
+1642594843594	394747089	参[さん]	3 (大字)	
+1642594863411	394747089	捌[はち]	8 (大字)	
+1642594875789	394747089	伍[ご]	5 (大字)	
+1642594960853	394747089	億[おく]	100 millions (10<sup>8</sup>)	
+1642595018405	394747089	兆[ちょう]	1 billion (10<sup>12</sup>)	
+1642621941325	394747089	したためる	rédiger, écrire	
+1642621941326	394747089	燃[も]え 尽[つ]きる	s'épuiser, s'éteindre	
+1642621941327	394747089	車両[しゃりょう]	wagon	
+1642621941328	394747089	引[ひ]き 出[だ]す	tirer	
+1642621941329	394747089	射[い]る	tirer (une flèche)	
+1642621941330	394747089	腰[こし]が 引[ひ]ける	reculer, se retracter	
+1642621941331	394747089	を 通[とお]して	tout au long de	
+1643096562770	394747089	成績[せいせき]	notes	
+1646595895461	394747089	必[かなら]ずしも〜とは 限[かぎ]らない	pas nécessairement, pas toujours	お金持ちが必ずしも幸福とは限らない。
+1646595929654	394747089	必[かなら]ず	sans faute, certainement	人間は必ず死ぬ。
+1646596014466	394747089	つい	inconsciemment	つい嘘を言ってしまった。
+1646596094579	394747089	なんとか	à tout prix, quoi qu'il en soit	なんとか会議に間に合った。
+1646596145021	394747089	なんとなく	sort of	
+1646596194545	394747089	なるべく	autant que posible, dans la mesure du possible	なるべく早くきてください。
+1646596283147	394747089	確[たし]か	peut-être (=たぶん)	あの人は、確か林さんのお父さんだと思う。
+1646596318477	394747089	確[たし]かに	sans aucun doute, sûrement	あの人は、確かに林さんのお父さんだと思う。
+1653500585802	394747089	近々[ちかぢか]	dans les jours qui viennent, sous peu	近々伺いします。
+1653500585803	394747089	そのうち	tôt ou tard	そのうち分かるようになるでしょう。
+1653500585804	394747089	ようやく	finalement, enfin	ようやく暖かくなってきた。
+1653500585805	394747089	たちまち	immédiatement	チケットはたちまち売り切れた。
+1653500585806	394747089	直[ただ]ちに	immédiatement	直ちに出発したほうがいいです。
+1653500585807	394747089	にわかに	soudainement	
+1653500585808	394747089	頻[しき]りに	sans cesse, fréquemment	しきりに電話が鳴る。
+1653500585810	394747089	すでに	déjà	
+1653500585811	394747089	前[まえ]もって	par avance	前もって調べておく。
+1653500585812	394747089	せめて・すくなくとも	au moins (chose/quantité)	せめて声だけでも聞きたい・少なくとも３０人は来る
+1653500585813	394747089	ほんの・たった	un peu/juste (uncountable/countable)	ほんの少し・たった一人
+1653500585814	394747089	いつのまにか	before one knows	いつの間にか夜になった。
+1653500585815	394747089	なんとか／どうにか	quoi qu'il en soit, à tout prix	
+1664308626217	1628169727230	正面[まとも]		まじめなこと。	まともに 受[う]けとめることができない。	しょ<span style="text-decoration:overline;">ーめ</span>ꜜん
+1667409700545	1628169727230	誰[だれ]か		<divstyle="text-align:left;"> 不定称[ふていしょう]の 人代名詞[じんだいめいし]。はっきりわからない 人[ひと]をさす 語[かたり]。「―が 言[い]ったこと」</divstyle="text-align:left;">	誰[だれ]か 助[たす]けて 下[くだ]さい！		[sound:S01E22_02m58s344ms-02m59s596ms.ogg]	<img alt="snapshot" src="S01E22_02m58s345ms.webp">
+1667409819794	1628169727230	おら		<div style="text-align: left;">おら【俺・己】<br>〘代名〙 自称。本来は卑しい男性の使用する語であったが、江戸時代においては「おれ」「おいら」とともに江戸町人の女性も用いた。おらあ。<br>※狂言記・苞山伏（１６６０）「なんのかのおっしゃれても、おらがひるめしはよそへずい」</div>	集まってみんな！		[sound:S01E22_02m59s888ms-03m01s139ms.ogg]	<img alt="snapshot" src="S01E22_03m05s435ms.webp">

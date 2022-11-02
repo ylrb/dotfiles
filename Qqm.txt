@@ -1,5 +1,6 @@
 anki-official-binary-bundle
 ctpv-git
+firefox-gnome-theme-maia
 gdm-tools
 manjaro-firmware
 ookla-speedtest-bin
