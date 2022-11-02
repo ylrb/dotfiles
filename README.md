@@ -34,6 +34,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - ookla-speedtest-bin [AUR]
 - baobab: disk usage analyzer
 - mpv: video viewer
+- wl-clipboard: allows mpvacious to use clipboard 
 - pinta: image editor
 - thunderbird: mail client
 - discord (or discord-git [AUR] for updates?)
