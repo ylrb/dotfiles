@@ -7,6 +7,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 ### Fundamentals
 
 - yay
+- python-pip
 - bluez-utils: configure bluetooth from terminal
 - make: for compilation
 - gdm-tools: change GDM login screen background [AUR]
@@ -30,7 +31,6 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 ### Tools
 
 - visual-studio-code-bin [AUR]
-- anki-official-binary-bundle [AUR]
 - ookla-speedtest-bin [AUR]
 - baobab: disk usage analyzer
 - mpv: video viewer
@@ -39,3 +39,11 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - thunderbird: mail client
 - discord (or discord-git [AUR] for updates?)
 - desmume: DS emulator
+
+### Japanese learning tools
+
+- anki-official-binary-bundle [AUR]
+- manga-ocr: OCR [pip]
+- mokuro: OCR on whole manga [pip]
+ * sentencepiece [pip]
+- tk: for tkinter

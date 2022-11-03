@@ -159,6 +159,7 @@ pinta
 polkit-gnome
 procps-ng
 psmisc
+python-pip
 qgnomeplatform-qt5
 qgnomeplatform-qt6
 reiserfsprogs
@@ -177,6 +178,7 @@ systemd-sysvcompat
 tar
 texinfo
 thunderbird
+tk
 tracker3-miners
 ttf-dejavu
 ttf-droid
