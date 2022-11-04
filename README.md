@@ -13,6 +13,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - gdm-tools: change GDM login screen background [AUR]
 - udiskie: auto-mount
 - vim: text editor
+- vimv: batch rename files
 - ibus: input foreign languages
   * ibus-anthy: Japanese input (or ibus-mozc [AUR])
   * ibus-libpinyin: Chinese input
