@@ -15,8 +15,8 @@ alias la="ls -a"
 
 # Aliases
 alias py="python3"
-alias b="bluetoothctl connect 94:DB:56:6D:BC:48 && exit"
-alias b0="bluetoothctl disconnect && exit"
+alias b="bluetoothctl power on && bluetoothctl connect 94:DB:56:6D:BC:48"
+alias b0="bluetoothctl disconnect && bluetoothctl power off"
 alias myip="curl ipinfo.io/ip"
 alias h="wihotspot"
 alias m="udiskie & wait 3"

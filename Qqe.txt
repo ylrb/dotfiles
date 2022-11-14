@@ -12,9 +12,11 @@ baobab
 bash
 bat
 bluez-utils
+brightnessctl
 btrfs-progs
 btrfsmaintenance
 bzip2
+calibre
 cmatrix
 coreutils
 cpupower
@@ -45,6 +47,7 @@ filesystem
 findutils
 firefox
 firefox-gnome-theme-maia
+foliate
 fprintd
 gawk
 gcc-libs
@@ -73,6 +76,7 @@ gnome-tweaks
 gnome-user-docs
 gnome-wallpapers
 gnome-weather
+godot
 gparted
 grep
 grilo-plugins
@@ -139,6 +143,7 @@ nautilus
 nautilus-admin
 nautilus-empty-file
 neofetch
+neovim
 networkmanager
 nfs-utils
 noto-fonts
@@ -148,6 +153,7 @@ numlockx
 ookla-speedtest-bin
 openresolv
 os-prober
+p7zip
 pacman
 pamac-gnome-integration
 pamac-gtk
@@ -192,6 +198,7 @@ usbutils
 util-linux
 vi
 vim
+vimv-git
 visual-studio-code-bin
 vulkan-intel
 vulkan-radeon
