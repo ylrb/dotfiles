@@ -13,6 +13,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - gdm-tools: change GDM login screen background [AUR]
 - udiskie: auto-mount
 - vim: text editor
+- vimv: batch rename files
 - ibus: input foreign languages
   * ibus-anthy: Japanese input (or ibus-mozc [AUR])
   * ibus-libpinyin: Chinese input
@@ -37,6 +38,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - wl-clipboard: allows mpvacious to use clipboard 
 - pinta: image editor
 - thunderbird: mail client
+- foliate: ebook reader
 - discord (or discord-git [AUR] for updates?)
 - desmume: DS emulator
 
@@ -45,5 +47,14 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - anki-official-binary-bundle [AUR]
 - manga-ocr: OCR [pip]
 - mokuro: OCR on whole manga [pip]
- * sentencepiece [pip]
-- tk: for tkinter
+  * sentencepiece [pip]
+
+### Chinese learning tools :
+
+- [anki chinese vocabulary generator](https://github.com/krmanik/Anki-Chinese-Vocabulary-Generator)
+  * tk: for tkinter 
+  
+### Other :
+
+- [INSA VPN](https://extranet.cisr.fr/ressources/web-vpn/nouveau-vpn/client-anyconnect/Version_en_cours/anyconnect-linux.tar.gz)
+  * requires launching script from its directory
