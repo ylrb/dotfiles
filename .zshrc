@@ -14,6 +14,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 alias la="ls -a"
 
 # Aliases
+alias n="nvim"
 alias py="python3"
 alias b="bluetoothctl power on && bluetoothctl connect 94:DB:56:6D:BC:48"
 alias b0="bluetoothctl disconnect && bluetoothctl power off"
