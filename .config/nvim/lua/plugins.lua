@@ -19,7 +19,7 @@ require('packer').startup(function(use)
 
     -- Theme
 	use { 'vimoxide/vim-cinnabar' }
-	use { 'kyazdani42/nvim-web-devicons' }	
+	use { 'kyazdani42/nvim-web-devicons' }
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
     }
@@ -48,8 +48,7 @@ require('packer').startup(function(use)
     }
     use { 'rafamadriz/friendly-snippets' }
     use { 'moll/vim-bbye' }
-    use {
-        'akinsho/toggleterm.nvim',
+    use { 'akinsho/toggleterm.nvim',
         config = function() require('plugins.toggleterm') end,
     }
 	
@@ -73,10 +72,10 @@ require('packer').startup(function(use)
         config = function() require('plugins.dap') end,
         opt = true,
     }
-    --use { 'sakhnik/nvim-gdb',
+    -- use { 'sakhnik/nvim-gdb',
     --    config = function() require('plugins.gdb') end,
     --    run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
-    --}
+    -- }
 
 	-- Autocomplete
 	use { 'hrsh7th/nvim-cmp',

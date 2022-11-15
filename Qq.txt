@@ -639,6 +639,7 @@ lpsolve
 lsb-release
 lsof
 lua
+lua-language-server
 luajit
 lv2
 lvm2
