@@ -19,7 +19,6 @@ cp -r ~/.themes ~/.dotfiles
 cp -r ~/.icons ~/.dotfiles
 
 # copy ~/.config files
-cp ~/.config/background ~/.dotfiles/.config/background
 cp ~/.config/user-dirs.dirs ~/.dotfiles/.config/user-dirs.dirs
 
 # copy ~/.config folders

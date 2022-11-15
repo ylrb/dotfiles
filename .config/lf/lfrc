@@ -56,7 +56,7 @@ map sg sudo_gedit
 # setsid -f permet de laisser le programme lancé même après avoir fermé lf
 cmd open ${{
     case $f in
-    	*.py|*.java|*.c|*.cc|*.cs|*.go|*.hs|*.lhs) setsid -f code $fx;;
+    	*.py|*.java|*.c|*.cc|*.cs|*.go|*.hs|*.lhs) nvim $fx;;
     	*.htm*) setsid -f firefox $fx;;
     	*) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
     esac

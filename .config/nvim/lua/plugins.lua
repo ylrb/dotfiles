@@ -52,7 +52,7 @@ require('packer').startup(function(use)
         'akinsho/toggleterm.nvim',
         config = function() require('plugins.toggleterm') end,
     }
-
+	
 	-- Code manipulation 
  	-- :TSInstall for adding languages
 	use { 'nvim-treesitter/nvim-treesitter',
@@ -68,6 +68,16 @@ require('packer').startup(function(use)
         config = function() require('plugins.lspconfig') end,
     }
 
+    -- Debug
+    use { 'mfussenegger/nvim-dap',
+        config = function() require('plugins.dap') end,
+        opt = true,
+    }
+    --use { 'sakhnik/nvim-gdb',
+    --    config = function() require('plugins.gdb') end,
+    --    run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
+    --}
+
 	-- Autocomplete
 	use { 'hrsh7th/nvim-cmp',
         config = function() require('plugins.cmp') end,
@@ -81,8 +91,6 @@ require('packer').startup(function(use)
     use { 'saadparwaiz1/cmp_luasnip' }
     use { 'petertriho/cmp-git' }
 
-
-
     -- Navigation
     use { 'ptzz/lf.vim',
 	    requires = { 'voldikss/vim-floaterm' },
@@ -94,7 +102,6 @@ require('packer').startup(function(use)
     
 	-- Utilities
     use { 'nvim-lua/plenary.nvim' }
-    use { 'moll/vim-bbye' }
 
     -- Sync on first launch
     if packer_bootstrap then
