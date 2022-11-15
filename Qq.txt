@@ -53,6 +53,7 @@ btrfs-progs
 btrfsmaintenance
 bubblewrap
 bzip2
+c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
@@ -710,7 +711,11 @@ nfs-utils
 nfsidmap
 nftables
 ninja
+node-gyp
+nodejs
+nodejs-nopt
 noto-fonts
+npm
 npth
 nspr
 nss
@@ -917,6 +922,7 @@ s-nail
 sbc
 sdl2
 sed
+semver
 serd
 shaderc
 shadow

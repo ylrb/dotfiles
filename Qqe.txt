@@ -147,6 +147,7 @@ neovim
 networkmanager
 nfs-utils
 noto-fonts
+npm
 ntfs-3g
 ntp
 numlockx

@@ -39,7 +39,7 @@ map d
 map dc cut
 map dy trash 
 map dD delete
-map e ${{vim $fx}}
+map e ${{nvim $fx}}
 map E extract
 map m
 map b mark-save
