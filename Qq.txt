@@ -996,9 +996,6 @@ v4l-utils
 v86d
 vi
 vid.stab
-vim
-vim-runtime
-vimv-git
 visual-studio-code-bin
 vmaf
 volume_key

@@ -4,6 +4,5 @@ firefox-gnome-theme-maia
 gdm-tools
 manjaro-firmware
 ookla-speedtest-bin
-vimv-git
 visual-studio-code-bin
 zinnia

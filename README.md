@@ -12,8 +12,6 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - make: for compilation
 - gdm-tools: change GDM login screen background [AUR]
 - udiskie: auto-mount
-- vim: text editor
-- vimv: batch rename files
 - ibus: input foreign languages
   * ibus-anthy: Japanese input (or ibus-mozc [AUR])
   * ibus-libpinyin: Chinese input
@@ -31,6 +29,8 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 ### Tools
 
+- neovim: text editor
+  * lua-language-server: lua lsp
 - visual-studio-code-bin [AUR]
 - ookla-speedtest-bin [AUR]
 - baobab: disk usage analyzer
@@ -39,6 +39,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - pinta: image editor
 - thunderbird: mail client
 - foliate: ebook reader
+- calibre: ebook manager/editor
 - discord (or discord-git [AUR] for updates?)
 - desmume: DS emulator
 
