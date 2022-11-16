@@ -5,8 +5,8 @@ vim.g.lf_map_keys = 0
 vim.g.lf_command_override = 'lf -command "set hidden"'
 vim.g.floaterm_title = ' lf '
 
-vim.keymap.set('', '<C-l>', '<cmd>Lf<cr>')
-vim.keymap.set('', '<leader>l', '<cmd>Lf<cr>')
+vim.keymap.set('n', '<C-l>', '<cmd>Lf<cr>')
+vim.keymap.set('n', '<leader>l', '<cmd>Lf<cr>')
 
 -- Same style as Telescope
 vim.cmd(':highlight link Floaterm Normal')

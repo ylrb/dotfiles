@@ -23,6 +23,9 @@ require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
     }
+	use { 'glepnir/dashboard-nvim',
+		config = function() require('plugins.dashboard') end,
+	}
 
 	-- IDE Styling
     use { 'lukas-reineke/indent-blankline.nvim',
