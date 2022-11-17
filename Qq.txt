@@ -992,6 +992,7 @@ shadow
 shared-color-targets
 shared-mime-info
 shiboken6
+simplescreenrecorder
 slang
 smbclient
 snappy

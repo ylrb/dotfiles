@@ -176,6 +176,7 @@ rsync
 s-nail
 sed
 shadow
+simplescreenrecorder
 sof-firmware
 spectre-meltdown-checker
 sudo
