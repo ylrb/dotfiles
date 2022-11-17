@@ -36,10 +36,6 @@ db.custom_center = {
 		desc = 'Keymaps ',
 		action = 'Telescope keymaps',
 	},
-    { 	icon = ' ',
-		desc = 'Config. ',
-		action = 'edit ~/.config',
-	},
 }
 local count = #vim.tbl_keys(packer_plugins)
 db.custom_footer = { '', ' ' ..count.. ' plugins loaded', '', '', '', '' }
