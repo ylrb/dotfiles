@@ -10,8 +10,16 @@ require('lualine').setup {
     	lualine_a = {'mode'},
 		lualine_b = {},
     	lualine_c = {'filename', 'branch', 'diff', 'diagnostics'},
-    	lualine_x = {'filetype'},
+    	lualine_x = {'filetype', 'encoding'},
+    	lualine_y = {},
+    	lualine_z = {'progress'}
+	},
+	inactive_sections = {
+    	lualine_a = {'mode'},
+		lualine_b = {},
+    	lualine_c = {'filename', 'branch', 'diff', 'diagnostics'},
+    	lualine_x = {'filetype', 'encoding'},
     	lualine_y = {},
     	lualine_z = {'progress'}
   	}
-}	
+}

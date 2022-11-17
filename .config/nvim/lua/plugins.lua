@@ -19,6 +19,7 @@ require('packer').startup(function(use)
 
     -- Theme
 	use { 'vimoxide/vim-cinnabar' }
+	use { 'lucasprag/simpleblack' }
 	use { 'kyazdani42/nvim-web-devicons' }
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
@@ -37,6 +38,10 @@ require('packer').startup(function(use)
     use { 'rktjmp/highlight-current-n.nvim',
         config = function() require('plugins.highlight-current-n') end,
     }
+	use { 'NvChad/nvim-colorizer.lua' }
+	use { 'sunjon/Shade.nvim',
+		config = function() require('plugins.shade') end,
+	}
 
 	-- IDE Features
 	use { 'numToStr/Comment.nvim',
@@ -54,7 +59,7 @@ require('packer').startup(function(use)
     use { 'akinsho/toggleterm.nvim',
         config = function() require('plugins.toggleterm') end,
     }
-	
+
 	-- Code manipulation 
  	-- :TSInstall for adding languages
 	use { 'nvim-treesitter/nvim-treesitter',
@@ -87,7 +92,9 @@ require('packer').startup(function(use)
     use { 'hrsh7th/cmp-nvim-lsp' }
     use { 'hrsh7th/cmp-buffer' }
     use { 'hrsh7th/cmp-path' }
-    use { 'hrsh7th/cmp-cmdline' }
+    use { 'hrsh7th/cmp-cmdline',
+		config = function() require('plugins.cmdline') end,
+	}
     use { 'hrsh7th/cmp-nvim-lsp-signature-help' }
     use { 'hrsh7th/cmp-nvim-lua' }
     use { 'saadparwaiz1/cmp_luasnip' }
@@ -101,7 +108,7 @@ require('packer').startup(function(use)
     use { 'nvim-telescope/telescope.nvim',
         config = function() require('plugins.telescope') end,
     }
-    
+
 	-- Utilities
     use { 'nvim-lua/plenary.nvim' }
 
@@ -109,5 +116,5 @@ require('packer').startup(function(use)
     if packer_bootstrap then
         require('packer').sync()
     end
-	
+
 end)

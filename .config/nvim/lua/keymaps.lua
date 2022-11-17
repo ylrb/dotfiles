@@ -27,4 +27,4 @@ vim.keymap.set('n', '<leader><left>', '<C-w><left>', {desc = 'Move left'})
 vim.keymap.set('n', '<leader><up>', '<C-w><up>', {desc = 'Move up'})
 
 -- Dashboard
-vim.keymap.set('n', '<leader>,', ':Dashboard<cr>', {desc = 'Open Dashboard'})
+vim.keymap.set('n', '<leader>,', ':Dashboard<cr>', {desc = 'Open dashboard'})

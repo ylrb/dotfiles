@@ -1,6 +1,7 @@
 local home = os.getenv('HOME')
 local db = require('dashboard')
 
+db.hide_statusline = false
 local clock = os.date("%H:%M")
 local date = os.date("%d/%m/%y")
 db.default_banner = {
@@ -44,4 +45,4 @@ db.custom_center = {
 	},
 }
 local count = #vim.tbl_keys(packer_plugins)
-db.custom_footer = { '',' ' ..count.. ' plugins loaded' }
+db.custom_footer = { '', ' ' ..count.. ' plugins loaded', '', '', '', '' }
