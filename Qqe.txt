@@ -111,6 +111,7 @@ libva-vdpau-driver
 licenses
 linux515
 logrotate
+lolcat
 lua-language-server
 lvm2
 make
