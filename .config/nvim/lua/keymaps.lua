@@ -28,3 +28,15 @@ vim.keymap.set('n', '<leader><up>', '<C-w><up>', {desc = 'Move up'})
 
 -- Other
 vim.keymap.set('n', '<leader>,', ':Dashboard<cr>', {desc = 'Open dashboard'})
+
+-- Azerty Numbers
+vim.keymap.set('n', '&', '1',  {desc = '1'})
+vim.keymap.set('n', 'é', '2',  {desc = '2'})
+vim.keymap.set('n', '"', '3',  {desc = '3'})
+vim.keymap.set('n','\'', '4',  {desc = '4'})
+vim.keymap.set('n', '(', '5',  {desc = '5'})
+vim.keymap.set('n', '-', '6',  {desc = '6'})
+vim.keymap.set('n', 'è', '7',  {desc = '7'})
+vim.keymap.set('n', '_', '8',  {desc = '8'})
+vim.keymap.set('n', 'ç', '9',  {desc = '9'})
+vim.keymap.set('n', 'à', '0',  {desc = '0'})

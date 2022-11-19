@@ -15,7 +15,7 @@ local packer_bootstrap = ensure_packer()
 require('packer').startup(function(use)
 
 	-- Plugin manager
-    use { 'wbthomason/packer.nvim' }
+	use { 'wbthomason/packer.nvim' }
 
     -- Theme
 	use { 'vimoxide/vim-cinnabar' }
@@ -44,6 +44,7 @@ require('packer').startup(function(use)
 	}
 
 	-- IDE Features
+	use { 'jiangmiao/auto-pairs' }
 	use { 'numToStr/Comment.nvim',
         config = function() require('plugins.comment') end,
     }

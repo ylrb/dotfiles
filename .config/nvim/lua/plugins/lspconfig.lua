@@ -34,3 +34,4 @@ Lsp_flags = {}
 require('plugins.lsp.sumneko_lua')
 require('plugins.lsp.clang')
 require('plugins.lsp.pyright')
+require('plugins.lsp.tsserver')

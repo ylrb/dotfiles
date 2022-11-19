@@ -164,6 +164,7 @@ papirus-maia-icon-theme
 patch
 pciutils
 perl
+perl-image-exiftool
 pinta
 polkit-gnome
 procps-ng

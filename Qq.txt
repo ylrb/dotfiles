@@ -772,6 +772,7 @@ perl-http-daemon
 perl-http-date
 perl-http-message
 perl-http-negotiate
+perl-image-exiftool
 perl-io-html
 perl-libwww
 perl-lwp-mediatypes

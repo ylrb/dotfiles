@@ -26,6 +26,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
   * jq: preview .json
   * mdcat: preview .md
   * ffmpegthumbnailer: preview videos
+  * perl-image-exiftool: fallback info
 
 ### Tools
 
