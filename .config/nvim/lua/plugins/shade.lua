@@ -1,3 +1,3 @@
 require'shade'.setup({
-  overlay_opacity = 50,
+  overlay_opacity = 70,
 })

@@ -81,10 +81,10 @@ require('packer').startup(function(use)
         config = function() require('plugins.dap') end,
         opt = true,
     }
-    -- use { 'sakhnik/nvim-gdb',
-    --    config = function() require('plugins.gdb') end,
-    --    run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
-    -- }
+    use { 'sakhnik/nvim-gdb',
+       config = function() require('plugins.gdb') end,
+       run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
+    }
 
 	-- Autocomplete
 	use { 'hrsh7th/nvim-cmp',

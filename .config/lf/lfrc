@@ -49,7 +49,8 @@ cmd gedit ${{gedit $fx}}
 map ge gedit
 cmd sudo_gedit ${{sudo gedit $fx}}
 map sg sudo_gedit
-
+map y
+map yy copy
 
 # Opener selection
 

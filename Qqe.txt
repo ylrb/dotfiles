@@ -17,6 +17,7 @@ btrfs-progs
 btrfsmaintenance
 bzip2
 calibre
+cmake
 cmatrix
 coreutils
 cpupower
@@ -33,6 +34,7 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
+dust
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -51,6 +53,7 @@ foliate
 fprintd
 gawk
 gcc-libs
+gdb
 gdm
 gdm-tools
 gedit
@@ -77,6 +80,7 @@ gnome-user-docs
 gnome-wallpapers
 gnome-weather
 godot
+google-chrome
 gparted
 grep
 grilo-plugins
@@ -189,6 +193,7 @@ systemd-sysvcompat
 tar
 texinfo
 thunderbird
+time
 tk
 tracker3-miners
 ttf-dejavu
@@ -201,6 +206,7 @@ udiskie
 usb_modeswitch
 usbutils
 util-linux
+valgrind
 vi
 visual-studio-code-bin
 vulkan-intel

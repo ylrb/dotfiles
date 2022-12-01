@@ -31,10 +31,10 @@ alias myip="curl ipinfo.io/ip"
 alias h="wihotspot"
 alias m="udiskie & wait 3"
 alias dotfiles="zsh ~/.dotfiles.sh"
-alias time="date +"%H:%M:%S""
 alias icat="kitty +kitten icat"
 alias luamake=/luamake
 alias lf="lfcd"
+alias tc="cd ~/Code/Projects/TC-NET-scrapper/ && node scrapper.js && icat screenshot.png"
 
 lfcd () {
     tmp="$(mktemp)"

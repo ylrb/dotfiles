@@ -69,6 +69,7 @@ clang
 clucene
 clutter
 clutter-gtk
+cmake
 cmatrix
 cogl
 colord
@@ -90,6 +91,7 @@ dbus
 dbus-glib
 dbus-python
 dconf
+debuginfod
 desktop-file-utils
 desmume
 device-mapper
@@ -108,6 +110,7 @@ dotnet-host
 dotnet-runtime
 double-conversion
 duktape
+dust
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -152,6 +155,8 @@ gcc
 gcc-libs
 gcr
 gcr-4
+gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 gdm
@@ -207,6 +212,7 @@ go
 gobject-introspection-runtime
 godot
 gom
+google-chrome
 gparted
 gperftools
 gpgme
@@ -294,6 +300,7 @@ js102
 js91
 json-c
 json-glib
+jsoncpp
 jxrlib
 kauth
 kbd
@@ -475,6 +482,7 @@ libmd
 libmediaart
 libmfx
 libmicrodns
+libmicrohttpd
 libmm-glib
 libmng
 libmnl
@@ -915,6 +923,7 @@ readline
 redland
 reiserfsprogs
 rest
+rhash
 rpcbind
 rsync
 rtkit
@@ -1001,6 +1010,7 @@ sof-firmware
 sord
 sound-theme-freedesktop
 soundtouch
+source-highlight
 spandsp
 spectre-meltdown-checker
 speex
@@ -1029,6 +1039,7 @@ tevent
 texinfo
 thin-provisioning-tools
 thunderbird
+time
 tk
 totem-pl-parser
 tpm2-tss
@@ -1058,6 +1069,7 @@ util-linux
 util-linux-libs
 v4l-utils
 v86d
+valgrind
 vi
 vid.stab
 visual-studio-code-bin
