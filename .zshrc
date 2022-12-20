@@ -35,6 +35,7 @@ alias icat="kitty +kitten icat"
 alias luamake=/luamake
 alias lf="lfcd"
 alias tc="cd ~/Code/Projects/TC-NET-scrapper/ && node scrapper.js && icat screenshot.png"
+alias ghc="ghc -dynamic"
 
 lfcd () {
     tmp="$(mktemp)"
@@ -50,3 +51,5 @@ lfcd () {
     fi
 }
 bindkey -s '^o' 'lfcd\n'
+
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"

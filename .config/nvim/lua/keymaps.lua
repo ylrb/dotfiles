@@ -28,6 +28,7 @@ vim.keymap.set('n', '<leader><up>', '<C-w><up>', {desc = 'Move up'})
 
 -- Other
 vim.keymap.set('n', '<leader>,', ':Dashboard<cr>', {desc = 'Open dashboard'})
+vim.keymap.set('n', '<leader>U', ':redo<cr>', {desc = 'Redo'})
 
 -- Azerty Numbers
 vim.keymap.set('n', '&', '1',  {desc = '1'})

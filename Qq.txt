@@ -11,6 +11,7 @@ adobe-source-han-sans-kr-fonts
 adobe-source-sans-fonts
 adw-gtk-theme
 adw-gtk3
+adwaita-cursors
 adwaita-icon-theme
 adwaita-qt5
 adwaita-qt6
@@ -19,6 +20,7 @@ alsa-lib
 alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
+amtk
 anki-official-binary-bundle
 anthy
 aom
@@ -61,6 +63,7 @@ cairo
 cairomm
 calibre
 cantarell-fonts
+cdparanoia
 chmlib
 chromaprint
 cifs-utils
@@ -92,6 +95,7 @@ dbus-glib
 dbus-python
 dconf
 debuginfod
+default-cursors
 desktop-file-utils
 desmume
 device-mapper
@@ -106,8 +110,6 @@ dmraid
 dnsmasq
 dnssec-anchors
 dosfstools
-dotnet-host
-dotnet-runtime
 double-conversion
 duktape
 dust
@@ -167,10 +169,14 @@ geocode-glib
 geocode-glib-2
 geocode-glib-common
 gettext
+ghc
+ghc-libs
+ghcup-hs-bin
 ghostscript
 giflib
 git
 gjs
+glew
 glib-networking
 glib2
 glibc
@@ -213,6 +219,7 @@ gobject-introspection-runtime
 godot
 gom
 google-chrome
+gopls
 gparted
 gperftools
 gpgme
@@ -229,6 +236,7 @@ grub-btrfs
 grub-theme-manjaro
 gsettings-desktop-schemas
 gsfonts
+gsl
 gsm
 gsound
 gspell
@@ -237,6 +245,7 @@ gssproxy
 gst-plugin-gtk
 gst-plugins-bad
 gst-plugins-bad-libs
+gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gst-python
@@ -257,6 +266,7 @@ gzip
 harfbuzz
 harfbuzz-icu
 haveged
+hdf5
 hicolor-icon-theme
 hidapi
 highway
@@ -304,14 +314,24 @@ jsoncpp
 jxrlib
 kauth
 kbd
+kcompletion
+kconfig
 kcoreaddons
+kcrash
+keepassxc
 keyutils
+kguiaddons
+ki18n
 kitemmodels
+kitemviews
 kitty
 kitty-shell-integration
 kitty-terminfo
 kmod
 krb5
+krita
+kwidgetsaddons
+kwindowsystem
 kyotocabinet
 l-smash
 lame
@@ -377,6 +397,7 @@ lib32-zlib
 lib32-zstd
 libabw
 libadwaita
+libaec
 libaio
 libarchive
 libass
@@ -385,6 +406,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libavif
 libavtp
 libb2
 libblockdev
@@ -539,6 +561,7 @@ libpulse
 libpwquality
 libqxp
 libraqm
+libraw
 libraw1394
 libreoffice-fresh
 librest
@@ -587,6 +610,7 @@ libva-vdpau-driver
 libvdpau
 libverto
 libvisio
+libvisual
 libvorbis
 libvpx
 libvterm
@@ -620,6 +644,7 @@ libxkbfile
 libxklavier
 libxml2
 libxmu
+libxpresent
 libxrandr
 libxrender
 libxshmfence
@@ -631,6 +656,7 @@ libxv
 libxvmc
 libxxf86vm
 libyaml
+libyuv
 libzmf
 licenses
 lilv
@@ -691,6 +717,7 @@ mhwd-nvidia-390xx
 mhwd-nvidia-470xx
 miniupnpc
 minizip
+minizip-ng
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
@@ -715,6 +742,7 @@ neofetch
 neon
 neovim
 nerd-fonts-noto-sans-mono
+net-tools
 nettle
 networkmanager
 nfs-utils
@@ -731,18 +759,23 @@ nspr
 nss
 ntfs-3g
 ntp
+numactl
 numlockx
 ocl-icd
 oniguruma
 ookla-speedtest-bin
 openal
+openbsd-netcat
 opencc
+opencolorio
 opencore-amr
 openexr
+openimageio
 openjpeg2
 openmpi
 openpmix
 openresolv
+openshadinglanguage
 openssh
 openssl
 optipng
@@ -769,7 +802,9 @@ patch
 pciutils
 pcre
 pcre2
+pcsclite
 perl
+perl-clone
 perl-encode-locale
 perl-error
 perl-file-listing
@@ -793,7 +828,6 @@ perl-www-robotrules
 perl-xml-parser
 perl-xml-writer
 pinentry
-pinta
 pipewire
 pipewire-alsa
 pipewire-audio
@@ -813,7 +847,10 @@ portaudio
 procps-ng
 protobuf
 psmisc
+pugixml
+pybind11
 pyside6
+pystring
 python
 python-appdirs
 python-apsw
@@ -903,6 +940,8 @@ qgnomeplatform-qt6
 qrencode
 qt5-base
 qt5-declarative
+qt5-multimedia
+qt5-svg
 qt5-translations
 qt5-wayland
 qt5-x11extras
@@ -915,6 +954,7 @@ qt6-translations
 qt6-wayland
 qt6-webchannel
 qt6-webengine
+quazip-qt5
 raptor
 rasqal
 rav1e
@@ -1035,11 +1075,13 @@ tar
 tbb
 tcl
 tdb
+tepl
 tevent
 texinfo
 thin-provisioning-tools
 thunderbird
 time
+tinyxml
 tk
 totem-pl-parser
 tpm2-tss
@@ -1139,6 +1181,7 @@ xorgproto
 xvidcore
 xxhash
 xz
+yaml-cpp
 yay
 yelp
 yelp-xsl

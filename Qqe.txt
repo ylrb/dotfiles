@@ -58,6 +58,8 @@ gdm
 gdm-tools
 gedit
 gettext
+ghc
+ghcup-hs-bin
 glibc
 glibc-locales
 gnome-backgrounds
@@ -81,6 +83,7 @@ gnome-wallpapers
 gnome-weather
 godot
 google-chrome
+gopls
 gparted
 grep
 grilo-plugins
@@ -102,7 +105,9 @@ iproute2
 iputils
 jfsutils
 jq
+keepassxc
 kitty
+krita
 less
 lf
 lib32-libva-vdpau-driver
@@ -150,6 +155,7 @@ nautilus-admin
 nautilus-empty-file
 neofetch
 neovim
+net-tools
 networkmanager
 nfs-utils
 noto-fonts
@@ -158,6 +164,7 @@ ntfs-3g
 ntp
 numlockx
 ookla-speedtest-bin
+openbsd-netcat
 openresolv
 os-prober
 p7zip
@@ -169,7 +176,6 @@ patch
 pciutils
 perl
 perl-image-exiftool
-pinta
 polkit-gnome
 procps-ng
 psmisc

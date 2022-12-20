@@ -2,6 +2,7 @@ anki-official-binary-bundle
 ctpv-git
 firefox-gnome-theme-maia
 gdm-tools
+ghcup-hs-bin
 google-chrome
 manjaro-firmware
 ookla-speedtest-bin
