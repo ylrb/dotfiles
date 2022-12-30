@@ -1,6 +1,6 @@
 anki-official-binary-bundle
 ctpv-git
-firefox-gnome-theme-maia
+exercism
 gdm-tools
 ghcup-hs-bin
 google-chrome

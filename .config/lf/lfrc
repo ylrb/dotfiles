@@ -22,7 +22,7 @@ map gr cd /
 map gd cd ~/Documents/
 map gD cd ~/Downloads/
 map gt cd ~/Documents/TC/
-map gf cd ~/Documents/Fiction
+map gn cd ~/Documents/日本語/
 map gs cd /run/media/yl/T7/
 map gm cd /run/media/yl/
 map gc cd ~/.config/
@@ -51,6 +51,7 @@ cmd sudo_gedit ${{sudo gedit $fx}}
 map sg sudo_gedit
 map y
 map yy copy
+map X ${{exercism submit $f}}
 
 # Opener selection
 

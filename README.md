@@ -41,6 +41,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - discord (or discord-git [AUR] for updates?)
 - desmume: DS emulator
 - keepassxc: password manager
+- remmina: remote desktop through VNC with tigervnc
 
 ### Coding
 
@@ -49,6 +50,9 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
   * gcc: compiling
   * gdb: debugging
 - visual-studio-code-bin [AUR]
+- ghc: Haskell compiler
+- ghcup-hs-bin: Haskell packet manager [AUR]
+- npm: Javascript packet manager
 
 ### Japanese learning tools
 

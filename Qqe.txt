@@ -16,7 +16,6 @@ brightnessctl
 btrfs-progs
 btrfsmaintenance
 bzip2
-calibre
 cmake
 cmatrix
 coreutils
@@ -40,6 +39,7 @@ ecryptfs-utils
 efibootmgr
 elinks
 evince
+exercism
 exfatprogs
 f2fs-tools
 ffmpegthumbnailer
@@ -48,7 +48,6 @@ file-roller
 filesystem
 findutils
 firefox
-firefox-gnome-theme-maia
 foliate
 fprintd
 gawk
@@ -70,6 +69,7 @@ gnome-control-center
 gnome-disk-utility
 gnome-keyring
 gnome-logs
+gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -81,7 +81,6 @@ gnome-tweaks
 gnome-user-docs
 gnome-wallpapers
 gnome-weather
-godot
 google-chrome
 gopls
 gparted
@@ -183,6 +182,7 @@ python-pip
 qgnomeplatform-qt5
 qgnomeplatform-qt6
 reiserfsprogs
+remmina
 rsync
 s-nail
 sed
@@ -212,7 +212,6 @@ udiskie
 usb_modeswitch
 usbutils
 util-linux
-valgrind
 vi
 visual-studio-code-bin
 vulkan-intel
