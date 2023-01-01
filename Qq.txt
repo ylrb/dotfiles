@@ -1062,6 +1062,8 @@ v4l-utils
 v86d
 vi
 vid.stab
+vim
+vim-runtime
 visual-studio-code-bin
 vmaf
 volume_key

@@ -215,6 +215,7 @@ usb_modeswitch
 usbutils
 util-linux
 vi
+vim
 visual-studio-code-bin
 vulkan-intel
 vulkan-radeon
