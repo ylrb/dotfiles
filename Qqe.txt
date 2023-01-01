@@ -84,6 +84,7 @@ gnome-weather
 google-chrome
 gopls
 gparted
+gradience
 grep
 grilo-plugins
 grub
@@ -185,6 +186,7 @@ reiserfsprogs
 remmina
 rsync
 s-nail
+sassc
 sed
 shadow
 simplescreenrecorder

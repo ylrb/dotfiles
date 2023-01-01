@@ -11,6 +11,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - bluez-utils: configure bluetooth from terminal
 - make: for compilation
 - gdm-tools: change GDM login screen background [AUR]
+- gradience: change adwaita colors for GTK4
 - udiskie: auto-mount
 - ibus: input foreign languages
   * ibus-anthy: Japanese input (or ibus-mozc [AUR])
