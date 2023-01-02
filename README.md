@@ -61,6 +61,7 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - manga-ocr: OCR [pip]
 - mokuro: OCR on whole manga [pip]
   * sentencepiece [pip]
+- impd-git: condensed audio maker [AUR]
 
 ### Chinese learning tools
 
@@ -71,4 +72,3 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 - [INSA VPN](https://extranet.cisr.fr/ressources/web-vpn/nouveau-vpn/client-anyconnect/Version_en_cours/anyconnect-linux.tar.gz)
   * requires launching script from its directory
-
