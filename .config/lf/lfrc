@@ -41,13 +41,14 @@ map dy trash
 map dD delete
 map e ${{nvim $fx}}
 map E extract
+map n ${{nautilus . &}}
 map m
 map b mark-save
 map md push $mkdir<space>
 map t push $touch<space>
-cmd gedit ${{gedit $fx}}
+cmd gedit ${{gedit $fx &}}
 map ge gedit
-cmd sudo_gedit ${{sudo gedit $fx}}
+cmd sudo_gedit ${{sudo gedit $fx &}}
 map sg sudo_gedit
 map y
 map yy copy
