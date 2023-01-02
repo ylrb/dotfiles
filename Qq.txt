@@ -32,6 +32,8 @@ at-spi2-core
 atkmm
 atool
 attr
+audacity
+audiofile
 audit
 avahi
 ayatana-ido
@@ -139,6 +141,7 @@ findutils
 firefox
 flac
 fluidsynth
+fmt
 foliate
 fontconfig
 fprintd
@@ -286,6 +289,7 @@ ijs
 imagemagick
 imath
 imlib2
+impd-git
 inetutils
 iniparser
 intel-ucode
@@ -399,6 +403,7 @@ libabw
 libadwaita
 libaec
 libaio
+libao
 libarchive
 libass
 libassuan
@@ -481,6 +486,7 @@ libheif
 libibus
 libical
 libice
+libid3tag
 libidn
 libidn2
 libiec61883
@@ -503,17 +509,21 @@ liblqr
 liblrdf
 libltc
 libluv
+libmad
 libmalcontent
 libmanette
 libmd
 libmediaart
 libmfx
 libmicrodns
+libmikmod
 libmm-glib
+libmms
 libmnl
 libmodplug
 libmpc
 libmpcdec
+libmpdclient
 libmspack
 libmspub
 libmwaw
@@ -523,6 +533,7 @@ libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
+libnfs
 libnftnl
 libnghttp2
 libnice
@@ -574,9 +585,11 @@ librsync
 libsamplerate
 libsasl
 libsass
+libsbsms
 libseccomp
 libsecret
 libshout
+libsidplayfp
 libsigc++
 libsm
 libsndfile
@@ -603,7 +616,9 @@ libtommath
 libtool
 libunistring
 libunwind
+libupnp
 liburcu
+liburing
 libusb
 libusbmuxd
 libuv
@@ -726,6 +741,7 @@ mkinitcpio-busybox
 mkinitcpio-openswap
 mobile-broadband-provider-info
 mousetweaks
+mpd
 mpfr
 mpg123
 mpv
@@ -843,6 +859,8 @@ poppler-data
 poppler-glib
 popt
 portaudio
+portmidi
+portsmf
 procps-ng
 protobuf
 psmisc
@@ -1011,6 +1029,7 @@ sratom
 srt
 startup-notification
 sudo
+suil
 sushi
 svt-av1
 svt-hevc
@@ -1060,6 +1079,7 @@ util-linux
 util-linux-libs
 v4l-utils
 v86d
+vamp-plugin-sdk
 vi
 vid.stab
 vim
@@ -1133,6 +1153,7 @@ xorgproto
 xvidcore
 xxhash
 xz
+yajl
 yaml-cpp
 yasm
 yay

@@ -4,6 +4,7 @@ exercism
 gdm-tools
 ghcup-hs-bin
 google-chrome
+impd-git
 manjaro-firmware
 ookla-speedtest-bin
 visual-studio-code-bin

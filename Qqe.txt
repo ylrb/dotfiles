@@ -7,6 +7,7 @@ adobe-source-sans-fonts
 adw-gtk-theme
 anki-official-binary-bundle
 atool
+audacity
 b43-fwcutter
 baobab
 bash
@@ -98,6 +99,7 @@ htop
 ibus
 ibus-anthy
 ibus-libpinyin
+impd-git
 inetutils
 intel-ucode
 inxi

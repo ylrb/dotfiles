@@ -29,6 +29,7 @@ cp -r ~/.config/mpv ~/.dotfiles/.config
 cp -r ~/.config/mozc ~/.dotfiles/.config
 cp -r ~/.config/desmume ~/.dotfiles/.config
 cp -r ~/.config/nvim ~/.dotfiles/.config
+cp -r ~/.config/immersionpod ~/.dotfiles/.config
 
 # copy ~/.local/share files
 
