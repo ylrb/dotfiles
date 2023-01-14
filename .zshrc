@@ -29,13 +29,14 @@ alias b="bluetoothctl power on && bluetoothctl connect 94:DB:56:6D:BC:48"
 alias b0="bluetoothctl disconnect && bluetoothctl power off"
 alias myip="curl ipinfo.io/ip"
 alias h="wihotspot"
-alias m="udiskie & wait 3"
 alias dotfiles="zsh ~/.dotfiles.sh"
 alias icat="kitty +kitten icat"
 alias luamake=/luamake
 alias lf="lfcd"
-alias tc="cd ~/Code/Projects/TC-NET-scrapper/ && node scrapper.js && icat screenshot.png"
 alias ghc="ghc -dynamic"
+alias W="gsettings set org.gnome.desktop.background picture-options spanned && gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/yl/Documents/Wallpaper-3-screens.png' && exit"
+alias w="gsettings set org.gnome.desktop.background picture-options spanned && gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/yl/Documents/Wallpaper-2-screens.png' && exit"
+
 
 lfcd () {
     tmp="$(mktemp)"

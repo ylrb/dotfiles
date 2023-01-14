@@ -7,5 +7,12 @@ google-chrome
 impd-git
 manjaro-firmware
 ookla-speedtest-bin
+protonvpn-gui
+python-proton-client
+python-protonvpn-nm-lib
+python-pytube
+python-spotdl
+python-spotipy
+python-ytmusicapi
 visual-studio-code-bin
 zinnia

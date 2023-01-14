@@ -24,6 +24,7 @@ cpupower
 cronie
 cryptsetup
 ctpv-git
+cups
 desmume
 device-mapper
 dhclient
@@ -66,10 +67,12 @@ gnome-backgrounds
 gnome-browser-connector
 gnome-calculator
 gnome-calendar
+gnome-clocks
 gnome-control-center
 gnome-disk-utility
 gnome-keyring
 gnome-logs
+gnome-mines
 gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
@@ -180,8 +183,10 @@ perl
 perl-image-exiftool
 polkit-gnome
 procps-ng
+protonvpn-gui
 psmisc
 python-pip
+python-spotdl
 qgnomeplatform-qt5
 qgnomeplatform-qt6
 reiserfsprogs
