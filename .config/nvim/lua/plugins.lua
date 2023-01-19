@@ -46,7 +46,7 @@ require('packer').startup(function(use)
 	-- IDE Features
 	use { 'jiangmiao/auto-pairs' }
 	use { 'numToStr/Comment.nvim',
-        config = function() require('plugins.comment') end,
+        config = function() require('Comment').setup() end,
     }
 	use { 'lewis6991/gitsigns.nvim',
         config = function() require('plugins.gitsigns') end,
@@ -81,10 +81,10 @@ require('packer').startup(function(use)
         config = function() require('plugins.dap') end,
         opt = true,
     }
-    use { 'sakhnik/nvim-gdb',
-       config = function() require('plugins.gdb') end,
-       run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
-    }
+	-- use { 'sakhnik/nvim-gdb',
+    --   config = function() require('plugins.gdb') end,
+    --   run = ':!~/.local/share/nvim/site/pack/packer/start/nvim-gdb/install.sh',
+    --}
 
 	-- Autocomplete
 	use { 'hrsh7th/nvim-cmp',
