@@ -35,7 +35,6 @@ cp -r ~/.config/immersionpod ~/.dotfiles/.config
 
 # copy ~/.local/share folders
 cp -r ~/.local/share/gedit ~/.dotfiles/.local/share
-cp -r ~/.local/share/Anki2 ~/.dotfiles/.local/share
 cp -r ~/.local/share/gnome-shell/extensions ~/.dotfiles/.local/share/gnome-shell/
 
 

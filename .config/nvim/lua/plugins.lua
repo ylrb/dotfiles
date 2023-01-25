@@ -24,6 +24,8 @@ require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
     }
+	use 'nvim-tree/nvim-web-devicons'
+	use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
 	use { 'glepnir/dashboard-nvim',
 		config = function() require('plugins.dashboard') end,
 	}
