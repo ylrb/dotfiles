@@ -24,8 +24,9 @@ require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
     }
-	use 'nvim-tree/nvim-web-devicons'
-	use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
+	use {'romgrk/barbar.nvim',
+		config = function() require('plugins.barbar') end,
+	}
 	use { 'glepnir/dashboard-nvim',
 		config = function() require('plugins.dashboard') end,
 	}
@@ -53,7 +54,7 @@ require('packer').startup(function(use)
 	use { 'lewis6991/gitsigns.nvim',
         config = function() require('plugins.gitsigns') end,
     }
-    use { 'tpope/vim-fugitive' }
+    --use { 'tpope/vim-fugitive' }
     use { 'L3MON4D3/LuaSnip',
         config = function() require('plugins.luasnip') end,
     }

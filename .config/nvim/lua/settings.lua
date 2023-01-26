@@ -8,5 +8,5 @@ vim.opt.breakindent = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.termguicolors = true
-vim.cmd.colorscheme('simpleblack')
+vim.cmd.colorscheme('cinnabar')
 vim.cmd.background = 'dark'

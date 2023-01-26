@@ -13,9 +13,19 @@ vim.keymap.set('n', '<c-c>', '"+y', {desc = 'Copy to clipboard'})
 vim.keymap.set('n', 'x', '"_x', {desc = 'Delete char without changing the register'})
 
 -- Buffers 
-vim.keymap.set('n', '<leader>w', ':Bdelete<cr>', {desc = 'Buffer delete'})
-vim.keymap.set('n', '<leader>n', '<cmd>bnext<cr>', {desc = 'Move to next buffer'})
-vim.keymap.set('n', '<leader>N', '<cmd>bprevious<cr>', {desc = 'Move to previous buffer'})
+vim.keymap.set('n', '<leader>w', '<Cmd>BufferClose<cr>', {desc = 'Buffer delete'})
+vim.keymap.set('n', '<leader>n', '<Cmd>BufferNext<cr>', {desc = 'Move to previous buffer'})
+vim.keymap.set('n', '<leader>N', '<Cmd>BufferPrevious<cr>', {desc = 'Move to next buffer'})
+vim.keymap.set('n', '<leader>&', '<Cmd>BufferGoto 1<CR>', {desc = 'Move to buffer 1'})
+vim.keymap.set('n', '<leader>é', '<Cmd>BufferGoto 2<CR>', {desc = 'Move to buffer 2'})
+vim.keymap.set('n', '<leader>"', '<Cmd>BufferGoto 3<CR>', {desc = 'Move to buffer 3'})
+vim.keymap.set('n', "<leader>'", '<Cmd>BufferGoto 4<CR>', {desc = 'Move to buffer 4'})
+vim.keymap.set('n', '<leader>(', '<Cmd>BufferGoto 5<CR>', {desc = 'Move to buffer 5'})
+vim.keymap.set('n', '<leader>-', '<Cmd>BufferGoto 6<CR>', {desc = 'Move to buffer 6'})
+vim.keymap.set('n', '<leader>è', '<Cmd>BufferGoto 7<CR>', {desc = 'Move to buffer 7'})
+vim.keymap.set('n', '<leader>è', '<Cmd>BufferGoto 8<CR>', {desc = 'Move to buffer 8'})
+vim.keymap.set('n', '<leader>ç', '<Cmd>BufferGoto 9<CR>', {desc = 'Move to buffer 9'})
+vim.keymap.set('n', '<leader>à', '<Cmd>BufferLast<CR>', {desc = 'Move to last buffer'})
 
 -- Windows
 vim.keymap.set('n', '<leader>x', '<cmd>vs<cr>', {desc = 'Vertical split'})
