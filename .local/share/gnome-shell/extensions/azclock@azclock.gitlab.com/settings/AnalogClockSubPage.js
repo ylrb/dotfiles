@@ -1,7 +1,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {Adw, GObject, Gtk} = imports.gi;
+const { Adw, GObject, Gtk } = imports.gi;
 const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const _ = Gettext.gettext;
 
@@ -16,6 +16,12 @@ class AzClock_AnalogClockSubPage extends SubPage {
     _init(settings, params) {
         super._init(settings, params);
 
+        let timeZoneGroup = new Adw.PreferencesGroup();
+        this.add(timeZoneGroup);
+
+        let timeZoneRow = this.createTimeZoneRow();
+        timeZoneGroup.add(timeZoneRow);
+
         let generalGroup = new Adw.PreferencesGroup({
             title: _('Clock Settings')
         });
@@ -23,6 +29,20 @@ class AzClock_AnalogClockSubPage extends SubPage {
 
         let clockSizeRow = this.createSpinRow(_("Size"), 'Clock_Size', 100, 1000);
         generalGroup.add(clockSizeRow);
+
+        let marginsExpanderRow = new Adw.ExpanderRow({
+            title: _('Margins'),
+        });
+        generalGroup.add(marginsExpanderRow);
+
+        let marginTopRow = this.createSpinRow(_("Top"), 'Element_Margin_Top', 0, 200);
+        marginsExpanderRow.add_row(marginTopRow);
+        let marginRightRow = this.createSpinRow(_("Right"), 'Element_Margin_Right', 0, 200);
+        marginsExpanderRow.add_row(marginRightRow);
+        let marginBottomRow = this.createSpinRow(_("Bottom"), 'Element_Margin_Bottom', 0, 200);
+        marginsExpanderRow.add_row(marginBottomRow);
+        let marginLeftRow = this.createSpinRow(_("Left"), 'Element_Margin_Left', 0, 200);
+        marginsExpanderRow.add_row(marginLeftRow);
 
         let clockFaceGroup = new Adw.PreferencesGroup({
             title: _('Clock Face')
@@ -90,7 +110,7 @@ class AzClock_AnalogClockSubPage extends SubPage {
         this.createHandGroup('HourHand', _('Hour Hand'), CLOCK_STYLE_COUNT);
     }
 
-    createHandGroup(elementType, title, maxStyles){
+    createHandGroup(elementType, title, maxStyles) {
         let handGroup = new Adw.PreferencesGroup({
             title: _(title)
         });
@@ -105,7 +125,7 @@ class AzClock_AnalogClockSubPage extends SubPage {
         let shadowExpanderRow = this.createShadowExpanderRow(_("Shadow"), `${elementType}_Shadow`);
         handGroup.add(shadowExpanderRow);
 
-        if(elementType === 'SecondHand' || elementType === 'ClockButton'){
+        if (elementType === 'SecondHand' || elementType === 'ClockButton') {
             let enableSwitch = new Gtk.Switch({
                 valign: Gtk.Align.CENTER,
                 active: this.getClockElementData(`${elementType}_Visible`, 'bool')

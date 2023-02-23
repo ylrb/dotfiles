@@ -8,11 +8,13 @@ impd-git
 manjaro-firmware
 ookla-speedtest-bin
 protonvpn-gui
+python-pep517
 python-proton-client
 python-protonvpn-nm-lib
 python-pytube
 python-spotdl
 python-spotipy
 python-ytmusicapi
+teensyduino
 visual-studio-code-bin
 zinnia

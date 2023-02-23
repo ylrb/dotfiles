@@ -1,7 +1,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {Adw, Gdk, GObject, Gtk} = imports.gi;
+const { Adw, Gdk, GObject, Gtk } = imports.gi;
 const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const _ = Gettext.gettext;
 
@@ -13,8 +13,14 @@ class AzClock_DigitalClockSubPage extends SubPage {
     _init(settings, params) {
         super._init(settings, params);
 
-        let generalGroup = new Adw.PreferencesGroup();
-        this.add(generalGroup);
+        let timeZoneGroup = new Adw.PreferencesGroup();
+        this.add(timeZoneGroup);
+
+        let timeZoneRow = this.createTimeZoneRow();
+        timeZoneGroup.add(timeZoneRow);
+
+        let dateFormatGroup = new Adw.PreferencesGroup();
+        this.add(dateFormatGroup);
 
         let dateFormatExpanderRow = new Adw.ExpanderRow({
             title: _("Date/Time Format"),
@@ -28,9 +34,8 @@ class AzClock_DigitalClockSubPage extends SubPage {
             halign: Gtk.Align.FILL,
             hexpand: true,
             text: this.getClockElementData('Text_DateFormat'),
-            xalign: 1,
         });
-        dateFormatEntry.connect('changed',() => {
+        dateFormatEntry.connect('changed', () => {
             this.setClockElementData('Text_DateFormat', dateFormatEntry.get_text());
         });
         let dateFormatRow = new Adw.ActionRow({
@@ -63,7 +68,10 @@ class AzClock_DigitalClockSubPage extends SubPage {
         dateFormatExpanderRow.add_action(linksBox);
         dateFormatExpanderRow.add_row(dateFormatRow);
 
-        generalGroup.add(dateFormatExpanderRow);
+        dateFormatGroup.add(dateFormatExpanderRow);
+
+        let generalGroup = new Adw.PreferencesGroup();
+        this.add(generalGroup);
 
         let textAlignmentXRow = this.createComboRow(_("Alignment X"), 'Text_AlignmentX');
         generalGroup.add(textAlignmentXRow);
@@ -73,6 +81,34 @@ class AzClock_DigitalClockSubPage extends SubPage {
 
         let lineAlignmentRow = this.createComboRow(_("Line Alignment"), 'Text_LineAlignment');
         generalGroup.add(lineAlignmentRow);
+
+        let marginsExpanderRow = new Adw.ExpanderRow({
+            title: _('Margins'),
+        });
+        generalGroup.add(marginsExpanderRow);
+
+        let marginTopRow = this.createSpinRow(_("Top"), 'Element_Margin_Top', 0, 200);
+        marginsExpanderRow.add_row(marginTopRow);
+        let marginRightRow = this.createSpinRow(_("Right"), 'Element_Margin_Right', 0, 200);
+        marginsExpanderRow.add_row(marginRightRow);
+        let marginBottomRow = this.createSpinRow(_("Bottom"), 'Element_Margin_Bottom', 0, 200);
+        marginsExpanderRow.add_row(marginBottomRow);
+        let marginLeftRow = this.createSpinRow(_("Left"), 'Element_Margin_Left', 0, 200);
+        marginsExpanderRow.add_row(marginLeftRow);
+
+        let paddingExpanderRow = new Adw.ExpanderRow({
+            title: _('Padding'),
+        });
+        generalGroup.add(paddingExpanderRow);
+
+        let paddingTopRow = this.createSpinRow(_("Top"), 'Element_Padding_Top', 0, 200);
+        paddingExpanderRow.add_row(paddingTopRow);
+        let paddingRightRow = this.createSpinRow(_("Right"), 'Element_Padding_Right', 0, 200);
+        paddingExpanderRow.add_row(paddingRightRow);
+        let paddingBottomRow = this.createSpinRow(_("Bottom"), 'Element_Padding_Bottom', 0, 200);
+        paddingExpanderRow.add_row(paddingBottomRow);
+        let paddingLeftRow = this.createSpinRow(_("Left"), 'Element_Padding_Left', 0, 200);
+        paddingExpanderRow.add_row(paddingLeftRow);
 
         let textOptionsGroup = new Adw.PreferencesGroup({
             title: _("Text Style")
@@ -115,9 +151,42 @@ class AzClock_DigitalClockSubPage extends SubPage {
 
         let shadowExpanderRow = this.createShadowExpanderRow(_("Text Shadow"), 'Text_Shadow');
         textOptionsGroup.add(shadowExpanderRow);
+
+        let borderEnabled = this.getClockElementData('Text_BorderEnabled', 'bool');
+        let borderOptionsRow = new Adw.ExpanderRow({
+            title: _("Enable Border"),
+            show_enable_switch: true,
+            enable_expansion: borderEnabled
+        });
+        textOptionsGroup.add(borderOptionsRow);
+        borderOptionsRow.connect("notify::enable-expansion", (widget) => {
+            this.setClockElementData('Text_BorderEnabled', widget.enable_expansion);
+        });
+
+        let borderWidthRow = this.createSpinRow(_("Border Width"), 'Text_BorderWidth', 0, 15);
+        borderOptionsRow.add_row(borderWidthRow);
+        let borderColorRow = this.createColorRow(_("Border Color"), 'Text_BorderColor');
+        borderOptionsRow.add_row(borderColorRow);
+
+        let backgroundEnabled = this.getClockElementData('Text_BackgroundEnabled', 'bool');
+        let widgetBackgroundRow = new Adw.ExpanderRow({
+            title: _("Enable Background"),
+            show_enable_switch: true,
+            enable_expansion: backgroundEnabled
+        });
+        textOptionsGroup.add(widgetBackgroundRow);
+
+        widgetBackgroundRow.connect("notify::enable-expansion", (widget) => {
+            this.setClockElementData('Text_BackgroundEnabled', widget.enable_expansion);
+        });
+
+        let widgetBackgroundColorRow = this.createColorRow(_("Background Color"), 'Text_BackgroundColor');
+        widgetBackgroundRow.add_row(widgetBackgroundColorRow);
+        let borderRadiusRow = this.createSpinRow(_("Background Radius"), 'Text_BorderRadius', 0, 999);
+        widgetBackgroundRow.add_row(borderRadiusRow);
     }
 
-    createComboRow(title, setting){
+    createComboRow(title, setting) {
         const value = this.getClockElementData(setting);
         let stringList = new Gtk.StringList();
         stringList.append(_("Start"));
@@ -126,11 +195,11 @@ class AzClock_DigitalClockSubPage extends SubPage {
 
         let selectedValue = 0;
 
-        if(value === 'Start')
+        if (value === 'Start')
             selectedValue = 0;
-        else if(value === 'Center')
+        else if (value === 'Center')
             selectedValue = 1;
-        else if(value === 'End')
+        else if (value === 'End')
             selectedValue = 2;
 
         let comboRow = new Adw.ComboRow({

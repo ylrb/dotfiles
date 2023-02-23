@@ -37,6 +37,18 @@
                         'Name': 'Time Label',
                         'Element_Type': 'Digital_Clock',
 
+                        'Element_Margin_Top': '0',
+                        'Element_Margin_Left': '0',
+                        'Element_Margin_Bottom': '0',
+                        'Element_Margin_Right': '0',
+                        'Element_Padding_Top': '0',
+                        'Element_Padding_Left': '0',
+                        'Element_Padding_Bottom': '0',
+                        'Element_Padding_Right': '0',
+
+                        'TimeZoneOverrideEnabled': 'false',
+                        'TimeZoneOverride': 'UTC',
+
                         'Text_ShadowEnabled': 'true',
                         'Text_ShadowColor': 'black',
                         'Text_ShadowX': '2',
@@ -45,6 +57,12 @@
                         'Text_ShadowBlur': '4',
 
                         'Text_Color': 'white',
+                        'Text_BackgroundEnabled': 'false',
+                        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+                        'Text_BorderEnabled': 'false',
+                        'Text_BorderWidth': '0',
+                        'Text_BorderRadius': '20',
+                        'Text_BorderColor': 'black',
                         'Text_CustomFontEnabled': 'false',
                         'Text_CustomFontFamily': 'Cantarell',
                         'Text_Size': '64',
@@ -58,6 +76,18 @@
                         'Name': 'Date Label',
                         'Element_Type': 'Digital_Clock',
 
+                        'Element_Margin_Top': '0',
+                        'Element_Margin_Left': '0',
+                        'Element_Margin_Bottom': '0',
+                        'Element_Margin_Right': '0',
+                        'Element_Padding_Top': '0',
+                        'Element_Padding_Left': '0',
+                        'Element_Padding_Bottom': '0',
+                        'Element_Padding_Right': '0',
+
+                        'TimeZoneOverrideEnabled': 'false',
+                        'TimeZoneOverride': 'UTC',
+
                         'Text_ShadowEnabled': 'true',
                         'Text_ShadowColor': 'black',
                         'Text_ShadowX': '2',
@@ -66,6 +96,12 @@
                         'Text_ShadowBlur': '4',
 
                         'Text_Color': 'white',
+                        'Text_BackgroundEnabled': 'false',
+                        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+                        'Text_BorderEnabled': 'false',
+                        'Text_BorderWidth': '0',
+                        'Text_BorderRadius': '20',
+                        'Text_BorderColor': 'black',
                         'Text_CustomFontEnabled': 'false',
                         'Text_CustomFontFamily': 'Cantarell',
                         'Text_Size': '32',

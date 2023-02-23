@@ -72,3 +72,14 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 - [INSA VPN](https://extranet.cisr.fr/ressources/web-vpn/nouveau-vpn/client-anyconnect/Version_en_cours/anyconnect-linux.tar.gz)
   * requires launching script from its directory
+
+### Gnome extensions
+
+- Aylur's Widget
+- Circular Widgets
+- Clipboard Indicator
+- Desktop Clock
+- GTK Title Bar
+- Hide Keyboard Layour
+- Net Speed
+- Rounded Window Corners

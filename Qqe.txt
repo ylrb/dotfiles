@@ -181,6 +181,7 @@ patch
 pciutils
 perl
 perl-image-exiftool
+pinta
 polkit-gnome
 procps-ng
 protonvpn-gui
@@ -189,6 +190,7 @@ python-pip
 python-spotdl
 qgnomeplatform-qt5
 qgnomeplatform-qt6
+quadrapassel
 reiserfsprogs
 remmina
 rsync
@@ -206,6 +208,7 @@ systemd
 systemd-fsck-silent
 systemd-sysvcompat
 tar
+teensyduino
 texinfo
 thunderbird
 time

@@ -1,3 +1,6 @@
-start=9.591000
+start=2764.009000
+fullscreen=yes
 border=no
-sid=4
+sid=3
+sub-delay=-0.200000
+sub-visibility=no

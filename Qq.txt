@@ -114,6 +114,8 @@ dmraid
 dnsmasq
 dnssec-anchors
 dosfstools
+dotnet-host
+dotnet-runtime
 double-conversion
 doxygen
 duktape
@@ -260,6 +262,7 @@ gst-plugins-good
 gstreamer
 gthumb
 gtk-update-icon-cache
+gtk2
 gtk3
 gtk4
 gtkmm3
@@ -510,6 +513,7 @@ libjxl
 libkate
 libksba
 liblangtag
+liblc3
 libldac
 libldap
 liblqr
@@ -573,6 +577,7 @@ libpipeline
 libplacebo
 libplist
 libpng
+libpng12
 libportal
 libportal-gtk3
 libportal-gtk4
@@ -627,6 +632,7 @@ libupnp
 liburcu
 liburing
 libusb
+libusb-compat
 libusbmuxd
 libuv
 libva
@@ -691,6 +697,8 @@ linux-firmware-whence
 linux515
 llvm
 llvm-libs
+llvm14
+llvm14-libs
 lm_sensors
 lmdb
 logrotate
@@ -766,7 +774,6 @@ ndctl
 neofetch
 neon
 neovim
-nerd-fonts-noto-sans-mono
 net-tools
 nettle
 networkmanager
@@ -853,6 +860,7 @@ perl-www-robotrules
 perl-xml-parser
 perl-xml-writer
 pinentry
+pinta
 pipewire
 pipewire-alsa
 pipewire-audio
@@ -906,6 +914,7 @@ python-dnspython
 python-docopt
 python-docutils
 python-fastapi
+python-fastjsonschema
 python-future
 python-gnupg
 python-gobject
@@ -927,8 +936,10 @@ python-keyring
 python-keyutils
 python-lxml
 python-manjaro-sdk
+python-markdown-it-py
 python-markupsafe
 python-material-color-utilities
+python-mdurl
 python-more-itertools
 python-mutagen
 python-nautilus
@@ -950,6 +961,7 @@ python-pydantic
 python-pygments
 python-pyopenssl
 python-pyparsing
+python-pyproject-hooks
 python-pytube
 python-pytz
 python-pyxdg
@@ -986,6 +998,7 @@ python-tomli
 python-tqdm
 python-trove-classifiers
 python-typing_extensions
+python-uc-micro-py
 python-unidecode
 python-urllib3
 python-uvloop
@@ -1012,6 +1025,7 @@ qt6-base
 qt6-declarative
 qt6-translations
 qt6-wayland
+quadrapassel
 quazip-qt5
 raptor
 rasqal
@@ -1106,6 +1120,7 @@ shiboken6
 simplescreenrecorder
 slang
 smbclient
+sndio
 sof-firmware
 sord
 sound-theme-freedesktop
@@ -1135,12 +1150,14 @@ talloc
 tar
 tcl
 tdb
+teensyduino
 tepl
 tevent
 texinfo
 thin-provisioning-tools
 thunderbird
 time
+tinycompress
 tinyxml
 tk
 totem-pl-parser
@@ -1156,6 +1173,7 @@ ttf-hack
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+ttf-noto-nerd
 twolame
 tzdata
 uchardet

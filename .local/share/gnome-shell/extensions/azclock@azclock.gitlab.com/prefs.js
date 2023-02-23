@@ -1,7 +1,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {Adw, Gdk, GdkPixbuf, Gio, GLib, GObject, Gtk} = imports.gi;
+const { Adw, Gdk, GdkPixbuf, Gio, GLib, GObject, Gtk } = imports.gi;
 const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const Utils = Me.imports.utils;
 const _ = Gettext.gettext;
@@ -9,6 +9,7 @@ const _ = Gettext.gettext;
 const { AboutPage } = Me.imports.settings.AboutPage;
 const { DigitalClockSubPage } = Me.imports.settings.DigitalClockSubPage;
 const { AnalogClockSubPage } = Me.imports.settings.AnalogClockSubPage;
+const { TextLabelSubPage } = Me.imports.settings.TextLabelSubPage;
 const { WidgetSubPage } = Me.imports.settings.WidgetSubPage;
 
 function init() {
@@ -17,7 +18,7 @@ function init() {
 
 function fillPreferencesWindow(window) {
     let iconTheme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default());
-    if(!iconTheme.get_search_path().includes(Me.path + "/media"))
+    if (!iconTheme.get_search_path().includes(Me.path + "/media"))
         iconTheme.add_search_path(Me.path + "/media");
 
     const settings = ExtensionUtils.getSettings();
@@ -54,7 +55,7 @@ class azClock_HomePage extends Adw.PreferencesPage {
             let dialog = new AddWidgetsDialog(this._settings, this);
             dialog.show();
             dialog.connect('response', (_w, response) => {
-                if(response === Gtk.ResponseType.APPLY) {
+                if (response === Gtk.ResponseType.APPLY) {
                     this.createRows();
                     dialog.destroy();
                 }
@@ -67,9 +68,9 @@ class azClock_HomePage extends Adw.PreferencesPage {
     }
 
 
-    createRows(preserveExpanded){
+    createRows(preserveExpanded) {
         let expandedRows = [];
-        for(let row of this.widgetRows){
+        for (let row of this.widgetRows) {
             expandedRows.push(row.expanded);
             this.clocksGroup.remove(row);
             row = null;
@@ -78,14 +79,14 @@ class azClock_HomePage extends Adw.PreferencesPage {
 
         const widgetsData = this._settings.get_value('widget-data').deep_unpack();
 
-        for(let i = 0; i < widgetsData.length; i ++){
+        for (let i = 0; i < widgetsData.length; i++) {
             const widgetRow = this._createwidgetRow(i);
             widgetRow.expanded = preserveExpanded ? expandedRows[i] : false;
             this.clocksGroup.add(widgetRow);
         }
     }
 
-    _createwidgetRow(widgetIndex){
+    _createwidgetRow(widgetIndex) {
         const widgetsData = this._settings.get_value('widget-data').deep_unpack();
         const widgetData = widgetsData[widgetIndex];
         const elementData = widgetData[0];
@@ -98,7 +99,7 @@ class azClock_HomePage extends Adw.PreferencesPage {
         widgetRow.use_markup = true;
 
         widgetRow.connect('drag-drop-prepare', () => {
-            for(let row of this.widgetRows){
+            for (let row of this.widgetRows) {
                 row.expanded = false;
             }
         });
@@ -126,16 +127,16 @@ class azClock_HomePage extends Adw.PreferencesPage {
 
 var WidgetRow = GObject.registerClass({
     Properties: {
-        'widget-index':  GObject.ParamSpec.int(
+        'widget-index': GObject.ParamSpec.int(
             'widget-index', 'widget-index', 'widget-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
     },
     Signals: {
         'drag-drop-done': { param_types: [GObject.TYPE_UINT, GObject.TYPE_UINT] },
-        'drag-drop-prepare': { },
+        'drag-drop-prepare': {},
     },
-},class AzClock_WidgetRow extends Adw.ExpanderRow {
+}, class AzClock_WidgetRow extends Adw.ExpanderRow {
     _init(settings, homePage, params) {
         super._init(params);
 
@@ -211,7 +212,7 @@ var WidgetRow = GObject.registerClass({
             gdkDrop.read_value_async(AzClock_WidgetRow, 1, null, () => gdkDrop.finish(Gdk.DragAction.MOVE));
 
             //The drag row hasn't moved
-            if(dragRowStartIndex === dragRowNewIndex)
+            if (dragRowStartIndex === dragRowNewIndex)
                 return true;
 
             this.emit('drag-drop-done', dragRowStartIndex, dragRowNewIndex);
@@ -244,7 +245,7 @@ var WidgetRow = GObject.registerClass({
                 modal: true
             });
             dialog.connect('response', (widget, response) => {
-                if(response == Gtk.ResponseType.YES){
+                if (response == Gtk.ResponseType.YES) {
                     const widgetData = this._settings.get_value('widget-data').deep_unpack();
                     widgetData.splice(this.widget_index, 1);
                     this._settings.set_value('changed-data', new GLib.Variant('a{ss}', {
@@ -289,7 +290,7 @@ var WidgetRow = GObject.registerClass({
             });
             dialog.show();
             dialog.connect('response', (_w, response) => {
-                if(response === Gtk.ResponseType.APPLY) {
+                if (response === Gtk.ResponseType.APPLY) {
                     this._homePage.createRows(true);
                     dialog.destroy();
                 }
@@ -298,7 +299,7 @@ var WidgetRow = GObject.registerClass({
         this.add_action(addButton);
 
         //Skip first element (widgetdata) in array.
-        for(let i = 1; i < widgetData.length; i ++){
+        for (let i = 1; i < widgetData.length; i++) {
             let row = new ElementRow(this._settings, {
                 title: widgetData[i]['Name'] ? widgetData[i]['Name'] : _("Element %d").format(i),
                 widget_title: elementData['Name'],
@@ -308,7 +309,7 @@ var WidgetRow = GObject.registerClass({
             });
             this.add_row(row);
             row.connect('response', (_w, response) => {
-                if(response === Gtk.ResponseType.DELETE_EVENT)
+                if (response === Gtk.ResponseType.DELETE_EVENT)
                     this._homePage.createRows(true);
             });
 
@@ -334,15 +335,22 @@ var WidgetRow = GObject.registerClass({
 
             row.connect('activated', () => {
                 let settingPage;
-                if(widgetData[i]['Element_Type'] === 'Digital_Clock'){
+                if (widgetData[i]['Element_Type'] === 'Digital_Clock') {
                     settingPage = new DigitalClockSubPage(this._settings, {
                         title: _(row.title),
                         widget_index: this.widget_index,
                         element_index: i,
                     });
                 }
-                else if(widgetData[i]['Element_Type'] === 'Analog_Clock'){
+                else if (widgetData[i]['Element_Type'] === 'Analog_Clock') {
                     settingPage = new AnalogClockSubPage(this._settings, {
+                        title: _(row.title),
+                        widget_index: this.widget_index,
+                        element_index: i,
+                    });
+                }
+                else if (widgetData[i]['Element_Type'] === 'Text_Label') {
+                    settingPage = new TextLabelSubPage(this._settings, {
                         title: _(row.title),
                         widget_index: this.widget_index,
                         element_index: i,
@@ -355,7 +363,7 @@ var WidgetRow = GObject.registerClass({
         }
     }
 
-    createDragRow(alloc){
+    createDragRow(alloc) {
         let dragWidget = new Gtk.ListBox();
         dragWidget.set_size_request(alloc.width, -1);
 
@@ -369,32 +377,31 @@ var WidgetRow = GObject.registerClass({
 
 var ElementRow = GObject.registerClass({
     Properties: {
-        'widget-title':  GObject.ParamSpec.string(
+        'widget-title': GObject.ParamSpec.string(
             'widget-title', 'widget-title', 'widget-title',
             GObject.ParamFlags.READWRITE,
             ''),
-        'widget-index':  GObject.ParamSpec.int(
+        'widget-index': GObject.ParamSpec.int(
             'widget-index', 'widget-index', 'widget-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
-        'element-index':  GObject.ParamSpec.int(
+        'element-index': GObject.ParamSpec.int(
             'element-index', 'element-index', 'element-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
-        'last-element-index':  GObject.ParamSpec.int(
+        'last-element-index': GObject.ParamSpec.int(
             'last-element-index', 'last-element-index', 'last-element-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
-        'first-element-index':  GObject.ParamSpec.int(
+        'first-element-index': GObject.ParamSpec.int(
             'first-element-index', 'first-element-index', 'first-element-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 1),
     },
     Signals: {
-        'response': { param_types: [GObject.TYPE_INT]},
+        'response': { param_types: [GObject.TYPE_INT] },
     },
-},
-class azClock_ElementRow extends Adw.ActionRow {
+}, class azClock_ElementRow extends Adw.ActionRow {
     _init(settings, params) {
         super._init({
             activatable: true,
@@ -443,7 +450,7 @@ class azClock_ElementRow extends Adw.ActionRow {
         deleteButton.connect('clicked', (widget) => {
             let dialog = new Gtk.MessageDialog({
                 text: "<b>" + _("Delete %s?").format(this.title) + '</b>',
-                secondary_text: _("Please confirm you wish to delete this element from %s.".format(this.widget_title)),
+                secondary_text: _("Please confirm you wish to delete this element from %s.").format(this.widget_title),
                 use_markup: true,
                 buttons: Gtk.ButtonsType.YES_NO,
                 message_type: Gtk.MessageType.WARNING,
@@ -451,7 +458,7 @@ class azClock_ElementRow extends Adw.ActionRow {
                 modal: true
             });
             dialog.connect('response', (widget, response) => {
-                if(response == Gtk.ResponseType.YES){
+                if (response == Gtk.ResponseType.YES) {
                     const data = settings.get_value('widget-data').deep_unpack();
                     data[this.widget_index].splice(this.element_index, 1);
 
@@ -483,23 +490,23 @@ class azClock_ElementRow extends Adw.ActionRow {
 
 var DialogWindow = GObject.registerClass({
     Properties: {
-        'widget-index':  GObject.ParamSpec.int(
+        'widget-index': GObject.ParamSpec.int(
             'widget-index', 'widget-index', 'widget-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
-        'element-index':  GObject.ParamSpec.int(
+        'element-index': GObject.ParamSpec.int(
             'element-index', 'element-index', 'element-index',
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
-        'widget-title':  GObject.ParamSpec.string(
+        'widget-title': GObject.ParamSpec.string(
             'widget-title', 'widget-title', 'widget-title',
             GObject.ParamFlags.READWRITE,
             ''),
     },
     Signals: {
-        'response': { param_types: [GObject.TYPE_INT]},
+        'response': { param_types: [GObject.TYPE_INT] },
     },
-},class AzClock_DialogWindow extends Adw.PreferencesWindow {
+}, class AzClock_DialogWindow extends Adw.PreferencesWindow {
     _init(title, parent, params) {
         super._init({
             title: title,
@@ -536,12 +543,12 @@ class AzClock_AddWidgetsDialog extends DialogWindow {
         this.cloneGroup.use_markup = true;
         this.page.add(this.cloneGroup);
 
-        for(let i = 0; i < data.length; i++){
+        for (let i = 0; i < data.length; i++) {
             this.cloneGroup.add(this.addPresetWidget(`${data[i][0]['Name']}`, data[i]));
         }
     }
 
-    addPresetWidget(title, widgetType, subtitle){
+    addPresetWidget(title, widgetType, subtitle) {
         let addButton = new Gtk.Button({
             icon_name: 'list-add-symbolic',
             valign: Gtk.Align.CENTER,
@@ -549,11 +556,11 @@ class AzClock_AddWidgetsDialog extends DialogWindow {
 
         addButton.connect('clicked', () => {
             const data = this._settings.get_value('widget-data').deep_unpack();
-            if(widgetType === WidgetType.DIGITAL)
+            if (widgetType === WidgetType.DIGITAL)
                 data.push(Utils.DigitalClockSettings);
-            else if(widgetType === WidgetType.ANALOG)
+            else if (widgetType === WidgetType.ANALOG)
                 data.push(Utils.AnalogClockSettings);
-            else if(widgetType === WidgetType.CUSTOM)
+            else if (widgetType === WidgetType.CUSTOM)
                 data.push(Utils.EmptyWidgetSettings);
             else
                 data.push(widgetType);
@@ -589,6 +596,7 @@ class AzClock_AddElementsDialog extends DialogWindow {
         this.pageGroup.title = _('Preset Elements');
         this.pageGroup.add(this.addPresetWidget(_('Date Label'), ElementType.DATE));
         this.pageGroup.add(this.addPresetWidget(_('Time Label'), ElementType.TIME));
+        this.pageGroup.add(this.addPresetWidget(_('Text Label'), ElementType.TEXT));
         this.pageGroup.add(this.addPresetWidget(_('Analog Clock'), ElementType.ANALOG));
 
         const data = this._settings.get_value('widget-data').deep_unpack();
@@ -598,14 +606,14 @@ class AzClock_AddElementsDialog extends DialogWindow {
         this.cloneGroup.use_markup = true;
         this.page.add(this.cloneGroup);
 
-        for(let i = 0; i < data.length; i++){
-            for(let j = 1; j < data[i].length; j++){
+        for (let i = 0; i < data.length; i++) {
+            for (let j = 1; j < data[i].length; j++) {
                 this.cloneGroup.add(this.addPresetWidget(`${data[i][j]['Name']} <span font-size='small'><i>(${data[i][0]['Name']})</i></span>`, data[i][j]));
             }
         }
     }
 
-    addPresetWidget(title, widgetType, subtitle){
+    addPresetWidget(title, widgetType, subtitle) {
         let addButton = new Gtk.Button({
             icon_name: 'list-add-symbolic',
             valign: Gtk.Align.CENTER,
@@ -613,11 +621,13 @@ class AzClock_AddElementsDialog extends DialogWindow {
 
         addButton.connect('clicked', () => {
             const data = this._settings.get_value('widget-data').deep_unpack();
-            if(widgetType === ElementType.DATE)
+            if (widgetType === ElementType.DATE)
                 data[this.widget_index].push(Utils.DigitalClockSettings[2]);
-            else if(widgetType === ElementType.TIME)
+            else if (widgetType === ElementType.TIME)
                 data[this.widget_index].push(Utils.DigitalClockSettings[1])
-            else if(widgetType === ElementType.ANALOG)
+            else if (widgetType === ElementType.TEXT)
+                data[this.widget_index].push(Utils.TextLabel)
+            else if (widgetType === ElementType.ANALOG)
                 data[this.widget_index].push(Utils.AnalogClockSettings[1]);
             else
                 data[this.widget_index].push(widgetType);
@@ -652,4 +662,5 @@ const ElementType = {
     DATE: 0,
     TIME: 1,
     ANALOG: 2,
+    TEXT: 3,
 }

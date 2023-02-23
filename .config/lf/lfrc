@@ -26,7 +26,7 @@ map gn cd ~/Documents/日本語/
 map gs cd /run/media/yl/T7/
 map gm cd /run/media/yl/
 map gc cd ~/.config/
-map gp cd ~/Documents/TC/A.\ Pack\ Parrain/3TC/Semestre\ 1/
+map gp cd ~/Documents/TC/A.\ Pack\ Parrain/3TC/Semestre\ 2/
 
 cmd mountSSD ${{udisksctl mount -b /dev/sda1}}
 map ms mountSSD

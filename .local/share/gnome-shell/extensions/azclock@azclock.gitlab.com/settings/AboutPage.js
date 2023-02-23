@@ -1,12 +1,11 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {Adw, Gio, GLib, GObject, Gtk} = imports.gi;
+const { Adw, Gio, GLib, GObject, Gtk } = imports.gi;
 const Gettext = imports.gettext.domain(Me.metadata['gettext-domain']);
 const _ = Gettext.gettext;
 
 const PAYPAL_LINK = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=53CWA7NR743WC&item_name=Support+${Me.metadata.name}&source=url`;
-const PROJECT_TITLE = _('Desktop Clock');
 const PROJECT_DESCRIPTION = _('Add a clock to the desktop!');
 const PROJECT_IMAGE = 'azclock-logo';
 const SCHEMA_PATH = '/org/gnome/shell/extensions/azclock/';
@@ -35,7 +34,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         });
 
         let projectTitleLabel = new Gtk.Label({
-            label: _(PROJECT_TITLE),
+            label: _('Desktop Clock'),
             css_classes: ['title-1'],
             vexpand: true,
             valign: Gtk.Align.FILL
@@ -58,7 +57,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         let infoGroup = new Adw.PreferencesGroup();
 
         let projectVersionRow = new Adw.ActionRow({
-            title: `${PROJECT_TITLE} ${_('Version')}`,
+            title: _('Desktop Clock Version'),
         });
         projectVersionRow.add_suffix(new Gtk.Label({
             label: Me.metadata.version.toString(),
@@ -66,7 +65,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         }));
         infoGroup.add(projectVersionRow);
 
-        if(Me.metadata.commit){
+        if (Me.metadata.commit) {
             let commitRow = new Adw.ActionRow({
                 title: _('Git Commit')
             });
@@ -108,7 +107,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         }));
         infoGroup.add(sessionTypeRow);
 
-        let gitlabRow = this._createLinkRow(`${PROJECT_TITLE} ${_('GitLab')}`, Me.metadata.url);
+        let gitlabRow = this._createLinkRow(_('Desktop Clock GitLab'), Me.metadata.url);
         infoGroup.add(gitlabRow);
 
         let donateRow = this._createLinkRow(_('Donate via PayPal'), PAYPAL_LINK);
@@ -120,7 +119,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         //Save/Load Settings----------------------------------------------------------
         let settingsGroup = new Adw.PreferencesGroup();
         let settingsRow = new Adw.ActionRow({
-            title: `${PROJECT_TITLE} ${_('Settings')}`,
+            title: _('Desktop Clock Settings'),
         });
         let loadButton = new Gtk.Button({
             label: _('Load'),
@@ -128,13 +127,13 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         });
         loadButton.connect('clicked', () => {
             this._showFileChooser(
-                `${_('Load')} ${_('Settings')}`,
+                _('Load Settings'),
                 { action: Gtk.FileChooserAction.OPEN },
                 "_Open",
                 filename => {
                     if (filename && GLib.file_test(filename, GLib.FileTest.EXISTS)) {
                         let settingsFile = Gio.File.new_for_path(filename);
-                        let [ success_, pid, stdin, stdout, stderr] =
+                        let [success_, pid, stdin, stdout, stderr] =
                             GLib.spawn_async_with_pipes(
                                 null,
                                 ['dconf', 'load', SCHEMA_PATH],
@@ -158,8 +157,8 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         });
         saveButton.connect('clicked', () => {
             this._showFileChooser(
-                `${_('Save')} ${_('Settings')}`,
-                { action: Gtk.FileChooserAction.SAVE},
+                _('Save Settings'),
+                { action: Gtk.FileChooserAction.SAVE },
                 "_Save",
                 filename => {
                     let file = Gio.file_new_for_path(filename);
@@ -193,7 +192,7 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         this.add(gnuSoftwareGroup);
     }
 
-    _createLinkRow(title, uri){
+    _createLinkRow(title, uri) {
         let image = new Gtk.Image({
             icon_name: 'adw-external-link-symbolic',
             valign: Gtk.Align.CENTER
@@ -221,10 +220,10 @@ class AzClock_AboutPage extends Adw.PreferencesPage {
         dialog.add_button(acceptBtn, Gtk.ResponseType.ACCEPT);
 
         dialog.connect("response", (self, response) => {
-            if(response === Gtk.ResponseType.ACCEPT){
+            if (response === Gtk.ResponseType.ACCEPT) {
                 try {
                     acceptHandler(dialog.get_file().get_path());
-                } catch(e) {
+                } catch (e) {
                     log('DesktopClock - Filechooser error: ' + e);
                 }
             }

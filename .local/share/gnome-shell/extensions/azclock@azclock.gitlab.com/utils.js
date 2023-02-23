@@ -3,41 +3,43 @@ const { GLib } = imports.gi;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-function unpackData(settings){
+function unpackData(settings) {
     return settings.get_value('widget-data').deep_unpack();
 }
 
-function getData(data, widgetIndex, elementIndex, elementKey, parseType){
+function getData(data, widgetIndex, elementIndex, elementKey, parseType) {
     const desktopWidgets = data;
 
     const clockData = desktopWidgets[widgetIndex];
     const element = clockData[elementIndex][elementKey];
 
-    if(!parseType)
+    if (!parseType)
         return element;
-    else if(parseType === 'int')
-        return parseInt(element);
-    else if(parseType === 'bool')
+    else if (parseType === 'int')
+        return parseInt(element) || 0;
+    else if (parseType === 'float')
+        return parseFloat(element) || 0;
+    else if (parseType === 'bool')
         return element === 'true';
-    else if(parseType === 'pango_align'){
-        if(element === 'Start')
-            return imports.gi.Pango.Alignment.LEFT;
-        else if(element === 'Center')
-            return imports.gi.Pango.Alignment.CENTER;
-        else if(element === 'End')
-            return imports.gi.Pango.Alignment.RIGHT;
+    else if (parseType === 'align') {
+        if (element === 'Start')
+            return 'left';
+        else if (element === 'Center')
+            return 'center';
+        else if (element === 'End')
+            return 'right';
     }
-    else if(parseType === 'clutter_align'){
-        if(element === 'Start')
+    else if (parseType === 'clutter_align') {
+        if (element === 'Start')
             return imports.gi.Clutter.ActorAlign.START;
-        else if(element === 'Center')
+        else if (element === 'Center')
             return imports.gi.Clutter.ActorAlign.CENTER;
-        else if(element === 'End')
+        else if (element === 'End')
             return imports.gi.Clutter.ActorAlign.END;
     }
 }
 
-function setData(data, widgetIndex, elementIndex, elementKey, newValue){
+function setData(data, widgetIndex, elementIndex, elementKey, newValue) {
     const settings = ExtensionUtils.getSettings();
     const desktopWidgets = data;
 
@@ -72,6 +74,18 @@ var DigitalClockSettings = [
         'Name': 'Time Label',
         'Element_Type': 'Digital_Clock',
 
+        'Element_Margin_Top': '0',
+        'Element_Margin_Left': '0',
+        'Element_Margin_Bottom': '0',
+        'Element_Margin_Right': '0',
+        'Element_Padding_Top': '0',
+        'Element_Padding_Left': '0',
+        'Element_Padding_Bottom': '0',
+        'Element_Padding_Right': '0',
+
+        'TimeZoneOverrideEnabled': 'false',
+        'TimeZoneOverride': 'UTC',
+
         'Text_ShadowEnabled': 'true',
         'Text_ShadowColor': 'black',
         'Text_ShadowX': '2',
@@ -80,6 +94,12 @@ var DigitalClockSettings = [
         'Text_ShadowBlur': '4',
 
         'Text_Color': 'white',
+        'Text_BackgroundEnabled': 'false',
+        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+        'Text_BorderEnabled': 'false',
+        'Text_BorderWidth': '0',
+        'Text_BorderRadius': '20',
+        'Text_BorderColor': 'black',
         'Text_CustomFontEnabled': 'false',
         'Text_CustomFontFamily': 'Cantarell',
         'Text_Size': '64',
@@ -93,6 +113,19 @@ var DigitalClockSettings = [
         'Name': 'Date Label',
         'Element_Type': 'Digital_Clock',
 
+
+        'Element_Margin_Top': '0',
+        'Element_Margin_Left': '0',
+        'Element_Margin_Bottom': '0',
+        'Element_Margin_Right': '0',
+        'Element_Padding_Top': '0',
+        'Element_Padding_Left': '0',
+        'Element_Padding_Bottom': '0',
+        'Element_Padding_Right': '0',
+
+        'TimeZoneOverrideEnabled': 'false',
+        'TimeZoneOverride': 'UTC',
+
         'Text_ShadowEnabled': 'true',
         'Text_ShadowColor': 'black',
         'Text_ShadowX': '2',
@@ -101,6 +134,12 @@ var DigitalClockSettings = [
         'Text_ShadowBlur': '4',
 
         'Text_Color': 'white',
+        'Text_BackgroundEnabled': 'false',
+        'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+        'Text_BorderEnabled': 'false',
+        'Text_BorderWidth': '0',
+        'Text_BorderRadius': '20',
+        'Text_BorderColor': 'black',
         'Text_CustomFontEnabled': 'false',
         'Text_CustomFontFamily': 'Cantarell',
         'Text_Size': '32',
@@ -131,9 +170,17 @@ var AnalogClockSettings = [
         'Box_Spacing': '8',
         'Box_Padding': '25',
         'Box_VerticalLayout': 'true'
-    },{
+    }, {
         'Name': 'Analog Clock',
         'Element_Type': 'Analog_Clock',
+
+        'Element_Margin_Top': '0',
+        'Element_Margin_Left': '0',
+        'Element_Margin_Bottom': '0',
+        'Element_Margin_Right': '0',
+
+        'TimeZoneOverrideEnabled': 'false',
+        'TimeZoneOverride': 'UTC',
 
         'Clock_Size': '300',
 
@@ -197,6 +244,44 @@ var AnalogClockSettings = [
         'HourHand_ShadowBlur': '3'
     }
 ];
+
+var TextLabel = {
+    'Name': 'Text Label',
+    'Element_Type': 'Text_Label',
+
+    'Element_Margin_Top': '0',
+    'Element_Margin_Left': '0',
+    'Element_Margin_Bottom': '0',
+    'Element_Margin_Right': '0',
+    'Element_Padding_Top': '0',
+    'Element_Padding_Left': '0',
+    'Element_Padding_Bottom': '0',
+    'Element_Padding_Right': '0',
+
+    'Text_ShadowEnabled': 'true',
+    'Text_ShadowColor': 'black',
+    'Text_ShadowX': '2',
+    'Text_ShadowY': '2',
+    'Text_ShadowSpread': '0',
+    'Text_ShadowBlur': '4',
+
+    'Text_Color': 'white',
+    'Text_BackgroundEnabled': 'false',
+    'Text_BackgroundColor': 'rgba(0, 0, 0, .2)',
+    'Text_BorderEnabled': 'false',
+    'Text_BorderWidth': '0',
+    'Text_BorderRadius': '20',
+    'Text_BorderColor': 'black',
+    'Text_CustomFontEnabled': 'false',
+    'Text_CustomFontFamily': 'Cantarell',
+    'Text_Size': '64',
+    'Text_Text': 'Text',
+
+    'Text_AlignmentX': 'Center',
+    'Text_AlignmentY': 'Center',
+    'Text_LineAlignment': 'Center'
+}
+
 
 var EmptyWidgetSettings = [
     {
