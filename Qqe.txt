@@ -112,7 +112,6 @@ jfsutils
 jq
 keepassxc
 kitty
-krita
 less
 lf
 lib32-libva-vdpau-driver
@@ -168,6 +167,7 @@ npm
 ntfs-3g
 ntp
 numlockx
+obsidian
 ookla-speedtest-bin
 openbsd-netcat
 openresolv
@@ -203,6 +203,7 @@ sof-firmware
 spectre-meltdown-checker
 sudo
 sushi
+syncthing
 sysfsutils
 systemd
 systemd-fsck-silent

@@ -67,7 +67,6 @@ ca-certificates-utils
 cairo
 cairomm
 cantarell-fonts
-cdparanoia
 chromaprint
 cifs-utils
 ckbcomp
@@ -124,6 +123,7 @@ e2fsprogs
 ecryptfs-utils
 efibootmgr
 efivar
+electron21
 elinks
 enchant
 evince
@@ -247,7 +247,6 @@ grub-btrfs
 grub-theme-manjaro
 gsettings-desktop-schemas
 gsfonts
-gsl
 gsm
 gsound
 gspell
@@ -256,7 +255,6 @@ gssproxy
 gst-plugin-gtk
 gst-plugins-bad
 gst-plugins-bad-libs
-gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gstreamer
@@ -326,24 +324,15 @@ json-glib
 jsoncpp
 kauth
 kbd
-kcompletion
-kconfig
 kcoreaddons
-kcrash
 keepassxc
 keyutils
-kguiaddons
-ki18n
 kitemmodels
-kitemviews
 kitty
 kitty-shell-integration
 kitty-terminfo
 kmod
 krb5
-krita
-kwidgetsaddons
-kwindowsystem
 kyotocabinet
 l-smash
 ladspa
@@ -794,6 +783,7 @@ ntfs-3g
 ntp
 numactl
 numlockx
+obsidian
 ocl-icd
 oniguruma
 ookla-speedtest-bin
@@ -1016,7 +1006,6 @@ qpdf
 qrencode
 qt5-base
 qt5-declarative
-qt5-multimedia
 qt5-svg
 qt5-translations
 qt5-wayland
@@ -1026,10 +1015,10 @@ qt6-declarative
 qt6-translations
 qt6-wayland
 quadrapassel
-quazip-qt5
 raptor
 rasqal
 rav1e
+re2
 readline
 redland
 reiserfsprogs
@@ -1120,6 +1109,7 @@ shiboken6
 simplescreenrecorder
 slang
 smbclient
+snappy
 sndio
 sof-firmware
 sord
@@ -1140,6 +1130,7 @@ suil
 sushi
 svt-av1
 svt-hevc
+syncthing
 sysfsutils
 systemd
 systemd-fsck-silent
