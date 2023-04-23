@@ -1,7 +1,8 @@
-const { GLib } = imports.gi;
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsdoc/require-jsdoc */
+const {GLib} = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
 
 function unpackData(settings) {
     return settings.get_value('widget-data').deep_unpack();
@@ -13,23 +14,22 @@ function getData(data, widgetIndex, elementIndex, elementKey, parseType) {
     const clockData = desktopWidgets[widgetIndex];
     const element = clockData[elementIndex][elementKey];
 
-    if (!parseType)
+    if (!parseType) {
         return element;
-    else if (parseType === 'int')
+    } else if (parseType === 'int') {
         return parseInt(element) || 0;
-    else if (parseType === 'float')
+    } else if (parseType === 'float') {
         return parseFloat(element) || 0;
-    else if (parseType === 'bool')
+    } else if (parseType === 'bool') {
         return element === 'true';
-    else if (parseType === 'align') {
+    } else if (parseType === 'align') {
         if (element === 'Start')
             return 'left';
         else if (element === 'Center')
             return 'center';
         else if (element === 'End')
             return 'right';
-    }
-    else if (parseType === 'clutter_align') {
+    } else if (parseType === 'clutter_align') {
         if (element === 'Start')
             return imports.gi.Clutter.ActorAlign.START;
         else if (element === 'Center')
@@ -43,7 +43,7 @@ function setData(data, widgetIndex, elementIndex, elementKey, newValue) {
     const settings = ExtensionUtils.getSettings();
     const desktopWidgets = data;
 
-    let clockData = desktopWidgets[widgetIndex];
+    const clockData = desktopWidgets[widgetIndex];
     clockData[elementIndex][elementKey] = newValue.toString();
 
     desktopWidgets.splice(widgetIndex, 1, clockData);
@@ -280,8 +280,7 @@ var TextLabel = {
     'Text_AlignmentX': 'Center',
     'Text_AlignmentY': 'Center',
     'Text_LineAlignment': 'Center'
-}
-
+};
 
 var EmptyWidgetSettings = [
     {

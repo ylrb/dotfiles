@@ -72,8 +72,8 @@ class WorkspacesIndicator extends St.BoxLayout {
                     y_align: Clutter.ActorAlign.CENTER,
                     style_class: 'system-status-icon',
                     gicon : active ?
-                        Gio.icon_new_for_string(Me.dir.get_path()+'/media/workspace-active-symbolic.svg') :
-                        Gio.icon_new_for_string(Me.dir.get_path()+'/media/workspace-symbolic.svg')
+                        Gio.icon_new_for_string(Me.path+'/media/workspace-active-symbolic.svg') :
+                        Gio.icon_new_for_string(Me.path+'/media/workspace-symbolic.svg')
                 }))
 
 			ws_btn.connect('clicked', () => this._toggle_ws(index) );
@@ -109,7 +109,7 @@ var Extension = class Extension {
 
     disable() {
     	this._panelButton.destroy();
-		this._panelButton = null;
+        this._panelButton = null;
         this._settings = null;
     }
 
@@ -118,7 +118,9 @@ var Extension = class Extension {
             this._panelButton.destroy();
             this._panelButton = null;
         }
-        this._panelButton = new WorkspacesIndicator(this._settings);
+        this._panelButton = new St.Bin({
+            child: new WorkspacesIndicator(this._settings)
+        })
 
         let pos    = this._settings.get_int('workspace-indicator-position');
         let offset = this._settings.get_int('workspace-indicator-offset');

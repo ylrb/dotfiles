@@ -169,6 +169,7 @@ ntp
 numlockx
 obsidian
 ookla-speedtest-bin
+openasar-git
 openbsd-netcat
 openresolv
 os-prober

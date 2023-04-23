@@ -28,6 +28,7 @@ appstream-glib
 archlinux-appstream-data
 archlinux-keyring
 argon2
+asar
 at-spi2-core
 atkmm
 atool
@@ -123,6 +124,7 @@ e2fsprogs
 ecryptfs-utils
 efibootmgr
 efivar
+electron
 electron21
 elinks
 enchant
@@ -422,6 +424,7 @@ libbsd
 libbytesize
 libcaca
 libcamera
+libcamera-ipa
 libcanberra
 libcap
 libcap-ng
@@ -440,6 +443,7 @@ libdbusmenu-gtk3
 libdc1394
 libdca
 libde265
+libdecor
 libdmapsharing
 libdrm
 libdv
@@ -466,6 +470,7 @@ libgdata
 libgdm
 libgee
 libgexiv2
+libgirepository
 libgit2
 libglvnd
 libgme
@@ -527,6 +532,7 @@ libmpdclient
 libmspack
 libmspub
 libmwaw
+libmysofa
 libnautilus-extension
 libndp
 libnet
@@ -563,6 +569,7 @@ libpgm
 libphonenumber
 libpinyin
 libpipeline
+libpipewire
 libplacebo
 libplist
 libpng
@@ -615,6 +622,8 @@ libtiff
 libtirpc
 libtommath
 libtool
+libtraceevent
+libtracefs
 libunistring
 libunwind
 libupnp
@@ -788,6 +797,7 @@ ocl-icd
 oniguruma
 ookla-speedtest-bin
 openal
+openasar-git
 openbsd-netcat
 opencc
 opencolorio
@@ -801,6 +811,7 @@ openresolv
 openshadinglanguage
 openssh
 openssl
+openssl-1.1
 openvpn
 opus
 orc
@@ -1197,6 +1208,7 @@ vulkan-intel
 vulkan-radeon
 wavpack
 wayland
+wayland-protocols
 web-installer-url-handler
 webkit2gtk
 webkit2gtk-4.1

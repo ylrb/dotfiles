@@ -1,5 +1,7 @@
-const { Clutter, Gio, GLib, GObject,
-    Graphene, Meta, Pango, St } = imports.gi;
+const {
+    Clutter, Gio, GLib, GObject,
+    Graphene, Meta, Pango, St,
+} = imports.gi;
 
 const DND = imports.ui.dnd;
 const ExtensionUtils = imports.misc.extensionUtils;
@@ -24,12 +26,16 @@ const DIGITAL_CLOCK = 'Digital_Clock';
 const TEXT_LABEL = 'Text_Label';
 const WIDGET_DATA_INDEX = 0;
 
+/**
+ * @param {string} msg message to log
+ */
 function debugLog(msg) {
-    if (DEBUG_LOG) log(msg);
+    if (DEBUG_LOG)
+        log(msg);
 }
 
 var Clock = GObject.registerClass(
-class AzClock_Clock extends St.BoxLayout {
+class AzClockClock extends St.BoxLayout {
     _init(index) {
         super._init({
             vertical: Utils.getData(widgetData, index, WIDGET_DATA_INDEX, 'Box_VerticalLayout', 'bool'),
@@ -38,7 +44,7 @@ class AzClock_Clock extends St.BoxLayout {
             can_focus: true,
             x_align: Clutter.ActorAlign.FILL,
             y_align: Clutter.ActorAlign.FILL,
-            pivot_point: new Graphene.Point({ x: 0.5, y: .5 }),
+            pivot_point: new Graphene.Point({x: 0.5, y: .5}),
         });
 
         this.widgetIndex = index;
@@ -55,7 +61,7 @@ class AzClock_Clock extends St.BoxLayout {
     }
 
     updateClockComponents(delay = 300) {
-        debugLog('update clock components')
+        debugLog('update clock components');
         let priority = GLib.PRIORITY_DEFAULT_IDLE;
         if (delay !== 300)
             priority = GLib.PRIORITY_DEFAULT;
@@ -84,13 +90,13 @@ class AzClock_Clock extends St.BoxLayout {
         this._clockHourHands = [];
         this._clockButtons = [];
 
-        //skip first element as that stores widget data, not clock elements
+        // skip first element as that stores widget data, not clock elements
         for (let i = 1; i < clockData.length; i++) {
             const clockType = this.getClockElementData(i, 'Element_Type');
             if (clockType === DIGITAL_CLOCK) {
                 const label = new St.Label({
                     y_align: Clutter.ActorAlign.CENTER,
-                    pivot_point: new Graphene.Point({ x: 0.5, y: 0.5 }),
+                    pivot_point: new Graphene.Point({x: 0.5, y: 0.5}),
                 });
                 label.clutter_text.set({
                     ellipsize: Pango.EllipsizeMode.NONE,
@@ -98,14 +104,12 @@ class AzClock_Clock extends St.BoxLayout {
                 label.elementIndex = i;
                 this.add_child(label);
                 this._clockLabels.push(label);
-            }
-            else if (clockType === ANALOG_CLOCK) {
+            } else if (clockType === ANALOG_CLOCK) {
                 this._createAnalogClock(clockData[i], i);
-            }
-            else if (clockType === TEXT_LABEL) {
+            } else if (clockType === TEXT_LABEL) {
                 const label = new St.Label({
                     y_align: Clutter.ActorAlign.CENTER,
-                    pivot_point: new Graphene.Point({ x: 0.5, y: 0.5 }),
+                    pivot_point: new Graphene.Point({x: 0.5, y: 0.5}),
                 });
                 label.clutter_text.set({
                     ellipsize: Pango.EllipsizeMode.NONE,
@@ -121,7 +125,7 @@ class AzClock_Clock extends St.BoxLayout {
 
     _getMetaRectForCoords(x, y) {
         this.get_allocation_box();
-        let rect = new Meta.Rectangle();
+        const rect = new Meta.Rectangle();
 
         [rect.x, rect.y] = [x, y];
         [rect.width, rect.height] = this.get_transformed_size();
@@ -132,25 +136,25 @@ class AzClock_Clock extends St.BoxLayout {
         const monitorIndex = global.display.get_monitor_index_for_rect(rect);
 
         if (monitorIndex >= global.display.get_n_monitors()) {
-            debugLog(`monitorIndex outside of range of n monitors`);
+            debugLog('monitorIndex outside of range of n monitors');
             return false;
         }
 
         const workArea = Main.layoutManager.getWorkAreaForMonitor(monitorIndex);
 
-        //add a bit of padding
+        // add a bit of padding
         const padding = 50;
         workArea.x -= padding;
         workArea.y -= padding;
-        workArea.width += (2 * padding);
-        workArea.height += (2 * padding);
+        workArea.width += 2 * padding;
+        workArea.height += 2 * padding;
 
         return workArea;
     }
 
     _isOnScreen(x, y) {
-        let rect = this._getMetaRectForCoords(x, y);
-        let monitorWorkArea = this._getWorkAreaForRect(rect);
+        const rect = this._getMetaRectForCoords(x, y);
+        const monitorWorkArea = this._getWorkAreaForRect(rect);
 
         if (!monitorWorkArea)
             return true;
@@ -159,14 +163,14 @@ class AzClock_Clock extends St.BoxLayout {
     }
 
     _keepOnScreen(x, y) {
-        let rect = this._getMetaRectForCoords(x, y);
-        let monitorWorkArea = this._getWorkAreaForRect(rect);
+        const rect = this._getMetaRectForCoords(x, y);
+        const monitorWorkArea = this._getWorkAreaForRect(rect);
 
         if (!monitorWorkArea)
             return [x, y];
 
-        let monitorRight = monitorWorkArea.x + monitorWorkArea.width;
-        let monitorBottom = monitorWorkArea.y + monitorWorkArea.height;
+        const monitorRight = monitorWorkArea.x + monitorWorkArea.width;
+        const monitorBottom = monitorWorkArea.y + monitorWorkArea.height;
 
         x = Math.min(Math.max(monitorWorkArea.x, x), monitorRight - rect.width);
         y = Math.min(Math.max(monitorWorkArea.y, y), monitorBottom - rect.height);
@@ -190,12 +194,12 @@ class AzClock_Clock extends St.BoxLayout {
                 x,
                 y,
                 duration: 150,
-                mode: Clutter.AnimationMode.EASE_OUT_QUAD
+                mode: Clutter.AnimationMode.EASE_OUT_QUAD,
             });
 
             Me.settings.set_value('changed-data', new GLib.Variant('a{ss}', {
                 'WidgetIndex': this.widgetIndex.toString(),
-                'WidgetMoved': 'true'
+                'WidgetMoved': 'true',
             }));
             this.setClockElementData(WIDGET_DATA_INDEX, 'Location_X', x);
             this.setClockElementData(WIDGET_DATA_INDEX, 'Location_Y', y);
@@ -218,13 +222,15 @@ class AzClock_Clock extends St.BoxLayout {
         let style = `padding: ${boxPadding}px;
                      spacing: ${boxSpacing}px;`;
 
-        if (backgroundEnabled)
+        if (backgroundEnabled) {
             style += `background-color: ${backgroundColor};
                       border-radius: ${borderRadius}px;`;
+        }
 
-        if (borderEnabled)
+        if (borderEnabled) {
             style += `border-width: ${borderWidth}px;
                       border-color: ${borderColor};`;
+        }
 
         this.style = style;
 
@@ -239,7 +245,7 @@ class AzClock_Clock extends St.BoxLayout {
         const directoryName = elementName.toLowerCase();
         const filePath = `${Me.path}/media/${directoryName}/${directoryName}`;
 
-        for (let hand of elementArray) {
+        for (const hand of elementArray) {
             const data = clockData[hand.elementIndex];
             const styleType = data[`${elementName}_Style`] || 1;
 
@@ -260,7 +266,7 @@ class AzClock_Clock extends St.BoxLayout {
         this.setAnalogClockElementStyle(this._clockHourHands, 'HourHand');
         this.setAnalogClockElementStyle(this._clockButtons, 'ClockButton');
 
-        for (let label of this._clockLabels) {
+        for (const label of this._clockLabels) {
             const index = label.elementIndex;
 
             const shadowEnabled = this.getClockElementData(index, 'Text_ShadowEnabled', 'bool');
@@ -304,13 +310,15 @@ class AzClock_Clock extends St.BoxLayout {
 
             let textStyle = `color: ${textColor}; ${margin}; ${padding};`;
 
-            if (backgroundEnabled)
+            if (backgroundEnabled) {
                 textStyle += `background-color: ${backgroundColor};
                               border-radius: ${borderRadius}px;`;
+            }
 
-            if (borderEnabled)
+            if (borderEnabled) {
                 textStyle += `border-width: ${borderWidth}px;
                               border-color: ${borderColor};`;
+            }
 
             if (shadowEnabled)
                 textStyle += `text-shadow: ${shadowX}px ${shadowY}px ${shadowBlur}px ${shadowSpread}px ${shadowColor};`;
@@ -320,11 +328,11 @@ class AzClock_Clock extends St.BoxLayout {
                 textStyle += `font-family: "${fontDesc.get_family()}";`;
             }
 
-            if (textLineAlignment) {
+            if (textLineAlignment)
                 textStyle += `text-align: ${textLineAlignment}`;
-            }
 
-            label.style = `font-size: ${textSize}pt;` + 'font-feature-settings: "tnum";' + textStyle;
+
+            label.style = `font-size: ${textSize}pt; font-feature-settings: "tnum";${textStyle}`;
 
             label._dateFormat = dateFormat;
 
@@ -347,12 +355,11 @@ class AzClock_Clock extends St.BoxLayout {
         Utils.setData(widgetData, this.widgetIndex, elementIndex, elementName, newValue);
     }
 
-    getElementDate(elementIndex, origDate){
+    getElementDate(elementIndex, origDate) {
         const overrideTimeZoneEnabled = this.getClockElementData(elementIndex, 'TimeZoneOverrideEnabled', 'bool');
         const overrideTimeZone = this.getClockElementData(elementIndex, 'TimeZoneOverride') || 'UTC';
-    
-        if (overrideTimeZoneEnabled) {
 
+        if (overrideTimeZoneEnabled) {
             const gTimeZone = GLib.TimeZone.new(overrideTimeZone);
             const localDateTime = GLib.DateTime.new_now(gTimeZone);
 
@@ -366,9 +373,9 @@ class AzClock_Clock extends St.BoxLayout {
             const newDate = new Date(year, monthIndex, day, hours, minutes, seconds);
 
             return newDate;
-        }
-        else
+        } else {
             return origDate;
+        }
     }
 
     updateClock(immediate = false) {
@@ -378,7 +385,7 @@ class AzClock_Clock extends St.BoxLayout {
         else
             date = new Date();
 
-        for (let label of this._clockLabels) {
+        for (const label of this._clockLabels) {
             if (label._isTextOnly)
                 continue;
 
@@ -418,35 +425,35 @@ class AzClock_Clock extends St.BoxLayout {
         const clockFace = new St.Icon({
             x_align: Clutter.ActorAlign.FILL,
             y_align: Clutter.ActorAlign.FILL,
-            visible: data['ClockFace_Visible'] === 'true'
+            visible: data['ClockFace_Visible'] === 'true',
         });
         clockFace.elementIndex = index;
 
         const secondHand = new St.Icon({
-            pivot_point: new Graphene.Point({ x: 0.5, y: .5 }),
+            pivot_point: new Graphene.Point({x: 0.5, y: .5}),
             y_expand: false,
             y_align: Clutter.ActorAlign.START,
-            visible: data['SecondHand_Visible'] === 'true'
+            visible: data['SecondHand_Visible'] === 'true',
         });
         secondHand.elementIndex = index;
 
         const minuteHand = new St.Icon({
-            pivot_point: new Graphene.Point({ x: 0.5, y: .5 }),
+            pivot_point: new Graphene.Point({x: 0.5, y: .5}),
             y_align: Clutter.ActorAlign.START,
         });
         minuteHand.elementIndex = index;
 
         const hourHand = new St.Icon({
-            pivot_point: new Graphene.Point({ x: 0.5, y: .5 }),
+            pivot_point: new Graphene.Point({x: 0.5, y: .5}),
             y_align: Clutter.ActorAlign.START,
         });
         hourHand.elementIndex = index;
 
         const clockButton = new St.Icon({
-            pivot_point: new Graphene.Point({ x: 0.5, y: .5 }),
+            pivot_point: new Graphene.Point({x: 0.5, y: .5}),
             x_align: Clutter.ActorAlign.FILL,
             y_align: Clutter.ActorAlign.FILL,
-            visible: data['ClockButton_Visible'] === 'true'
+            visible: data['ClockButton_Visible'] === 'true',
         });
         clockButton.elementIndex = index;
 
@@ -499,21 +506,21 @@ class AzClock_Clock extends St.BoxLayout {
 
         if (shadowEnabled) {
             const shadow = `${element}_Shadow`;
-            style += `icon-shadow: ${data[shadow + 'X']}px ${data[shadow + 'Y']}px ${data[shadow + 'Blur']}px ${data[shadow + 'Spread']}px ${data[shadow + 'Color']};`;
+            style += `icon-shadow: ${data[`${shadow}X`]}px ${data[`${shadow}Y`]}px ${data[`${shadow}Blur`]}px ${data[`${shadow}Spread`]}px ${data[`${shadow}Color`]};`;
         }
         if (boxShadowEnabled) {
             const boxShadow = `${element}_BoxShadow`;
-            style += `box-shadow: ${data[boxShadow + 'X']}px ${data[boxShadow + 'Y']}px ${data[boxShadow + 'Blur']}px ${data[boxShadow + 'Spread']}px ${data[boxShadow + 'Color']};`;
+            style += `box-shadow: ${data[`${boxShadow}X`]}px ${data[`${boxShadow}Y`]}px ${data[`${boxShadow}Blur`]}px ${data[`${boxShadow}Spread`]}px ${data[`${boxShadow}Color`]};`;
         }
         return style;
     }
 
     tickAnalogClock(index, date, immediate) {
-        //Keep hours in 12 hour format for analog clock
+        // Keep hours in 12 hour format for analog clock
         if (date.getHours() >= 12)
             date.setHours(date.getHours() - 12);
 
-        const degrees = 6; //each minute and second tick represents a 6 degree increment.
+        const degrees = 6; // each minute and second tick represents a 6 degree increment.
         const secondsInDegrees = date.getSeconds() * degrees;
         const minutesInDegrees = date.getMinutes() * degrees;
         const hoursInDegrees = date.getHours() * 30;
@@ -521,10 +528,10 @@ class AzClock_Clock extends St.BoxLayout {
         const secondHand = this._clockSecondHands[index];
         if (secondHand.visible)
             this.tickClockHand(secondHand, secondsInDegrees, immediate);
-   
+
         const minuteHand = this._clockMinuteHands[index];
         this.tickClockHand(minuteHand, minutesInDegrees, immediate);
-    
+
         const hourHand = this._clockHourHands[index];
         this.tickClockHand(hourHand, hoursInDegrees + minutesInDegrees / 12, immediate);
     }
@@ -534,28 +541,28 @@ class AzClock_Clock extends St.BoxLayout {
         if (rotationDegree === hand.rotation_angle_z)
             return;
 
-        //Prevent the clock hand from spinning counter clockwise back to 0.
+        // Prevent the clock hand from spinning counter clockwise back to 0.
         if (rotationDegree === 0 && hand.rotation_angle_z !== 0)
             rotationDegree = 360;
 
         hand.ease({
-            opacity: 255, //onComplete() seems to trigger instantly without this.
+            opacity: 255, // onComplete() seems to trigger instantly without this.
             rotation_angle_z: rotationDegree,
             mode: Clutter.AnimationMode.EASE_OUT_QUAD,
             duration: immediate ? 0 : 300,
             onComplete: () => {
                 if (rotationDegree === 360)
                     hand.rotation_angle_z = 0;
-            }
+            },
         });
     }
 
     vfunc_button_press_event() {
-        let event = Clutter.get_current_event();
+        const event = Clutter.get_current_event();
 
-        if (event.get_button() === 1)
+        if (event.get_button() === 1) {
             this._setPopupTimeout();
-        else if (event.get_button() === 3) {
+        } else if (event.get_button() === 3) {
             this._popupMenu();
             return Clutter.EVENT_STOP;
         }
@@ -570,11 +577,11 @@ class AzClock_Clock extends St.BoxLayout {
 
         this.isDragging = true;
         this._dragMonitor = {
-            dragMotion: this._onDragMotion.bind(this)
+            dragMotion: this._onDragMotion.bind(this),
         };
         DND.addDragMonitor(this._dragMonitor);
 
-        let p = this.get_transformed_position();
+        const p = this.get_transformed_position();
         this._dragX = p[0];
         this._dragY = p[1];
     }
@@ -583,7 +590,7 @@ class AzClock_Clock extends St.BoxLayout {
         this.deltaX = dragEvent.x - (dragEvent.x - this._dragX);
         this.deltaY = dragEvent.y - (dragEvent.y - this._dragY);
 
-        let p = this.get_transformed_position();
+        const p = this.get_transformed_position();
         this._dragX = p[0];
         this._dragY = p[1];
 
@@ -606,13 +613,13 @@ class AzClock_Clock extends St.BoxLayout {
                 x,
                 y,
                 duration: 150,
-                mode: Clutter.AnimationMode.EASE_OUT_QUAD
+                mode: Clutter.AnimationMode.EASE_OUT_QUAD,
             });
         }
 
         Me.settings.set_value('changed-data', new GLib.Variant('a{ss}', {
             'WidgetIndex': this.widgetIndex.toString(),
-            'WidgetMoved': 'true'
+            'WidgetMoved': 'true',
         }));
         this.setClockElementData(WIDGET_DATA_INDEX, 'Location_X', x);
         this.setClockElementData(WIDGET_DATA_INDEX, 'Location_Y', y);
@@ -625,7 +632,7 @@ class AzClock_Clock extends St.BoxLayout {
 
     makeDraggable() {
         this._draggable = DND.makeDraggable(this);
-        this._draggable._dragActorDropped = (event) => {
+        this._draggable._dragActorDropped = () => {
             this._draggable._animationInProgress = true;
             this._draggable._dragCancellable = false;
             this._draggable._dragState = DND.DragState.INIT;
@@ -664,7 +671,7 @@ class AzClock_Clock extends St.BoxLayout {
 
         if (!this._menu) {
             this._menu = new PopupMenu.PopupMenu(this, 0.5, St.Side.TOP);
-            let lockWidgetItem = this._menu.addAction('', () => {
+            const lockWidgetItem = this._menu.addAction('', () => {
                 this._menu.close();
                 const lockWidget = this.getClockElementData(WIDGET_DATA_INDEX, 'Lock_Widget', 'bool');
 
@@ -678,9 +685,9 @@ class AzClock_Clock extends St.BoxLayout {
             });
 
             const lockWidget = this.getClockElementData(WIDGET_DATA_INDEX, 'Lock_Widget', 'bool');
-            lockWidgetItem.label.text = lockWidget ? _("Unlock") : _("Lock");
+            lockWidgetItem.label.text = lockWidget ? _('Unlock') : _('Lock');
 
-            this._menu.addAction(_("Desktop Clock Settings"), () => {
+            this._menu.addAction(_('Desktop Clock Settings'), () => {
                 ExtensionUtils.openPrefs();
             });
 
@@ -707,10 +714,13 @@ class AzClock_Clock extends St.BoxLayout {
     }
 });
 
+
+// eslint-disable-next-line jsdoc/require-jsdoc, no-unused-vars
 function init() {
     ExtensionUtils.initTranslations(Me.metadata['gettext-domain']);
 }
 
+// eslint-disable-next-line jsdoc/require-jsdoc, no-unused-vars
 function enable() {
     Me.settings = ExtensionUtils.getSettings();
     updateWidgetData();
@@ -718,6 +728,7 @@ function enable() {
     startClockTimer();
 }
 
+// eslint-disable-next-line jsdoc/require-jsdoc, no-unused-vars
 function disable() {
     Me.settings.set_value('changed-data', new GLib.Variant('a{ss}', {}));
     destroyClocks();
@@ -728,15 +739,21 @@ function disable() {
     Me.settings = null;
 }
 
+/**
+ *
+ */
 function startClockTimer() {
     _updateClockId = GLib.timeout_add(GLib.PRIORITY_HIGH, 1000, () => {
-        for (let clock of widgets)
+        for (const clock of widgets)
             clock.updateClock();
 
         return GLib.SOURCE_CONTINUE;
     });
 }
 
+/**
+ *
+ */
 function destroyClockTimer() {
     if (_updateClockId) {
         GLib.source_remove(_updateClockId);
@@ -744,12 +761,19 @@ function destroyClockTimer() {
     }
 }
 
+/**
+ *
+ * @param index
+ */
 function destroyClock(index) {
     const clock = widgets[index];
     widgets.splice(index, 1);
     clock.destroy();
 }
 
+/**
+ *
+ */
 function destroyClocks() {
     if (_dataChangedTimeoutId) {
         GLib.source_remove(_dataChangedTimeoutId);
@@ -761,12 +785,17 @@ function destroyClocks() {
     });
     extensionConnections = null;
 
-    for (let clock of widgets)
+    for (const clock of widgets)
         clock.destroy();
 
     widgets = null;
 }
 
+/**
+ *
+ * @param index
+ * @param updateDelay
+ */
 function createClock(index, updateDelay = 300) {
     const clock = new Clock(index);
     Main.layoutManager._backgroundGroup.add_child(clock);
@@ -774,6 +803,9 @@ function createClock(index, updateDelay = 300) {
     return clock;
 }
 
+/**
+ *
+ */
 function createClocks() {
     widgets = [];
 
@@ -801,18 +833,24 @@ function createClocks() {
 
         debugLog('Monitors-changed event');
         updateWidgetData();
-        for (let clock of widgets) {
+        for (const clock of widgets) {
             clock.setPositionFromSettings();
             updateWidgetData();
         }
     }), Main.layoutManager);
 }
 
+/**
+ *
+ */
 function updateWidgetData() {
     debugLog('update widget data');
     widgetData = Utils.unpackData(Me.settings);
 }
 
+/**
+ *
+ */
 function updateWidgetsIndex() {
     for (let i = 0; i < widgets.length; i++) {
         widgets[i].widgetIndex = i;
@@ -820,10 +858,13 @@ function updateWidgetsIndex() {
     }
 }
 
+/**
+ *
+ */
 function clockDataChangedEvent() {
     const changedData = Me.settings.get_value('changed-data').deep_unpack();
     const widgetIndex = parseInt(changedData['WidgetIndex']);
-    const elementIndex = parseInt(changedData['ElementIndex']);
+    const elementIndex_ = parseInt(changedData['ElementIndex']);
     const elementType = changedData['ElementType'];
     const widgetDeleted = changedData['WidgetDeleted'];
     const widgetAdded = changedData['WidgetAdded'];
@@ -837,47 +878,40 @@ function clockDataChangedEvent() {
     if (widgetIndex === undefined) {
         debugLog('update all widgets');
 
-        for (let clock of widgets)
+        for (const clock of widgets)
             clock.updateClockComponents();
-    }
-    else if (widgetIndexChanged) {
+    } else if (widgetIndexChanged) {
         debugLog(`widget index changed from ${widgetIndex} to ${widgetIndexNew}`);
 
         const movedWidget = widgets.splice(widgetIndex, 1)[0];
         widgets.splice(widgetIndexNew, 0, movedWidget);
 
         updateWidgetsIndex();
-    }
-    else if (widgetMoved) {
+    } else if (widgetMoved) {
         debugLog(`widget ${widgetIndex} moved`);
-    }
-    else if (widgetAdded) {
+    } else if (widgetAdded) {
         debugLog(`widget ${widgetIndex} created`);
 
         const clock = createClock(widgetIndex);
         widgets.push(clock);
         updateWidgetsIndex();
-    }
-    else if (widgetDeleted) {
+    } else if (widgetDeleted) {
         debugLog(`widget ${widgetIndex} deleted`);
 
         destroyClock(widgetIndex);
         updateWidgetsIndex();
-    }
-    else if (elementType === 'Lock_Widget') {
+    } else if (elementType === 'Lock_Widget') {
         debugLog(`widget ${widgetIndex} locked/unlocked`);
 
-        let oldClock = widgets[widgetIndex];
+        const oldClock = widgets[widgetIndex];
         widgets[widgetIndex] = createClock(widgetIndex, 0);
         oldClock.destroy();
-    }
-    else if (elementDeleted || elementAdded || elementIndexChanged) {
+    } else if (elementDeleted || elementAdded || elementIndexChanged) {
         debugLog(`element added/deleted/index-changed at widget ${widgetIndex}`);
 
         widgets[widgetIndex].createClockElements();
         widgets[widgetIndex].updateClockComponents(0);
-    }
-    else {
+    } else {
         debugLog(`widget ${widgetIndex} element setting changed`);
 
         widgets[widgetIndex].updateClockComponents();

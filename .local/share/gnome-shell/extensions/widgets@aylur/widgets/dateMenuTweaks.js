@@ -7,7 +7,6 @@ const Me = ExtensionUtils.getCurrentExtension();
 const DateMenu = Main.panel.statusArea.dateMenu;
 const Media = Me.imports.shared.media;
 const SystemLevels = Me.imports.shared.systemLevels;
-const Mainloop = imports.mainloop;
 
 const _ = imports.gettext.domain(Me.metadata.uuid).gettext;
 
@@ -269,10 +268,9 @@ var Extension = class Extension {
         this.clock.clutter_text.y_align = Clutter.ActorAlign.CENTER;
         this.clock.clutter_text.ellipsize = Pango.EllipsizeMode.NONE;
 
-        this.wallclock = new GnomeDesktop.WallClock();
+        this.wallclock = new GnomeDesktop.WallClock({ time_only: true });
         this.wallclock.connect(
-            'notify::clock',
-            () =>  this.updateClock());
+            'notify::clock', () =>  this.updateClock());
         
         this.updateClock();
         this.reload();

@@ -7,6 +7,7 @@ google-chrome
 impd-git
 manjaro-firmware
 ookla-speedtest-bin
+openasar-git
 protonvpn-gui
 python-pep517
 python-proton-client
@@ -14,7 +15,6 @@ python-protonvpn-nm-lib
 python-pytube
 python-spotdl
 python-spotipy
-python-ytmusicapi
 teensyduino
 visual-studio-code-bin
 zinnia

@@ -25,6 +25,7 @@ alias la="ls -a"
 # Aliases
 alias n="nvim"
 alias py="python3"
+alias pm="python manage.py"
 alias b="bluetoothctl power on && bluetoothctl connect 94:DB:56:6D:BC:48"
 alias b0="bluetoothctl disconnect && bluetoothctl power off"
 alias myip="curl ipinfo.io/ip"

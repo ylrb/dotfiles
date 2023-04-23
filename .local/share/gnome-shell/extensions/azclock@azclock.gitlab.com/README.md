@@ -40,13 +40,15 @@ Desktop Clock is provided free of charge. If you enjoy using this extension and 
 
 #### Clock Faces and Hands 
 
-*Modifications to these files were made to better suit this extensions needs*
+**@[stefan-oskamp](https://gitlab.com/stefan-oskamp) #34 - Style 9**
 
-**@[macrovector on Freepik](https://www.freepik.com/free-vector/clock-watch-collection-set-dial-with-seconds-arrow_13031502.htm)**
+*Modifications were made to the following files to better suit this extensions needs*
 
-**@[Jahoe](https://commons.wikimedia.org/wiki/User:Jahoe)** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+**@[macrovector on Freepik](https://www.freepik.com/free-vector/clock-watch-collection-set-dial-with-seconds-arrow_13031502.htm) - Styles 1, 2, 5, 7, 8**
 
-**@[wikipedia](https://commons.wikimedia.org/wiki/File:Swiss_railway_clock_1.svg)** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+**@[Jahoe](https://commons.wikimedia.org/wiki/User:Jahoe) - Style 4** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+**@[wikipedia](https://commons.wikimedia.org/wiki/File:Swiss_railway_clock_1.svg) - Style 3** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 #### Other contributions via MR:
 

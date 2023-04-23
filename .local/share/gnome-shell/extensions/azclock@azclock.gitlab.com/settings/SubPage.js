@@ -1,7 +1,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const { Adw, Gdk, Gio, GLib, GObject, Gtk } = imports.gi;
+const {Adw, Gdk, GLib, GObject, Gtk} = imports.gi;
 
 const GWeather = getGWeatherVersion();
 
@@ -11,13 +11,15 @@ const _ = Gettext.gettext;
 
 const MAX_LOCATIONS = 12;
 
-//Check for GWeather v4 package.
-//GWeather v3 throws errors wit Gtk4
+/**
+ * Check for GWeather v4 package.
+ * GWeather v3 throws errors wit Gtk4
+ */
 function getGWeatherVersion() {
     try {
         imports.gi.versions.GWeather = '4.0';
         return imports.gi.GWeather;
-    } catch(e) {
+    } catch (e) {
         return null;
     }
 }
@@ -37,13 +39,13 @@ var SubPage = GObject.registerClass({
             GObject.ParamFlags.READWRITE,
             0, GLib.MAXINT32, 0),
     },
-}, class AzClock_SubPage extends Gtk.Box {
+}, class AzClockSubPage extends Gtk.Box {
     _init(settings, params) {
         super._init({
             orientation: Gtk.Orientation.VERTICAL,
-            ...params
+            ...params,
         });
-    
+
         this._settings = settings;
 
         this.headerLabel = new Adw.WindowTitle({
@@ -52,17 +54,17 @@ var SubPage = GObject.registerClass({
 
         this.headerBar = new Adw.HeaderBar({
             title_widget: this.headerLabel,
-            decoration_layout: ''
+            decoration_layout: '',
         });
 
         this.append(this.headerBar);
         this.page = new PrefsPage();
         this.append(this.page);
 
-        let nameGroup = new Adw.PreferencesGroup();
+        const nameGroup = new Adw.PreferencesGroup();
         this.add(nameGroup);
 
-        let nameEntry = new Gtk.Entry({
+        const nameEntry = new Gtk.Entry({
             valign: Gtk.Align.CENTER,
             width_chars: 20,
             text: this.getClockElementData('Name'),
@@ -72,16 +74,16 @@ var SubPage = GObject.registerClass({
             this.headerLabel.title = nameEntry.get_text();
             this.title = nameEntry.get_text();
         });
-        let nameRow = new Adw.ActionRow({
-            title: _("Element Name"),
+        const nameRow = new Adw.ActionRow({
+            title: _('Element Name'),
             activatable_widget: nameEntry,
         });
         nameRow.add_suffix(nameEntry);
         nameGroup.add(nameRow);
 
-        let backButton = new Gtk.Button({
+        const backButton = new Gtk.Button({
             icon_name: 'go-previous-symbolic',
-            tooltip_text: _("Back"),
+            tooltip_text: _('Back'),
             css_classes: ['flat'],
         });
 
@@ -105,33 +107,33 @@ var SubPage = GObject.registerClass({
     }
 
     createShadowExpanderRow(title, elementType) {
-        let shadowEnabled = this.getClockElementData(`${elementType}Enabled`, 'bool');
-        let shadowExpanderRow = new Adw.ExpanderRow({
+        const shadowEnabled = this.getClockElementData(`${elementType}Enabled`, 'bool');
+        const shadowExpanderRow = new Adw.ExpanderRow({
             title: _(title),
             show_enable_switch: true,
             expanded: false,
-            enable_expansion: shadowEnabled
+            enable_expansion: shadowEnabled,
         });
-        shadowExpanderRow.connect("notify::enable-expansion", (widget) => {
+        shadowExpanderRow.connect('notify::enable-expansion', widget => {
             this.setClockElementData(`${elementType}Enabled`, widget.enable_expansion);
         });
 
-        let shadowColorRow = this.createColorRow(_("Shadow Color"), `${elementType}Color`);
+        const shadowColorRow = this.createColorRow(_('Shadow Color'), `${elementType}Color`);
         shadowExpanderRow.add_row(shadowColorRow);
-        let xOffsetRow = this.createSpinRow(_("Shadow X Offset"), `${elementType}X`, -15, 15);
+        const xOffsetRow = this.createSpinRow(_('Shadow X Offset'), `${elementType}X`, -15, 15);
         shadowExpanderRow.add_row(xOffsetRow);
-        let yOffsetRow = this.createSpinRow(_("Shadow Y Offset"), `${elementType}Y`, -15, 15);
+        const yOffsetRow = this.createSpinRow(_('Shadow Y Offset'), `${elementType}Y`, -15, 15);
         shadowExpanderRow.add_row(yOffsetRow);
-        let spreadRow = this.createSpinRow(_("Shadow Spread"), `${elementType}Spread`, 0, 15);
+        const spreadRow = this.createSpinRow(_('Shadow Spread'), `${elementType}Spread`, 0, 15);
         shadowExpanderRow.add_row(spreadRow);
-        let blurRow = this.createSpinRow(_("Shadow Blur"), `${elementType}Blur`, 0, 15);
+        const blurRow = this.createSpinRow(_('Shadow Blur'), `${elementType}Blur`, 0, 15);
         shadowExpanderRow.add_row(blurRow);
         return shadowExpanderRow;
     }
 
     createSpinRow(title, setting, lower, upper, digits = 0) {
         const value = this.getClockElementData(setting, 'int') || 0;
-        let spinButton = new Gtk.SpinButton({
+        const spinButton = new Gtk.SpinButton({
             adjustment: new Gtk.Adjustment({
                 lower, upper, step_increment: 1, page_increment: 1, page_size: 0,
             }),
@@ -141,17 +143,17 @@ var SubPage = GObject.registerClass({
             valign: Gtk.Align.CENTER,
         });
         spinButton.set_value(value);
-        spinButton.connect('value-changed', (widget) => {
+        spinButton.connect('value-changed', widget => {
             this.setClockElementData(setting, widget.get_value());
         });
-        let spinRow = new Adw.ActionRow({
+        const spinRow = new Adw.ActionRow({
             title: _(title),
-            activatable_widget: spinButton
+            activatable_widget: spinButton,
         });
 
-        spinRow.setValue = (value) => {
-            spinButton.set_value(value);
-        }
+        spinRow.setValue = newValue => {
+            spinButton.set_value(newValue);
+        };
 
         spinRow.add_suffix(spinButton);
         return spinRow;
@@ -161,68 +163,68 @@ var SubPage = GObject.registerClass({
         const value = this.getClockElementData(setting);
         let rgba = new Gdk.RGBA();
         rgba.parse(value ?? '');
-        let colorButton = new Gtk.ColorButton({
+        const colorButton = new Gtk.ColorButton({
             rgba,
             use_alpha: true,
-            valign: Gtk.Align.CENTER
+            valign: Gtk.Align.CENTER,
         });
-        colorButton.connect('color-set', (widget) => {
+        colorButton.connect('color-set', widget => {
             this.setClockElementData(setting, widget.get_rgba().to_string());
         });
-        let colorRow = new Adw.ActionRow({
+        const colorRow = new Adw.ActionRow({
             title: _(title),
-            activatable_widget: colorButton
+            activatable_widget: colorButton,
         });
         colorRow.add_suffix(colorButton);
 
-        colorRow.setValue = (value) => {
+        colorRow.setValue = newValue => {
             rgba = new Gdk.RGBA();
-            rgba.parse(value);
+            rgba.parse(newValue);
             colorButton.set_rgba(rgba);
-        }
+        };
         return colorRow;
     }
 
     createTimeZoneRow() {
-        let timeZoneRow = new Adw.ActionRow({
+        const timeZoneRow = new Adw.ActionRow({
             title: _('Time Zone'),
-            activatable: true
+            activatable: true,
         });
 
-        let timeZoneExpanderRow = new Adw.ExpanderRow({
-            title: _("Override Time Zone"),
+        const timeZoneExpanderRow = new Adw.ExpanderRow({
+            title: _('Override Time Zone'),
             show_enable_switch: true,
             expanded: this.getClockElementData('TimeZoneOverrideEnabled', 'bool'),
-            enable_expansion: this.getClockElementData('TimeZoneOverrideEnabled', 'bool')
+            enable_expansion: this.getClockElementData('TimeZoneOverrideEnabled', 'bool'),
         });
-        timeZoneExpanderRow.connect("notify::enable-expansion", (widget) => {
+        timeZoneExpanderRow.connect('notify::enable-expansion', widget => {
             this.setClockElementData('TimeZoneOverrideEnabled', widget.enable_expansion);
         });
         timeZoneExpanderRow.add_row(timeZoneRow);
 
         if (!GWeather) {
-            let linkButton = new Gtk.LinkButton({
-                label: _("Time Zones Guide"),
+            const linkButton = new Gtk.LinkButton({
+                label: _('Time Zones Guide'),
                 uri: 'https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List',
                 css_classes: ['caption'],
                 valign: Gtk.Align.CENTER,
             });
             timeZoneExpanderRow.add_action(linkButton);
-            timeZoneExpanderRow.subtitle = _('Search Disabled') + '\n' + _('Missing dependency GWeather v4');
+            timeZoneExpanderRow.subtitle = `${_('Search Disabled')}\n${_('Missing dependency GWeather v4')}`;
             timeZoneRow.title = _('Time Zone Database Name');
 
-            let timeZoneEntry = new Gtk.Entry({
+            const timeZoneEntry = new Gtk.Entry({
                 valign: Gtk.Align.CENTER,
                 halign: Gtk.Align.FILL,
                 hexpand: true,
                 text: this.getClockElementData('TimeZoneOverride') || 'UTC',
             });
 
-            let timeZoneApplyButton = new Gtk.Button({
+            const timeZoneApplyButton = new Gtk.Button({
                 icon_name: 'object-select-symbolic',
                 tooltip_text: _('Set Time Zone'),
                 valign: Gtk.Align.CENTER,
-            })
+            });
             timeZoneApplyButton.connect('clicked', () => {
                 this.setClockElementData('TimeZoneOverride', timeZoneEntry.get_text());
             });
@@ -233,11 +235,11 @@ var SubPage = GObject.registerClass({
             return timeZoneExpanderRow;
         }
 
-        let timeZoneLabel = new Gtk.Label({ 
+        const timeZoneLabel = new Gtk.Label({
             label: this.getClockElementData('TimeZone') ?? this.getClockElementData('TimeZoneOverride'),
             use_markup: true,
         });
-        let goNext = new Gtk.Image({ icon_name: 'go-next-symbolic' });
+        const goNext = new Gtk.Image({icon_name: 'go-next-symbolic'});
 
         timeZoneRow.add_suffix(timeZoneLabel);
         timeZoneRow.add_suffix(goNext);
@@ -249,7 +251,7 @@ var SubPage = GObject.registerClass({
                 modal: true,
             });
             timeZoneDialog.show();
-            
+
             timeZoneDialog.connect('time-zone-changed', (_self, timeZone, label) => {
                 this.setClockElementData('TimeZoneOverride', timeZone);
                 this.setClockElementData('TimeZone', label);
@@ -261,7 +263,8 @@ var SubPage = GObject.registerClass({
     }
 
     getClockElementData(elementType, parseType) {
-        return Utils.getData(Utils.unpackData(this._settings), this.widget_index, this.element_index, elementType, parseType) || null;
+        return Utils.getData(Utils.unpackData(this._settings),
+            this.widget_index, this.element_index, elementType, parseType) || null;
     }
 
     setClockElementData(elementType, newValue) {
@@ -275,12 +278,12 @@ var SubPage = GObject.registerClass({
             'WidgetIndex': this.widget_index.toString(),
             'ElementIndex': this.element_index.toString(),
             'ElementType': elementType,
-        }
+        };
     }
 });
 
 var PrefsPage = GObject.registerClass(
-class AzClock_PrefsPage extends Adw.PreferencesPage {
+class AzClockPrefsPage extends Adw.PreferencesPage {
     _init(params) {
         super._init(params);
         this.children = [];
@@ -294,14 +297,14 @@ class AzClock_PrefsPage extends Adw.PreferencesPage {
 
 var TimeZoneDialog = GObject.registerClass({
     Signals: {
-        'time-zone-changed': { param_types: [GObject.TYPE_STRING, GObject.TYPE_STRING] },
+        'time-zone-changed': {param_types: [GObject.TYPE_STRING, GObject.TYPE_STRING]},
     },
-}, class AzClock_TimeZoneDialog extends Adw.Window {
+}, class AzClockTimeZoneDialog extends Adw.Window {
     _init(params) {
         super._init({
             ...params,
             default_width: 400,
-            default_height: 540
+            default_height: 540,
         });
 
         this._locationsRows = [];
@@ -309,7 +312,7 @@ var TimeZoneDialog = GObject.registerClass({
         const mainBox = new Gtk.Box({
             orientation: Gtk.Orientation.VERTICAL,
             valign: Gtk.Align.FILL,
-            vexpand: true
+            vexpand: true,
         });
         this.set_content(mainBox);
 
@@ -322,7 +325,7 @@ var TimeZoneDialog = GObject.registerClass({
         const searchEntry = new Gtk.SearchEntry();
         const searchBar = new Gtk.SearchBar({
             search_mode_enabled: true,
-            child: searchEntry
+            child: searchEntry,
         });
         mainBox.append(searchBar);
 
@@ -331,7 +334,7 @@ var TimeZoneDialog = GObject.registerClass({
 
         const page = new Adw.PreferencesPage({
             valign: Gtk.Align.FILL,
-            vexpand: true
+            vexpand: true,
         });
         stack.add_named(page, 'MainPage');
 
@@ -355,7 +358,7 @@ var TimeZoneDialog = GObject.registerClass({
             }
 
             if (searchEntry.text === '') {
-                //EMPTY SEARCH
+                // EMPTY SEARCH
                 statusPage.title = _('Search for a City');
                 stack.set_visible_child_name('StatusPage');
                 return;
@@ -368,7 +371,7 @@ var TimeZoneDialog = GObject.registerClass({
             this.queryLocations(world, search);
 
             if (this._locationsRows.length === 0) {
-                //NO RESULTS
+                // NO RESULTS
                 statusPage.title = _('No results.');
                 stack.set_visible_child_name('StatusPage');
                 return;
@@ -389,39 +392,41 @@ var TimeZoneDialog = GObject.registerClass({
     }
 
     queryLocations(location, search) {
-        if (this._locationsRows.length >= MAX_LOCATIONS) return;
+        if (this._locationsRows.length >= MAX_LOCATIONS)
+            return;
 
         switch (location.get_level()) {
-            case GWeather.LocationLevel.CITY:
-                const containsName = location.get_sort_name().includes(search);
+        case GWeather.LocationLevel.CITY: {
+            const containsName = location.get_sort_name().includes(search);
 
-                let countryName = location.get_country_name();
-                if (countryName != null) {
-                    countryName = countryName.normalize().toLowerCase();
-                }
-                const containsCountryName = countryName != null && countryName.includes(search);
+            let countryName = location.get_country_name();
+            if (countryName != null)
+                countryName = countryName.normalize().toLowerCase();
 
-                if (containsName || containsCountryName) {
-                    const row = this.createLocationRow(location);
-                    this._locationsRows.push(row);
-                }
-                return;
-            case GWeather.LocationLevel.NAMED_TIMEZONE:
-                if (location.get_sort_name().includes(search)) {
-                    const row = this.createLocationRow(location);
-                    this._locationsRows.push(row);
-                }
-                return;
-            default:
-                break;
+            const containsCountryName = countryName != null && countryName.includes(search);
+
+            if (containsName || containsCountryName) {
+                const row = this.createLocationRow(location);
+                this._locationsRows.push(row);
+            }
+            return;
+        }
+        case GWeather.LocationLevel.NAMED_TIMEZONE:
+            if (location.get_sort_name().includes(search)) {
+                const row = this.createLocationRow(location);
+                this._locationsRows.push(row);
+            }
+            return;
+        default:
+            break;
         }
 
         let loc = location.next_child(null);
         while (loc !== null) {
             this.queryLocations(loc, search);
-            if (this._locationsRows.length >= MAX_LOCATIONS) {
+            if (this._locationsRows.length >= MAX_LOCATIONS)
                 return;
-            }
+
             loc = location.next_child(loc);
         }
     }
@@ -442,13 +447,13 @@ var TimeZoneDialog = GObject.registerClass({
         const timeZoneRow = new Adw.ActionRow({
             title,
             subtitle: `${location.get_timezone_str()} • ${abbreviation} (UTC ${offsetString})`,
-            activatable: true
+            activatable: true,
         });
         timeZoneRow.use_markup = true;
         timeZoneRow.location = location;
 
         timeZoneRow.connect('activated', () => {
-            this.emit('time-zone-changed', location.get_timezone_str(), `${title} • ${abbreviation}`)
+            this.emit('time-zone-changed', location.get_timezone_str(), `${title} • ${abbreviation}`);
             this.close();
         });
 

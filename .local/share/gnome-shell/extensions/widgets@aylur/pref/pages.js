@@ -68,8 +68,10 @@ class BatteryBarPage extends SubPage{
         group.add(labelExpanderRow);
         group.add(new SpinButtonRow(_('Width'), settings, 'battery-bar-width', 50, 800, 10));
         group.add(new SpinButtonRow(_('Height'), settings, 'battery-bar-height', 1, 100, 1));
-        group.add(new SpinButtonRow(_('Bar Roundness'), settings, 'battery-bar-roundness', 1, 100, 1));
+        group.add(new SpinButtonRow(_('Bar Roundness'), settings, 'battery-bar-roundness', 1, 50, 1));
         group.add(new SpinButtonRow(_('Low Threshold'), settings, 'battery-bar-low-threshold', 0, 100, 5));
+        group.add(new SpinButtonRow(_('Padding Right'), settings, 'battery-bar-padding-right', -100, 100, 1));
+        group.add(new SpinButtonRow(_('Padding Left'), settings, 'battery-bar-padding-left', -100, 100, 1));
 
         let colorExpander = new Adw.ExpanderRow({ title: _('Bar Colors') });
         colorExpander.add_row(new ColorRow(_('Color'), settings, 'battery-bar-color'));
@@ -297,6 +299,19 @@ class DateMenuTweakPage extends SubPage{
     }
 });
 
+var DynamicPanelPage = GObject.registerClass(
+class DynamicPanelPage extends SubPage{
+    _init(settings){
+        super._init(_('Dynaimc Panel'), settings);
+
+        const group = new Adw.PreferencesGroup();
+        this.add(group);
+
+        group.add(new SwitchRow(_('Floating'), settings, 'dynamic-panel-floating-style', _('Best used with default shell themes')));
+        group.add(new SpinButtonRow(_('Gap'), settings, 'dynamic-panel-useless-gaps', 0, 64, 1, _('Space beetween panel and window needed to make the panel react')));
+    }
+});
+
 var MediaPlayerPage = GObject.registerClass(
 class MediaPlayerPage extends SubPage{
     _init(settings){
@@ -308,6 +323,10 @@ class MediaPlayerPage extends SubPage{
         let trackBtnExpander = new ExpanderRow(_('Track Button'), settings, 'media-player-enable-track');
         trackBtnExpander.add_row(new PositionRow(_('Position'), settings, 'media-player-position', 'media-player-offset'));
         trackBtnExpander.add_row(new SpinButtonRow(_('Max Width'), settings, 'media-player-max-width', 0, 1200, 10, _('0 to unset')));
+        trackBtnExpander.add_row(new SwitchRow(_('Show Player Icon'), settings, 'media-player-show-player-icon'));
+        trackBtnExpander.add_row(new SwitchRow(_('Colored Player Icon'), settings, 'media-player-colored-player-icon'));
+        trackBtnExpander.add_row(new DropDownRow(_('Player Icon Position'), settings, 'media-player-player-icon-position', [_('Left'), _('Right')]));
+
         let controlsExpander = new ExpanderRow(_('Controls'), settings, 'media-player-enable-controls');
         controlsExpander.add_row(new PositionRow(_('Position'), settings, 'media-player-controls-position', 'media-player-controls-offset'));
         buttonGroup.add(trackBtnExpander);
@@ -316,7 +335,7 @@ class MediaPlayerPage extends SubPage{
         const playerGroup = new Adw.PreferencesGroup({ title: _('Player') });
         this.add(playerGroup);
 
-        this.cachePath = `${Me.dir.get_path()}/media/mpris-cache`;
+        this.cachePath = `${Me.path}/media/mpris-cache`;
         this.clearRow = new Adw.ActionRow({ title: _('Cache') });
         let clearBtn = Gtk.Button.new_with_label(_('Clear'));
         clearBtn.valign = Gtk.Align.CENTER;
@@ -341,6 +360,9 @@ class MediaPlayerPage extends SubPage{
     _cacheSize(){
         let path = Me.dir.get_path()+'/media/mpris-cache/';
         let dir = Gio.File.new_for_path(path);
+        if(!GLib.file_test(path, GLib.FileTest.EXISTS))
+            dir.make_directory(null);
+
         let info = dir.query_info('standard::*', Gio.FileQueryInfoFlags.NONE, null);
         this.clearRow.set_subtitle(`${info.get_size()} bytes`);
     }
@@ -372,7 +394,7 @@ class PowerMenuPage extends SubPage{
 
         let dialogExpander = new ExpanderRow(_('Dialog Background'), settings, 'power-menu-dialog-show-bg');
         dialogExpander.add_row(new SpinButtonRow(_('Dialog Padding'), settings, 'power-menu-dialog-padding', 0, 150, 2));
-        dialogExpander.add_row(new SpinButtonRow(_('Dialog Roundness'), settings, 'power-menu-dialog-roundness', 0, 100, 1));
+        dialogExpander.add_row(new SpinButtonRow(_('Dialog Roundness'), settings, 'power-menu-dialog-roundness', -100, 100, 1));
 
         group.add(dialogExpander);
     }
@@ -443,10 +465,10 @@ class BackgroundClockPage extends SubPage{
         clockExpander.add_row(new SpinButtonRow(_('Clock Size'), settings, 'background-clock-clock-size', 1, 200, 2));
         clockExpander.add_row(this._addCustomFontRow(settings, 'background-clock-clock-custom-font', 'background-clock-clock-font'));
         clockExpander.add_row(new ColorRow(_('Clock Color'), settings, 'background-clock-clock-color'));
-        clockExpander.add_row(new SpinButtonRow(_('Text Shadow x Offset'), settings, 'background-clock-clock-shadow-x', 0, 50, 1));
-        clockExpander.add_row(new SpinButtonRow(_('Text Shadow y Offset'), settings, 'background-clock-clock-shadow-y', 0, 50, 1));
+        clockExpander.add_row(new SpinButtonRow(_('Text Shadow x Offset'), settings, 'background-clock-clock-shadow-x', -50, 50, 1));
+        clockExpander.add_row(new SpinButtonRow(_('Text Shadow y Offset'), settings, 'background-clock-clock-shadow-y', -50, 50, 1));
         clockExpander.add_row(new SpinButtonRow(_('Text Shadow Blur Amount'), settings, 'background-clock-clock-shadow-blur', 0, 50, 1));
-        clockExpander.add_row(new SpinButtonRow(_('Text Shadow Width'), settings, 'background-clock-clock-shadow-width', 0, 50, 1));
+        clockExpander.add_row(new SpinButtonRow(_('Text Shadow Width'), settings, 'background-clock-clock-shadow-width', -50, 50, 1));
         clockExpander.add_row(new ColorRow(_('Text Shadow Color'), settings, 'background-clock-clock-shadow-color'));
 
         let dateExpander = new ExpanderRow(_('Date'), settings, 'background-clock-enable-date');
@@ -454,10 +476,10 @@ class BackgroundClockPage extends SubPage{
         dateExpander.add_row(new SpinButtonRow(_('Date Size'), settings, 'background-clock-date-size', 1, 200, 2));
         dateExpander.add_row(this._addCustomFontRow(settings, 'background-clock-date-custom-font', 'background-clock-date-font'));
         dateExpander.add_row(new ColorRow(_('Date Color'), settings, 'background-clock-date-color'));
-        dateExpander.add_row(new SpinButtonRow(_('Text Shadow x Offset'), settings, 'background-clock-date-shadow-x', 0, 50, 1));
-        dateExpander.add_row(new SpinButtonRow(_('Text Shadow y Offset'), settings, 'background-clock-date-shadow-y', 0, 50, 1));
+        dateExpander.add_row(new SpinButtonRow(_('Text Shadow x Offset'), settings, 'background-clock-date-shadow-x', -50, 50, 1));
+        dateExpander.add_row(new SpinButtonRow(_('Text Shadow y Offset'), settings, 'background-clock-date-shadow-y', -50, 50, 1));
         dateExpander.add_row(new SpinButtonRow(_('Text Shadow Blur Amount'), settings, 'background-clock-date-shadow-blur', 0, 50, 1));
-        dateExpander.add_row(new SpinButtonRow(_('Text Shadow Width'), settings, 'background-clock-date-shadow-width', 0, 50, 1));
+        dateExpander.add_row(new SpinButtonRow(_('Text Shadow Width'), settings, 'background-clock-date-shadow-width', -50, 50, 1));
         dateExpander.add_row(new ColorRow(_('Text Shadow Color'), settings, 'background-clock-date-shadow-color'));
 
         let styleExpander = new Adw.ExpanderRow({ title: _('Widget Style') });
@@ -467,10 +489,10 @@ class BackgroundClockPage extends SubPage{
         styleExpander.add_row(new ColorRow(_('Border Color'), settings, 'background-clock-bg-border-color'));
         styleExpander.add_row(new SpinButtonRow(_('Roundness'), settings, 'background-clock-bg-border-radius', 0, 100, 1));
         styleExpander.add_row(new SwitchRow(_('Shadow Inset'), settings, 'background-clock-bg-shadow-inset'));
-        styleExpander.add_row(new SpinButtonRow(_('Shadow x Offset'), settings, 'background-clock-bg-shadow-x', 0, 100, 1));
-        styleExpander.add_row(new SpinButtonRow(_('Shadow y Offset'), settings, 'background-clock-bg-shadow-y', 0, 100, 1));
+        styleExpander.add_row(new SpinButtonRow(_('Shadow x Offset'), settings, 'background-clock-bg-shadow-x', -100, 100, 1));
+        styleExpander.add_row(new SpinButtonRow(_('Shadow y Offset'), settings, 'background-clock-bg-shadow-y', -100, 100, 1));
         styleExpander.add_row(new SpinButtonRow(_('Shadow Blur Amount'), settings, 'background-clock-bg-shadow-blur', 0, 100, 1));
-        styleExpander.add_row(new SpinButtonRow(_('Shadow Width'), settings, 'background-clock-bg-shadow-width', 0, 100, 1));
+        styleExpander.add_row(new SpinButtonRow(_('Shadow Width'), settings, 'background-clock-bg-shadow-width', -100, 100, 1));
         styleExpander.add_row(new ColorRow(_('Shadow Color'), settings, 'background-clock-bg-shadow-color'));
 
         group.add(clockExpander);
@@ -572,6 +594,11 @@ class QuickSettingsTweaksPage extends SubPage{
         mediaExpander.add_row(new SwitchRow(_('Show Volume Slider'), settings, 'quick-settings-media-show-volume', MEDIA_SUBTITLE));
         mediaExpander.add_row(new SwitchRow(_('Show Loop and Shuffle'), settings, 'quick-settings-media-show-loop-shuffle', MEDIA_SUBTITLE));
         group.add(mediaExpander);
+
+        let appMixer = new ExpanderRow(_('Show Application Volume Mixer'), settings, 'quick-settings-show-app-volume-mixer');
+        appMixer.add_row(new SwitchRow(_('Show Description'), settings, 'quick-settings-app-volume-mixer-show-description'));
+        appMixer.add_row(new SwitchRow(_('Show Name'), settings, 'quick-settings-app-volume-mixer-show-name'));
+        group.add(appMixer);
 
         const togglesGroup = new Adw.PreferencesGroup({ title: _('Toggles') });
         this.add(togglesGroup);

@@ -1,5 +1,3 @@
-'use strict';
-
 const { St, GLib, Shell, Gio, Clutter, GObject, GnomeDesktop, UPowerGlib: UPower } = imports.gi;
 const Main = imports.ui.main;
 const Me = imports.misc.extensionUtils.getCurrentExtension()
@@ -98,8 +96,6 @@ class UsageLevel extends St.BoxLayout{
         });
         if(vertical) this.vertical = true;
         this.colorSwitchValues = [ 25, 50, 75, ];
-                                   //low green
-                                  //high red
 
         this.icon = new St.Icon({ reactive: true, track_hover: true });
         this.label = new St.Label();
@@ -162,7 +158,7 @@ class UsageLevel extends St.BoxLayout{
             const labelWidth = this.hoverLabel.get_width();
             const xOffset = Math.floor((iconWidth - labelWidth) / 2);
             const x = Math.clamp(stageX + xOffset, 0, global.stage.width - labelWidth);
-            const y = stageY - this.hoverLabel.height - this.icon.height;
+            const y = stageY - this.icon.height;
             this.hoverLabel.set_position(x, y);
     
             this.hoverLabel.ease({
@@ -291,6 +287,7 @@ class CpuLevel extends UsageLevel{
             this.lastCPUTotal = currentCPUTotal;
             this.lastCPUUsed = currentCPUUsed;
         } catch (e) {
+            this.hide();
             logError(e);
         }
 
@@ -350,6 +347,7 @@ class RamLevel extends UsageLevel{
                 currentMemoryUsage = memUsed / memTotal;
             }
         }catch (e) {
+            this.hide();
             logError(e);
         }
 
@@ -364,32 +362,29 @@ class TempLevel extends UsageLevel{
         super._init(vertical);
 
         this.icon.icon_name = 'temperature-symbolic';
+        this.icon.fallback_gicon = Gio.Icon.new_for_string(
+            Me.path+'/media/temperature-symbolic.svg'
+        );
         this.hoverLabel.text = _('Temperature');
         this.colorSwitchValues = [ 50, 65, 80 ];
     }
 
     setUsage(){
-        let temperature = 0;
         try {
-            const inputFile = Gio.File.new_for_path("/sys/class/thermal/thermal_zone0/temp");
-            const fileInputStream = inputFile.read(null);
-            const dataInputStream = new Gio.DataInputStream({
-                base_stream: fileInputStream
-            });
+            const [, contents, etag] = 
+                Gio.File.new_for_path('/sys/class/thermal/thermal_zone0/temp')
+                .load_contents(null);
 
-            let [line, length] = dataInputStream.read_line(null);
-            if (line instanceof Uint8Array)
-                line = ByteArray.toString(line).trim();
-            else  line = line.toString().trim();
+            const temperature = Number.parseInt(
+                new TextDecoder('utf-8').decode(contents)
+            ) / 100000;
 
-            temperature = Number.parseInt(line) / 100000;
-            fileInputStream.close(null);
+            this.level.value = temperature;
+            this.label.text = Math.floor(temperature*100).toString() + '\˚';
         }catch (e) {
+            this.hide();
             logError(e);
         }
-
-        this.level.value = temperature;
-        this.label.text = Math.floor(temperature*100).toString() + '\˚';
     }
 });
 
