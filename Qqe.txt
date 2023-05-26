@@ -112,6 +112,7 @@ jfsutils
 jq
 keepassxc
 kitty
+kronometer
 less
 lf
 lib32-libva-vdpau-driver

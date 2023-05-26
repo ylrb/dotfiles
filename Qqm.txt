@@ -9,12 +9,17 @@ manjaro-firmware
 ookla-speedtest-bin
 openasar-git
 protonvpn-gui
+python-jaconv
 python-pep517
 python-proton-client
 python-protonvpn-nm-lib
+python-pykakasi
 python-pytube
 python-spotdl
 python-spotipy
+python-syncedlyrics
+simplescreenrecorder
+systemd-fsck-silent
 teensyduino
 visual-studio-code-bin
 zinnia
