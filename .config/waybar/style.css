@@ -1,0 +1,129 @@
+* {
+ font-family: terminus;
+  font-size: 17px;
+}
+
+window#waybar {
+  background-color: #000000;
+  color: #f2f2f2;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces button {
+  color: #C7C7C7;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#workspaces button.focused{
+  color: #00FFFF;
+}
+
+#workspaces button.active {
+  color: #FF7724;
+}
+
+#workspaces button.urgent {
+  color: #FF7724;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd,
+#bluetooth,
+#custom-hyprPicker,
+#custom-launcher,
+#custom-power-menu {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+#custom-launcher {
+  font-size: 17px;
+  color: #009000;
+  padding-left: 13px;
+}
+
+#custom-power-menu {
+  font-size: 17px;
+  color: #FF5056;
+  padding-right: 15px;
+}
+
+#network {
+  
+}
+
+#cpu {
+  
+}
+
+#memory {
+  
+}
+
+#clock {
+  
+}
+
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+
+@keyframes blink {
+  to {
+/*    background-color: rgba(30, 34, 42, 0.5);*/
+    color: #F25056;
+  }
+}
+
+/* #battery {
+}
+#battery.full {
+} */
+
+#battery.critical:not(.charging) {
+  color: #F25056;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}

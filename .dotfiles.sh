@@ -16,7 +16,6 @@ cp ~/.bash_profile ~/.dotfiles/.bash_profile
 # copy ~ folders
 cp -r ~/.fonts ~/.dotfiles
 cp -r ~/.themes ~/.dotfiles
-cp -r ~/.icons ~/.dotfiles
 
 # copy ~/.config files
 cp ~/.config/user-dirs.dirs ~/.dotfiles/.config/user-dirs.dirs
@@ -29,14 +28,12 @@ cp -r ~/.config/mpv ~/.dotfiles/.config
 cp -r ~/.config/mozc ~/.dotfiles/.config
 cp -r ~/.config/desmume ~/.dotfiles/.config
 cp -r ~/.config/nvim ~/.dotfiles/.config
-cp -r ~/.config/immersionpod ~/.dotfiles/.config
-
-# copy ~/.local/share files
+cp -r ~/.config/sway ~/.dotfiles/.config
+cp -r ~/.config/waybar ~/.dotfiles/.config
+cp -r ~/.config/wofi ~/.dotfiles/.config
 
 # copy ~/.local/share folders
 cp -r ~/.local/share/gedit ~/.dotfiles/.local/share
-cp -r ~/.local/share/gnome-shell/extensions ~/.dotfiles/.local/share/gnome-shell/
-
 
 echo "Configuration files copied to ~/.dotfiles"
 

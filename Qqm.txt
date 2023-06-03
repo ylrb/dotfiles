@@ -1,8 +1,6 @@
 anki-official-binary-bundle
 ctpv-git
-exercism
 gdm-tools
-ghcup-hs-bin
 google-chrome
 impd-git
 manjaro-firmware
@@ -20,6 +18,5 @@ python-spotipy
 python-syncedlyrics
 simplescreenrecorder
 systemd-fsck-silent
-teensyduino
 visual-studio-code-bin
 zinnia

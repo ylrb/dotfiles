@@ -60,6 +60,7 @@ map X ${{exercism submit $f}}
 cmd open ${{
     case $f in
     	*.txt|*.conf|*.srt|*.py|*.java|*.c|*.h|*.go|*.hs|*.lhs|*.lua) nvim $fx;;
+		*.png|*.jpg|*.jpeg|*.ppm|*.gif) imv $fx;;
     	*.htm*) setsid -f firefox $fx;;
     	*) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
     esac

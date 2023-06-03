@@ -11,17 +11,27 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - bluez-utils: configure bluetooth from terminal
 - make: for compilation
 - gdm-tools: change GDM login screen background [AUR]
-- gradience: change adwaita colors for GTK4
 - udiskie: auto-mount
 - ibus: input foreign languages
   * ibus-anthy: Japanese input (or ibus-mozc [AUR])
   * ibus-libpinyin: Chinese input
+- ibus-setup: switch between keyboards
+
+### Sway
+
+- sway: Desktop Environment
+- swaylock
+- swayidle
+- wofi: sway app launcher
+- brightnessctl: brightness management
+- grim & slurp: screenshots
 
 ### Terminal
 
 - kitty
 - lf: file browser
 - ctpv-git: preview manager for lf [AUR]
+  * imv: image viewer
   * atool: preview archives
   * elinks: preview .html files
   * jq: preview .json files
@@ -38,21 +48,14 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - pinta: image editor
 - thunderbird: mail client
 - foliate: ebook reader
-- calibre: ebook manager/editor
-- discord (or discord-git [AUR] for updates?)
-- desmume: DS emulator
+- discord
 - keepassxc: password manager
 - remmina: remote desktop through VNC with tigervnc
 
 ### Coding
 
 - neovim: text editor
-  * lua-language-server: lua lsp
-  * gcc: compiling
-  * gdb: debugging
 - visual-studio-code-bin [AUR]
-- ghc: Haskell compiler
-- ghcup-hs-bin: Haskell packet manager [AUR]
 - npm: Javascript packet manager
 
 ### Japanese learning tools
@@ -61,7 +64,6 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 - manga-ocr: OCR [pip]
 - mokuro: OCR on whole manga [pip]
   * sentencepiece [pip]
-- impd-git: condensed audio maker [AUR]
 
 ### Chinese learning tools
 
@@ -72,14 +74,3 @@ My Manjaro Linux dotfiles, automatically updated by running .dotfiles.sh
 
 - [INSA VPN](https://extranet.cisr.fr/ressources/web-vpn/nouveau-vpn/client-anyconnect/Version_en_cours/anyconnect-linux.tar.gz)
   * requires launching script from its directory
-
-### Gnome extensions
-
-- Aylur's Widget
-- Circular Widgets
-- Clipboard Indicator
-- Desktop Clock
-- GTK Title Bar
-- Hide Keyboard Layour
-- Net Speed
-- Rounded Window Corners
