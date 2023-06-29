@@ -24,9 +24,6 @@ require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim',
         config = function() require('plugins.lualine') end,
     }
-	use {'romgrk/barbar.nvim',
-		config = function() require('plugins.barbar') end,
-	}
 
 	-- IDE Styling
     use { 'rktjmp/highlight-current-n.nvim',
@@ -56,8 +53,12 @@ require('packer').startup(function(use)
         config = function() require('plugins.telescope') end,
     }
 
-	-- Utilities
-    use { 'nvim-lua/plenary.nvim' }
+    use 'nvim-lua/plenary.nvim'
+
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function() vim.fn["mkdp#util#install"]() end,
+	})
 
     -- Sync on first launch
     if packer_bootstrap then

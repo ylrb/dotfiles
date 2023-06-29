@@ -17,21 +17,12 @@ set findlen 2
 
 # Directory shortcuts
 
-map gg
-map gr cd /
-map gd cd ~/Documents/
-map gD cd ~/Downloads/
-map gt cd ~/Documents/TC/
-map gn cd ~/Documents/日本語/
-map gs cd /run/media/yl/T7/
-map gm cd /run/media/yl/
-map gc cd ~/.config/
-map gp cd ~/Documents/TC/A.\ Pack\ Parrain/3TC/Semestre\ 2/
+map g fzf
+map f fzf_find
+map ss cd /run/media/yl/T7/
 
-cmd mountSSD ${{udisksctl mount -b /dev/sda1}}
-map ms mountSSD
-cmd unmountSSD ${{udisksctl unmount -b /dev/sda1}}
-map msu unmountSSD
+map ms ${{udisksctl mount -b /dev/sda1}}
+map msu ${{udisksctl unmount -b /dev/sda1}}
 
 # Custom commands
 
@@ -52,7 +43,6 @@ cmd sudo_gedit ${{sudo gedit $fx &}}
 map sg sudo_gedit
 map y
 map yy copy
-map X ${{exercism submit $f}}
 
 # Opener selection
 
@@ -74,7 +64,6 @@ set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 map <enter> shell
-# execute current file (must be executable)
 map x $$f
 map X !$f
 map o &mimeopen $f
@@ -113,3 +102,30 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
+cmd fzf ${{
+    res="$(find . -maxdepth 4 | fzf --reverse --header='Jump to location')"
+    if [ -n "$res" ]; then
+        if [ -d "$res" ]; then
+            cmd="cd"
+        else
+            cmd="select"
+        fi
+        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+        lf -remote "send $id $cmd \"$res\""
+    fi
+}}
+
+cmd fzf_find ${{
+    res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location')"
+    if [ -n "$res" ]; then
+        if [ -d "$res" ]; then
+            cmd="cd"
+        else
+            cmd="select"
+        fi
+        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+        lf -remote "send $id $cmd \"$res\""
+    fi
+}}
+map <c-f> :fzf_jump

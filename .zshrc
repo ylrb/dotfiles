@@ -34,9 +34,7 @@ alias dotfiles="zsh ~/.dotfiles.sh"
 alias icat="kitty +kitten icat"
 alias luamake=/luamake
 alias lf="lfcd"
-alias ghc="ghc -dynamic"
-alias W="gsettings set org.gnome.desktop.background picture-options spanned && gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/yl/Documents/Wallpaper-3-screens.png' && exit"
-alias w="gsettings set org.gnome.desktop.background picture-options spanned && gsettings set org.gnome.desktop.background picture-uri-dark 'file:///home/yl/Documents/Wallpaper-2-screens.png' && exit"
+alias y="ytfzf -T swayimg -t"
 
 
 lfcd () {
@@ -54,4 +52,22 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
-export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export XDG_DATA_HOME="$HOME/.local/share"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/yl/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/yl/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/yl/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/yl/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

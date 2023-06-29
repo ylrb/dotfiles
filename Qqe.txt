@@ -42,6 +42,7 @@ elinks
 evince
 exfatprogs
 f2fs-tools
+fd
 ffmpegthumbnailer
 file
 file-roller
@@ -50,6 +51,7 @@ findutils
 firefox
 foliate
 fprintd
+fzf
 gawk
 gcc-libs
 gdb
@@ -68,7 +70,6 @@ gnome-control-center
 gnome-disk-utility
 gnome-keyring
 gnome-logs
-gnome-mines
 gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
@@ -93,7 +94,6 @@ grub-theme-manjaro
 gvfs
 gzip
 haveged
-htop
 ibus
 ibus-anthy
 ibus-libpinyin
@@ -108,7 +108,6 @@ jfsutils
 jq
 keepassxc
 kitty
-kronometer
 less
 lf
 lib32-libva-vdpau-driver
@@ -162,7 +161,6 @@ npm
 ntfs-3g
 ntp
 numlockx
-obsidian
 ookla-speedtest-bin
 openasar-git
 openbsd-netcat
@@ -186,7 +184,6 @@ python-pip
 python-spotdl
 qgnomeplatform-qt5
 qgnomeplatform-qt6
-quadrapassel
 reiserfsprogs
 remmina
 s-nail
@@ -202,6 +199,7 @@ sushi
 sway
 swaybg
 swayidle
+swayimg
 swaylock
 syncthing
 sysfsutils
@@ -221,6 +219,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 udiskie
+ueberzug
 usb_modeswitch
 usbutils
 util-linux
@@ -251,3 +250,4 @@ xorg-xev
 xorg-xinit
 xz
 yay
+ytfzf

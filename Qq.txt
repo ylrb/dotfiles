@@ -11,6 +11,7 @@ adobe-source-han-sans-kr-fonts
 adobe-source-sans-fonts
 adw-gtk-theme
 adw-gtk3
+adwaita-color-schemes
 adwaita-cursors
 adwaita-icon-theme
 adwaita-qt5
@@ -55,6 +56,7 @@ bolt
 boost
 boost-libs
 botan
+botan2
 box2d
 brightnessctl
 brotli
@@ -76,10 +78,7 @@ cifs-utils
 ckbcomp
 clang
 clucene
-clutter
-clutter-gtk
 cmake
-cogl
 colord
 colord-gtk-common
 colord-gtk4
@@ -126,7 +125,6 @@ e2fsprogs
 ecryptfs-utils
 efibootmgr
 efivar
-electron
 electron21
 elinks
 enchant
@@ -140,6 +138,7 @@ f2fs-tools
 faac
 faad2
 fakeroot
+fd
 ffmpeg
 ffmpegthumbnailer
 fftw
@@ -162,6 +161,7 @@ fribidi
 fuse-common
 fuse2
 fuse3
+fzf
 gawk
 gc
 gcab
@@ -210,7 +210,6 @@ gnome-desktop-common
 gnome-disk-utility
 gnome-keyring
 gnome-logs
-gnome-mines
 gnome-online-accounts
 gnome-remote-desktop
 gnome-session
@@ -279,7 +278,6 @@ hdf5
 hicolor-icon-theme
 hidapi
 highway
-htop
 http-parser
 hunspell
 hwdata
@@ -301,6 +299,7 @@ imv
 inetutils
 iniparser
 intel-ucode
+intltool
 inxi
 iproute2
 iptables
@@ -324,32 +323,17 @@ json-c
 json-glib
 jsoncpp
 jxrlib
-karchive
 kauth
 kbd
-kcodecs
-kconfig
-kconfigwidgets
 kcoreaddons
-kcrash
-kdbusaddons
 keepassxc
 keyutils
-kglobalaccel
-kguiaddons
-ki18n
-kiconthemes
 kitemmodels
-kitemviews
 kitty
 kitty-shell-integration
 kitty-terminfo
 kmod
 krb5
-kronometer
-kwidgetsaddons
-kwindowsystem
-kxmlgui
 kyotocabinet
 l-smash
 ladspa
@@ -466,6 +450,7 @@ libdv
 libdvdnav
 libdvdread
 libe-book
+libedataserverui4
 libedit
 libelf
 libepoxy
@@ -490,8 +475,8 @@ libgirepository
 libgit2
 libglvnd
 libgme
-libgnome-games-support
 libgnomekbd
+libgoa
 libgpg-error
 libgrss
 libgsf
@@ -510,6 +495,7 @@ libid3tag
 libidn
 libidn2
 libiec61883
+libimagequant
 libimobiledevice
 libindicator-gtk3
 libinih
@@ -597,6 +583,7 @@ libproxy
 libpsl
 libpulse
 libpwquality
+libqalculate
 libqxp
 libraqm
 libraw
@@ -692,6 +679,7 @@ libxmu
 libxpresent
 libxrandr
 libxrender
+libxres
 libxshmfence
 libxslt
 libxss
@@ -773,6 +761,7 @@ mpv
 msgpack-c
 mtdev
 mujs
+muparser
 mutter
 nano
 nano-syntax-highlighting
@@ -803,7 +792,6 @@ nss
 ntfs-3g
 ntp
 numlockx
-obsidian
 ocl-icd
 oniguruma
 ookla-speedtest-bin
@@ -922,6 +910,7 @@ python-commonmark
 python-cryptography
 python-deprecated
 python-distro
+python-distutils-extra
 python-dnspython
 python-docopt
 python-docutils
@@ -963,6 +952,7 @@ python-npyscreen
 python-ordered-set
 python-packaging
 python-pep517
+python-pillow
 python-pip
 python-platformdirs
 python-pluggy
@@ -1034,6 +1024,7 @@ qpdf
 qrencode
 qt5-base
 qt5-declarative
+qt5-quickcontrols2
 qt5-svg
 qt5-translations
 qt5-wayland
@@ -1042,7 +1033,6 @@ qt6-base
 qt6-declarative
 qt6-translations
 qt6-wayland
-quadrapassel
 raptor
 rasqal
 rav1e
@@ -1058,6 +1048,7 @@ rtkit
 rtmpdump
 rubberband
 run-parts
+rust
 s-nail
 sassc
 sbc
@@ -1103,6 +1094,7 @@ svt-hevc
 sway
 swaybg
 swayidle
+swayimg
 swaylock
 syncthing
 sysfsutils
@@ -1144,6 +1136,7 @@ tzdata
 uchardet
 udiskie
 udisks2
+ueberzug
 unibilium
 unzip
 upower
@@ -1177,6 +1170,7 @@ web-installer-url-handler
 webkit2gtk
 webkit2gtk-4.1
 webkit2gtk-5.0
+webkitgtk-6.0
 webp-pixbuf-loader
 webrtc-audio-processing
 wget
@@ -1241,6 +1235,7 @@ yay
 yelp
 yelp-xsl
 yt-dlp
+ytfzf
 zbar
 zenity
 zeromq

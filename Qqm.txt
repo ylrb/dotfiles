@@ -8,6 +8,7 @@ ookla-speedtest-bin
 openasar-git
 protonvpn-gui
 python-jaconv
+python-jarowinkler
 python-pep517
 python-proton-client
 python-protonvpn-nm-lib

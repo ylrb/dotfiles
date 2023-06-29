@@ -1,7 +1,7 @@
 style=/home/yl/.config/wofi/custom.css
+show=drun
 xoffset=700
 yoffset=290
-show=drun
 width=500
 height=400
 always_parse_args=true
