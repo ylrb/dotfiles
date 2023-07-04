@@ -3,7 +3,6 @@
 #================================================================
 
 set $mod Mod4
-set $mod2 twosuperior
 set $left Left
 set $right Right
 set $up Up
@@ -81,8 +80,6 @@ exec swayidle -w \
 # Key bindings
 #================================================================
 
-# Custom :
-
 bindsym $mod+l exec 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF'
 bindsym Print exec 'grim -g "$(slurp -d)" - | wl-copy -t image/png'
 bindsym XF86MonBrightnessDown exec 'brightnessctl set $((`brightnessctl get`-2400))'
@@ -90,8 +87,8 @@ bindsym XF86MonBrightnessUp exec 'brightnessctl set $((`brightnessctl get`+2400)
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-
-# Basics:
+bindsym XF86HomePage workspace 2; exec 'firefox --new-tab'
+bindsym XF86Explorer exec 'kitty lf'
 
 bindsym $mod+t exec $term
 bindsym $mod+q kill
@@ -113,27 +110,33 @@ bindsym $mod+Shift+$down move down
 bindsym $mod+Shift+$up move up
 bindsym $mod+Shift+$right move right
 
-bindsym $mod2+1 workspace number 1
-bindsym $mod2+2 workspace number 2
-bindsym $mod2+3 workspace number 3
-bindsym $mod2+4 workspace number 4
-bindsym $mod2+5 workspace number 5
-bindsym $mod2+6 workspace number 6
-bindsym $mod2+7 workspace number 7
-bindsym $mod2+8 workspace number 8
-bindsym $mod2+9 workspace number 9
-bindsym $mod2+0 workspace number 10
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+bindsym $mod+6 workspace number 6
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+bindsym $mod+0 workspace number 10
 
-bindsym $mod+1 move container to workspace number 1
-bindsym $mod+2 move container to workspace number 2
-bindsym $mod+3 move container to workspace number 3
-bindsym $mod+4 move container to workspace number 4
-bindsym $mod+5 move container to workspace number 5
-bindsym $mod+6 move container to workspace number 6
-bindsym $mod+7 move container to workspace number 7
-bindsym $mod+8 move container to workspace number 8
-bindsym $mod+9 move container to workspace number 9
-bindsym $mod+0 move container to workspace number 10
+mode "move" {
+	bindsym 1 move container to workspace number 1
+	bindsym 2 move container to workspace number 2
+	bindsym 3 move container to workspace number 3
+	bindsym 4 move container to workspace number 4
+	bindsym 5 move container to workspace number 5
+	bindsym 6 move container to workspace number 6
+	bindsym 7 move container to workspace number 7
+	bindsym 8 move container to workspace number 8
+	bindsym 9 move container to workspace number 9
+	bindsym 0 move container to workspace number 10
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+egrave mode "move"
 
 bindsym $mod+b splith
 bindsym $mod+v splitv
@@ -152,31 +155,38 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#================================================================
-# Launchers
-#================================================================
+mode "launcher" {
+	bindsym a \
+		exec 'swaymsg workspace 10'; \
+		exec 'firefox --new-window moz-extension://32b3abe8-bc71-48fb-9c67-8ea1ee921036/search.html'; \
+		workspace 1; \
+		exec 'pkill -f discord' ; \
+		exec 'kitty --hold python ~/Documents/Utilities/keroro/main.py'; \
+		mode "default"
+	bindsym q exec anki; mode "default"
+	bindsym c exec gnome-calculator; mode "default"
+	bindsym d exec discord; mode "default"
+	bindsym f workspace 2; exec 'firefox --new-tab'; mode "default"
+	bindsym g exec gedit; mode "default"
+	bindsym i exec ibus-setup; mode "default"
+	bindsym j exec 'firefox https://jisho.org/'; mode "default"
+	bindsym k exec keepassxc; mode "default"
+	bindsym l exec libreoffice; mode "default"
+	bindsym m exec 'firefox https://www.messenger.com'; mode "default"
+	bindsym n workspace 3; exec firefox; exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'; mode "default"
+	bindsym p exec pinta; mode "default"
+	bindsym s exec 'firefox https://open.spotify.com/'; mode "default"
+	bindsym t exec thunderbird; mode "default"
+	bindsym v exec code; mode "default"
+	bindsym x exec nautilus; mode "default"
+	bindsym y exec 'kitty ytfzf --async-thumbnails -l -T swayimg -t'; mode "default"
+	bindsym z exec 'kitty lf'; mode "default"
 
-# These shortcuts are compatible with Windows (except the last one)
-bindsym XF86HomePage workspace 2; exec 'firefox --new-tab'
-bindsym XF86Explorer exec 'kitty lf'
-bindsym XF86Calculator exec gnome-calculator
-bindsym XF86Mail exec thunderbird
-bindsym XF86Tools exec anki
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+z mode "launcher"
 
-# Those weird names are the XF86 equivalents of F13-F24 (except F19 and F24 which are not recognized for some reaon)
-bindsym XF86Launch5 \
-	exec 'swaymsg workspace 10'; \
-	exec 'firefox --new-window moz-extension://32b3abe8-bc71-48fb-9c67-8ea1ee921036/search.html'; \
-	workspace 1; \
-	exec 'pkill -f discord' ; \
-	exec 'kitty --hold python ~/Documents/Utilities/keroro/main.py'; \
-bindsym XF86Launch6 exec 'discord'
-bindsym XF86Launch7 exec ibus-setup
-bindsym XF86Launch8 exec keepassxc
-bindsym XF86Launch9 workspace 3; exec firefox; exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'
-bindsym XF86AudioMicMute exec pinta
-bindsym XF86TouchpadToggle exec 'firefox https://open.spotify.com/'
-bindsym XF86TouchpadOn exec code
-bindsym XF86TouchpadOff exec 'kitty ytfzf --async-thumbnails -l -T swayimg -t'
+
 
 include /etc/sway/config.d/*
