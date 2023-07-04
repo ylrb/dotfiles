@@ -72,7 +72,6 @@ cairo
 cairomm
 cantarell-fonts
 chromaprint
-chromium
 chrono-date
 chrpath
 cifs-utils

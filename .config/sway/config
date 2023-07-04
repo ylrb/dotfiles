@@ -170,7 +170,7 @@ bindsym XF86Launch5 \
 	workspace 1; \
 	exec 'pkill -f discord' ; \
 	exec 'kitty --hold python ~/Documents/Utilities/keroro/main.py'; \
-bindsym XF86Launch6 exec discord
+bindsym XF86Launch6 exec 'discord'
 bindsym XF86Launch7 exec ibus-setup
 bindsym XF86Launch8 exec keepassxc
 bindsym XF86Launch9 workspace 3; exec firefox; exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'

@@ -17,7 +17,6 @@ brightnessctl
 btrfs-progs
 btrfsmaintenance
 bzip2
-chromium
 cmake
 coreutils
 cpupower
