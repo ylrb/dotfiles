@@ -55,21 +55,16 @@ exec anki
 exec udiskie --automount --tray --notify --appindicator
 exec "kitty syncthing"
 
-assign	[class="Anki"]		4
-assign	[class="discord"] 	10
+assign	[class="Anki"]						4
+assign	[class="discord"] 					10
+assign  [app_id="org.keepassxc.KeePassXC"]	10
 
 # Windowed apps
 for_window [window_role="pop-up"] floating enable
 for_window [app_id="org.gnome.Calculator"] floating enable
-for_window [app_id="org.keepassxc.KeePassXC"] floating enable
 for_window [app_id="mpv"] floating enable
 for_window [title="lf"] floating enable
 for_window [title="ytfzf"] floating enable
-
-for_window [app_id="firefox" title="^Firefox – Sharing Indicator$"] kill
-for_window [app_id="firefox" title="^Firefox — Sharing Indicator$"] kill
-for_window [app_id="firefox" title="^Picture-in-Picture$"] \
-    floating enable, move position 877 450, sticky enable
 
 exec swayidle -w \
     timeout 300 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF' \
@@ -163,7 +158,7 @@ mode "launcher" {
 		exec 'pkill -f discord' ; \
 		exec 'kitty --hold python ~/Documents/Utilities/keroro/main.py'; \
 		mode "default"
-	bindsym q exec anki; mode "default"
+	bindsym b exec baobab; mode "default"
 	bindsym c exec gnome-calculator; mode "default"
 	bindsym d exec discord; mode "default"
 	bindsym f workspace 2; exec 'firefox --new-tab'; mode "default"
@@ -175,9 +170,11 @@ mode "launcher" {
 	bindsym m exec 'firefox https://www.messenger.com'; mode "default"
 	bindsym n workspace 3; exec firefox; exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'; mode "default"
 	bindsym p exec pinta; mode "default"
+	bindsym q exec anki; mode "default"
 	bindsym s exec 'firefox https://open.spotify.com/'; mode "default"
 	bindsym t exec thunderbird; mode "default"
 	bindsym v exec code; mode "default"
+	bindsym w exec 'wofi --show drun'; mode "default"
 	bindsym x exec nautilus; mode "default"
 	bindsym y exec 'kitty ytfzf --async-thumbnails -l -T swayimg -t'; mode "default"
 	bindsym z exec 'kitty lf'; mode "default"
@@ -185,7 +182,8 @@ mode "launcher" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym $mod+z mode "launcher"
+bindsym twosuperior mode "launcher"
+bindsym $mod+o mode "launcher"
 
 
 
