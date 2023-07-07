@@ -3,6 +3,10 @@ vim.g.mapleader = ' '
 
 -- Disable some defaults
 vim.keymap.set('n', '<leader>', '<nop>')
+vim.keymap.set('n', '<up>', '<nop>')
+vim.keymap.set('n', '<down>', '<nop>')
+vim.keymap.set('n', '<left>', '<nop>')
+vim.keymap.set('n', '<right>', '<nop>')
 
 -- Exit & Save
 vim.keymap.set('', '<c-s>', '<cmd>write<cr>', {desc = 'Save'})
@@ -21,11 +25,9 @@ vim.keymap.set('n', '<leader><down>', '<C-w><down>', {desc = 'Move down'})
 vim.keymap.set('n', '<leader><left>', '<C-w><left>', {desc = 'Move left'})
 vim.keymap.set('n', '<leader><up>', '<C-w><up>', {desc = 'Move up'})
 
--- Other
-vim.keymap.set('n', '<down>', 'gk', {desc = 'Go up'})
-vim.keymap.set('n', '<down>', 'gj', {desc = 'Go down'})
-vim.keymap.set('n', '<C-Up>', '3gk', {desc = 'Jump up'})
-vim.keymap.set('n', '<C-Down>', '3gj', {desc = 'Jump down'})
+-- Notes
+vim.keymap.set('n', 'k', 'gk', {desc = 'Go up'})
+vim.keymap.set('n', 'j', 'gj', {desc = 'Go down'})
 vim.keymap.set('n', '<c-p>', ':MarkdownPreview<cr>', {desc = 'Open markdown preview'})
 
 -- Azerty Numbers

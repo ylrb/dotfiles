@@ -129,3 +129,12 @@ Log file created at: 2022-10-27 15:46:48 1860 140198036711296
 2022-10-27 17:02:59 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
 2022-10-27 17:07:11 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
 2022-10-27 17:16:53 1860 140198014416576 session/internal/keymap.cc(121) LOG(WARNING) custom_keymap_table is empty. use default setting
+Log file created at: 2023-07-06 19:17:21 3012 140449856018432
+2023-07-06 19:17:21 3012 140449856018432 storage/tiny_storage.cc(130) LOG(ERROR) the file is missing the header.
+2023-07-06 19:17:21 3012 140449856018432 storage/registry.cc(63) LOG(ERROR) cannot open registry
+2023-07-06 19:17:21 3012 140449856018432 dictionary/user_dictionary.cc(257) LOG(WARNING) Cannot get modification time of the user dictionary: NOT_FOUND: stat failed: /home/yl/.config/mozc/user_dictionary.db: No such file or directory
+2023-07-06 19:17:21 3012 140449856018432 dictionary/user_dictionary.cc(494) LOG(INFO) MaybeStartReload() didn't start reloading
+2023-07-06 19:17:21 3012 140449855456960 prediction/user_history_predictor.cc(249) LOG(INFO) [num_deleted > 0] 32 old entries were not loaded 0
+2023-07-06 19:17:23 3012 140449836254912 session/session_converter.cc(1674) LOG(WARNING) ReconstructHistory failed.
+2023-07-06 19:17:33 3012 140449836254912 session/session_converter.cc(1674) LOG(WARNING) ReconstructHistory failed.
+2023-07-06 19:20:21 3012 140449844647616 ipc/ipc_path_manager.cc(414) LOG(WARNING) /usr/lib/mozc/mozc_server on disk is modified

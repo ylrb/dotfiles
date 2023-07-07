@@ -1,5 +1,6 @@
 anki-official-binary-bundle
 ctpv-git
+dragon-drop
 gdm-tools
 google-chrome
 impd-git

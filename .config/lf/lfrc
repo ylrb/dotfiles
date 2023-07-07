@@ -11,47 +11,37 @@ set cleaner ctpvclear
 # Settings
 
 set icons
-set ratios 1:2:2
+set ratios 3:5:6
 set findlen 2
 
 
-# Directory shortcuts
+# Remaps
+
+map x trash 
+map X delete
+map o mark-load
+map O mark-save
+map k mark-remove
+
+
+# Custom shortcuts
 
 map g fzf
-map f fzf_find
-map ss cd /run/media/yl/T7/
-
-map ms ${{udisksctl mount -b /dev/sda1}}
-map msu ${{udisksctl unmount -b /dev/sda1}}
-
-# Custom commands
-
-map d
-map dc cut
-map dy trash 
-map dD delete
 map e ${{nvim $fx}}
 map E extract
 map n ${{nautilus . &}}
-map m
-map b mark-save
-map md push $mkdir<space>
+map m push $mkdir<space>
+map ms ${{udisksctl unmount -b /dev/sda1}}
 map t push $touch<space>
-cmd gedit ${{gedit $fx &}}
-map ge gedit
-cmd sudo_gedit ${{sudo gedit $fx &}}
-map sg sudo_gedit
-map y
-map yy copy
+map a &dragon-drop -x -a $fx
+map A $dragon-drop -x -t | xargs -I {} mv {} ./
 
-# Opener selection
-
-# setsid -f permet de laisser le programme lancé même après avoir fermé lf
 cmd open ${{
     case $f in
-    	*.txt|*.conf|*.srt|*.py|*.java|*.c|*.h|*.go|*.hs|*.lhs|*.lua) nvim $fx;;
+    	*.txt|*.conf|*.srt|*.ass|*.lua|*.md|*.css|.json) nvim $fx;;
 		*.png|*.jpg|*.jpeg|*.ppm|*.gif) imv $fx;;
     	*.htm*) setsid -f firefox $fx;;
+		*.pdf) setsid -f evince $fx;;
     	*) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
 }}
@@ -64,10 +54,6 @@ set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 map <enter> shell
-map x $$f
-map X !$f
-map o &mimeopen $f
-map O $mimeopen --ask $f
 
 cmd trash ${{
     set -f
@@ -85,22 +71,6 @@ cmd extract ${{
         *.rar) unrar x $f;;
         *.7z) 7z x $f;;
     esac
-}}
-
-cmd tar ${{
-    set -f
-    mkdir $1
-    cp -r $fx $1
-    tar czf $1.tar.gz $1
-    rm -rf $1
-}}
-
-cmd zip ${{
-    set -f
-    mkdir $1
-    cp -r $fx $1
-    zip -r $1.zip $1
-    rm -rf $1
 }}
 
 cmd fzf ${{
@@ -128,4 +98,3 @@ cmd fzf_find ${{
         lf -remote "send $id $cmd \"$res\""
     fi
 }}
-map <c-f> :fzf_jump

@@ -34,6 +34,7 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
+dragon-drop
 dust
 e2fsprogs
 ecryptfs-utils
@@ -176,6 +177,7 @@ pciutils
 perl
 perl-image-exiftool
 pinta
+pkgconf
 polkit-gnome
 procps-ng
 protonvpn-gui
@@ -251,3 +253,4 @@ xorg-xinit
 xz
 yay
 ytfzf
+zathura

@@ -119,6 +119,7 @@ dotnet-host
 dotnet-runtime
 double-conversion
 doxygen
+dragon-drop
 duktape
 dust
 e2fsprogs
@@ -183,6 +184,7 @@ geocode-glib-common
 gettext
 ghostscript
 giflib
+girara
 git
 gjs
 glew
@@ -867,6 +869,7 @@ pipewire-media-session
 pipewire-pulse
 pixman
 pkcs11-helper
+pkgconf
 pkgfile
 playerctl
 polkit
@@ -1236,6 +1239,7 @@ yelp
 yelp-xsl
 yt-dlp
 ytfzf
+zathura
 zbar
 zenity
 zeromq

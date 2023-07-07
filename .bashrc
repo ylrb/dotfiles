@@ -136,3 +136,7 @@ ex ()
   fi
 }
 zsh:1: command not found: wq
+
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
