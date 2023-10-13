@@ -43,6 +43,7 @@ focus_on_window_activation focus
 # Workspaces and apps
 #================================================================
 
+workspace 1  output $screen1
 workspace 10 output $screen2
 
 exec discord
@@ -56,8 +57,6 @@ assign  [app_id="org.keepassxc.KeePassXC"]	10
 # Windowed apps
 for_window [window_role="pop-up"] floating enable
 for_window [app_id="org.gnome.Calculator"] floating enable
-for_window [app_id="mpv"] floating enable
-for_window [title="ytfzf"] floating enable
 
 exec swayidle -w \
     timeout 300 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF' \
@@ -69,13 +68,14 @@ exec swayidle -w \
 #================================================================
 
 bindsym $mod+l exec 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF'
-bindsym Print exec 'grim -g "$(slurp -d)" - | wl-copy -t image/png'
+bindsym $mod+Shift+s exec 'grim -g "$(slurp -d)" - | wl-copy -t image/png'
+bindsym $mod+s exec 'grim -g "$(slurp -d)"'
 bindsym XF86MonBrightnessDown exec 'brightnessctl set $((`brightnessctl get`-2400))'
 bindsym XF86MonBrightnessUp exec 'brightnessctl set $((`brightnessctl get`+2400))'
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86HomePage workspace 2; exec 'firefox --new-tab'
+bindsym XF86HomePage exec 'firefox --new-tab'
 bindsym XF86Explorer exec 'kitty lf'
 
 bindsym $mod+t exec $term
@@ -109,6 +109,16 @@ bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
 bindsym $mod+Escape workspace number 10
 
+bindsym $mod+ampersand workspace number 1
+bindsym $mod+eacute workspace number 2
+bindsym $mod+quotedbl workspace number 3
+bindsym $mod+apostrophe workspace number 4
+bindsym $mod+parenleft workspace number 5
+bindsym $mod+minus workspace number 6
+bindsym $mod+egrave workspace number 7
+bindsym $mod+underscore workspace number 8
+bindsym $mod+ccedilla workspace number 9
+
 mode "move" {
 	bindsym 1 move container to workspace number 1; mode "default"
 	bindsym 2 move container to workspace number 2; mode "default"
@@ -121,10 +131,21 @@ mode "move" {
 	bindsym 9 move container to workspace number 9; mode "default"
 	bindsym 0 move container to workspace number 10; mode "default"
 
+	bindsym ampersand	move container to workspace number 1; mode "default"
+	bindsym eacute		move container to workspace number 2; mode "default"
+	bindsym quotedbl	move container to workspace number 3; mode "default"
+	bindsym apostrophe	move container to workspace number 4; mode "default"
+	bindsym parenleft	move container to workspace number 5; mode "default"
+	bindsym minus		move container to workspace number 6; mode "default"
+	bindsym egrave		move container to workspace number 7; mode "default"
+	bindsym underscore	move container to workspace number 8; mode "default"
+	bindsym ccedilla	move container to workspace number 9; mode "default"
+	bindsym agrave		move container to workspace number 10; mode "default"
+
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym $mod+egrave mode "move"
+bindsym $mod+e mode "move"
 
 bindsym $mod+b splith
 bindsym $mod+v splitv
@@ -149,7 +170,7 @@ mode "launcher" {
 		exec 'firefox --new-window moz-extension://32b3abe8-bc71-48fb-9c67-8ea1ee921036/search.html'; \
 		exec 'pkill -f discord'; \
 		workspace 1; \
-		exec 'mpv ~/Documents/日本語/Anime'; \
+		exec 'mpv ~/Downloads'; \
 		mode "default"
 	bindsym b exec baobab; mode "default"
 	bindsym c exec gnome-calculator; mode "default"
@@ -162,6 +183,7 @@ mode "launcher" {
 	bindsym l exec libreoffice; mode "default"
 	bindsym m exec 'firefox https://www.messenger.com'; mode "default"
 	bindsym n exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'; mode "default"
+	bindsym o exec obsidian; mode "default"
 	bindsym p exec pinta; mode "default"
 	bindsym q exec anki; mode "default"
 	bindsym s exec 'firefox https://open.spotify.com/'; mode "default"
@@ -171,6 +193,7 @@ mode "launcher" {
 	bindsym x exec nautilus; mode "default"
 	bindsym y exec 'kitty ytfzf --async-thumbnails -l -T swayimg -t'; mode "default"
 	bindsym z exec 'kitty lf'; mode "default"
+	bindsym XF86Explorer exec $term; mode "default"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"

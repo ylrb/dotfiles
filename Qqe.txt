@@ -50,6 +50,7 @@ file-roller
 filesystem
 findutils
 firefox
+firefox-profile-switcher-connector-bin
 foliate
 fprintd
 fzf
@@ -120,6 +121,7 @@ libva-mesa-driver
 libva-vdpau-driver
 licenses
 linux515
+linux515-virtualbox-host-modules
 logrotate
 lvm2
 make
@@ -158,10 +160,10 @@ net-tools
 networkmanager
 nfs-utils
 noto-fonts
-npm
 ntfs-3g
 ntp
 numlockx
+obsidian
 ookla-speedtest-bin
 openasar-git
 openbsd-netcat
@@ -177,12 +179,13 @@ pciutils
 perl
 perl-image-exiftool
 pinta
+piper
 pkgconf
 polkit-gnome
 procps-ng
-protonvpn-gui
 psmisc
 python-pip
+python-pipx
 python-spotdl
 qgnomeplatform-qt5
 qgnomeplatform-qt6
@@ -210,7 +213,6 @@ systemd-fsck-silent
 systemd-sysvcompat
 tar
 texinfo
-thunderbird
 time
 tk
 tracker3-miners
@@ -227,6 +229,7 @@ usbutils
 util-linux
 vi
 vim
+virtualbox
 visual-studio-code-bin
 vulkan-intel
 vulkan-radeon
@@ -237,6 +240,7 @@ wireless-regdb
 wl-clipboard
 wofi
 wpa_supplicant
+wps-office
 xcursor-breeze
 xdg-user-dirs-gtk
 xdg-utils
