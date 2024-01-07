@@ -7,6 +7,11 @@ dragon-drop
 electron21
 firefox-profile-switcher-connector-bin
 gdm-tools
+golang-golang-x-net
+golang-golang-x-sys
+golang-golang-x-term
+golang-golang-x-text
+golang-golang-x-tools
 google-chrome
 impd-git
 manjaro-firmware

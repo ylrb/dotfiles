@@ -17,6 +17,8 @@ brightnessctl
 btrfs-progs
 btrfsmaintenance
 bzip2
+calibre
+clamav
 cmake
 coreutils
 cpupower
@@ -163,6 +165,7 @@ noto-fonts
 ntfs-3g
 ntp
 numlockx
+nvm
 obsidian
 ookla-speedtest-bin
 openasar-git
@@ -178,7 +181,6 @@ patch
 pciutils
 perl
 perl-image-exiftool
-pinta
 piper
 pkgconf
 polkit-gnome
@@ -212,6 +214,8 @@ systemd
 systemd-fsck-silent
 systemd-sysvcompat
 tar
+tensorboard
+tepl
 texinfo
 time
 tk

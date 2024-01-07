@@ -71,3 +71,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+source /usr/share/nvm/init-nvm.sh
