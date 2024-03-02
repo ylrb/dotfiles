@@ -57,10 +57,11 @@ assign  [app_id="org.keepassxc.KeePassXC"]	10
 # Windowed apps
 for_window [window_role="pop-up"] floating enable
 for_window [app_id="org.gnome.Calculator"] floating enable
+for_window [app_id="blueberry"] floating enable
 
 exec swayidle -w \
-    timeout 300 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF' \
-    timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+    timeout 600 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF' \
+    timeout 900 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
     before-sleep 'swaylock -f --color 000000 --ring-color 333333 --key-hl-color 00FFFF'
 
 #================================================================
@@ -167,14 +168,15 @@ bindsym $mod+r mode "resize"
 mode "launcher" {
 	bindsym a \
 		exec 'swaymsg workspace 10'; \
-		exec 'firefox --new-window moz-extension://32b3abe8-bc71-48fb-9c67-8ea1ee921036/search.html'; \
+		exec 'firefox --new-window moz-extension://977eefb3-a54c-41ee-b202-a3ff4f8b1be8/search.html'; \
 		exec 'pkill -f discord'; \
-		workspace 1; \
-		exec 'mpv ~/Downloads'; \
+		exec 'anki'; \
+		exec 'kitty lf ~/Documents/日本語/Anime'; \
 		mode "default"
-	bindsym b exec baobab; mode "default"
+	bindsym b exec blueberry; mode "default"
 	bindsym c exec gnome-calculator; mode "default"
 	bindsym d exec discord; mode "default"
+	bindsym e exec baobab; mode "default"
 	bindsym f exec 'firefox --new-tab'; mode "default"
 	bindsym g exec gedit; mode "default"
 	bindsym i exec ibus-setup; mode "default"

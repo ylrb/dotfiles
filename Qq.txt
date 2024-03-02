@@ -21,6 +21,11 @@ alsa-lib
 alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
+android-platform
+android-sdk
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
 anki-official-binary-bundle
 anthy
 aom
@@ -43,15 +48,16 @@ b43-fwcutter
 baobab
 base
 bash
-bashrc-manjaro
 bat
 bazel
 bc
 bibata-cursor-theme
 binutils
 blas
+blueberry
 bluez
 bluez-libs
+bluez-tools
 bluez-utils
 bolt
 boost
@@ -105,6 +111,8 @@ dav1d
 db
 db5.3
 dbus
+dbus-broker
+dbus-broker-units
 dbus-glib
 dbus-python
 dconf
@@ -123,6 +131,8 @@ dmraid
 dnsmasq
 dnssec-anchors
 dosfstools
+dotnet-host
+dotnet-runtime-7.0
 double-conversion
 doxygen
 dragon-drop
@@ -135,6 +145,7 @@ efivar
 electron
 electron21
 electron25
+electron28
 elinks
 enchant
 evince
@@ -159,6 +170,7 @@ firefox
 firefox-profile-switcher-connector-bin
 flac
 fluidsynth
+flutter
 fmt
 foliate
 fontconfig
@@ -208,6 +220,7 @@ gmime3
 gmp
 gnome-autoar
 gnome-backgrounds
+gnome-bluetooth
 gnome-bluetooth-3.0
 gnome-browser-connector
 gnome-calculator
@@ -334,6 +347,8 @@ jfsutils
 jq
 jre11-openjdk
 jre11-openjdk-headless
+jre17-openjdk
+jre17-openjdk-headless
 js102
 js115
 js91
@@ -381,6 +396,8 @@ lib32-libglvnd
 lib32-libgpg-error
 lib32-libidn2
 lib32-libldap
+lib32-libnghttp2
+lib32-libnghttp3
 lib32-libpciaccess
 lib32-libpsl
 lib32-libssh2
@@ -414,6 +431,7 @@ lib32-vulkan-icd-loader
 lib32-vulkan-intel
 lib32-vulkan-radeon
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-xz
 lib32-zlib
 lib32-zstd
@@ -487,6 +505,7 @@ libevdev
 libevent
 libexif
 libexttextcat
+libfabric
 libfdk-aac
 libffi
 libfontenc
@@ -577,6 +596,8 @@ libnfnetlink
 libnfs
 libnftnl
 libnghttp2
+libnghttp3
+libngtcp2
 libnice
 libnl
 libnm
@@ -639,6 +660,7 @@ libsecret
 libshout
 libsidplayfp
 libsigc++
+libsixel
 libsm
 libsndfile
 libsodium
@@ -683,6 +705,7 @@ libvisio
 libvisual
 libvncserver
 libvorbis
+libvpl
 libvpx
 libvterm
 libwacom
@@ -831,11 +854,11 @@ nspr
 nss
 ntfs-3g
 ntp
+numactl
 numlockx
 nvm
 obsidian
 ocl-icd
-onevpl
 oniguruma
 ookla-speedtest-bin
 openal
@@ -906,6 +929,7 @@ perl-www-robotrules
 perl-xml-parser
 perl-xml-writer
 pinentry
+pinta
 piper
 pipewire
 pipewire-alsa
@@ -930,6 +954,7 @@ portmidi
 portsmf
 procps-ng
 protobuf
+prrte
 psmisc
 pugixml
 pybind11
@@ -1085,6 +1110,7 @@ python-rich
 python-rpds-py
 python-rsa
 python-scikit-build
+python-setproctitle
 python-setuptools
 python-setuptools-scm
 python-sgmllib3k
@@ -1274,6 +1300,7 @@ uvicorn
 v4l-utils
 v86d
 vamp-plugin-sdk
+vapoursynth
 vi
 vid.stab
 vim
@@ -1297,6 +1324,7 @@ webkit2gtk
 webkit2gtk-4.1
 webkit2gtk-5.0
 webkitgtk-6.0
+webp-pixbuf-loader
 webrtc-audio-processing
 webrtc-audio-processing-1
 wget
@@ -1315,6 +1343,7 @@ wxwidgets-common
 wxwidgets-gtk3
 x264
 x265
+xapp
 xcb-proto
 xcb-util
 xcb-util-cursor

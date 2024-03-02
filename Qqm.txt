@@ -1,11 +1,17 @@
 adwaita-color-schemes
 adwaita-qt5
 adwaita-qt6
+android-platform
+android-sdk
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
 anki-official-binary-bundle
 ctpv-git
 dragon-drop
 electron21
 firefox-profile-switcher-connector-bin
+flutter
 gdm-tools
 golang-golang-x-net
 golang-golang-x-sys
@@ -24,7 +30,6 @@ python-jaconv
 python-jarowinkler
 python-pep517
 python-pykakasi
-python-pytube
 python-rapidfuzz-capi
 python-soundcloud-v2
 python-spotdl

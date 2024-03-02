@@ -5,13 +5,20 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-sans-fonts
 adw-gtk-theme
+android-platform
+android-sdk
+android-sdk-build-tools
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
 anki-official-binary-bundle
+asar
 atool
 audacity
 b43-fwcutter
 baobab
 bash
 bat
+blueberry
 bluez-utils
 brightnessctl
 btrfs-progs
@@ -53,6 +60,7 @@ filesystem
 findutils
 firefox
 firefox-profile-switcher-connector-bin
+flutter
 foliate
 fprintd
 fzf
@@ -110,6 +118,7 @@ iproute2
 iputils
 jfsutils
 jq
+jre17-openjdk
 keepassxc
 kitty
 less
@@ -181,6 +190,7 @@ patch
 pciutils
 perl
 perl-image-exiftool
+pinta
 piper
 pkgconf
 polkit-gnome
