@@ -53,7 +53,6 @@ bazel
 bc
 bibata-cursor-theme
 binutils
-blas
 blueberry
 bluez
 bluez-libs
@@ -78,7 +77,6 @@ cairo
 cairomm
 calibre
 cantarell-fonts
-cblas
 chat-gpt-next-web-bin
 chmlib
 chromaprint
@@ -119,7 +117,6 @@ dbus-python
 dconf
 default-cursors
 desktop-file-utils
-desmume
 device-mapper
 dhclient
 dhcpcd
@@ -251,11 +248,6 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
-golang-golang-x-net
-golang-golang-x-sys
-golang-golang-x-term
-golang-golang-x-text
-golang-golang-x-tools
 gom
 google-chrome
 gopls
@@ -371,7 +363,6 @@ kyotocabinet
 l-smash
 ladspa
 lame
-lapack
 lcms2
 ldb
 ldns
@@ -971,7 +962,6 @@ pybind11
 pyside6
 pystring
 python
-python-absl
 python-aiohttp
 python-aiosignal
 python-annotated-types
@@ -986,12 +976,10 @@ python-autocommand
 python-babel
 python-bandcamp-api
 python-beautifulsoup4
-python-bleach
 python-blinker
 python-brotli
 python-brotlicffi
 python-build
-python-cachetools
 python-cairo
 python-certifi
 python-cffi
@@ -1027,14 +1015,10 @@ python-flask-cors
 python-frozenlist
 python-future
 python-gobject
-python-google-auth
-python-google-auth-oauthlib
-python-grpcio
 python-h11
 python-html2text
 python-html5-parser
 python-html5lib
-python-httplib2
 python-httptools
 python-hypothesis
 python-idna
@@ -1072,9 +1056,6 @@ python-nautilus
 python-nest-asyncio
 python-netifaces
 python-npyscreen
-python-numpy
-python-oauth2client
-python-oauthlib
 python-ordered-set
 python-orjson
 python-packaging
@@ -1090,8 +1071,6 @@ python-poetry-core
 python-protobuf
 python-psutil
 python-py7zr
-python-pyasn1
-python-pyasn1-modules
 python-pybcj
 python-pychm
 python-pycparser
@@ -1104,7 +1083,6 @@ python-pydantic-settings
 python-pygments
 python-pykakasi
 python-pymongo
-python-pyparsing
 python-pyppmd
 python-pyproject-hooks
 python-pyqt6
@@ -1124,10 +1102,8 @@ python-redis
 python-referencing
 python-regex
 python-requests
-python-requests-oauthlib
 python-rich
 python-rpds-py
-python-rsa
 python-scikit-build
 python-send2trash
 python-setproctitle
@@ -1154,7 +1130,6 @@ python-spotipy
 python-starlette
 python-syncedlyrics
 python-systemd
-python-tensorboard_plugin_wit
 python-text-unidecode
 python-texttable
 python-tomli
@@ -1327,7 +1302,6 @@ tar
 tcl
 tdb
 tecla
-tensorboard
 tepl
 tevent
 texinfo

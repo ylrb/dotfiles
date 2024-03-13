@@ -25,16 +25,12 @@ alias la="ls -a"
 # Aliases
 alias n="nvim"
 alias py="python3"
-alias pm="python manage.py"
-alias b="bluetoothctl power on && bluetoothctl connect 94:DB:56:6D:BC:48"
-alias b0="bluetoothctl disconnect && bluetoothctl power off"
+alias epy="env/bin/python"
+alias epip="env/bin/pip"
 alias myip="curl ipinfo.io/ip"
-alias h="wihotspot"
 alias dotfiles="zsh ~/.dotfiles.sh"
-alias icat="kitty +kitten icat"
 alias luamake=/luamake
 alias lf="lfcd"
-alias y="ytfzf -T swayimg -t"
 
 export ANDROID_HOME=$HOME/android-sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -58,21 +54,5 @@ bindkey -s '^o' 'lfcd\n'
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/home/yl/.local/share/gem/ruby/3.0.0/bin"
 export XDG_DATA_HOME="$HOME/.local/share"
-
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/yl/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/yl/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/yl/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/yl/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 source /usr/share/nvm/init-nvm.sh

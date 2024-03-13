@@ -165,34 +165,33 @@ bindsym $mod+r mode "resize"
 
 mode "launcher" {
 	bindsym a \
-		exec 'swaymsg workspace 10'; \
 		exec 'firefox --new-window moz-extension://977eefb3-a54c-41ee-b202-a3ff4f8b1be8/search.html'; \
-		exec 'pkill -f discord'; \
 		exec 'anki'; \
 		exec 'kitty lf ~/Documents/日本語/Anime'; \
 		mode "default"
 	bindsym b exec blueberry; mode "default"
 	bindsym c exec gnome-calculator; mode "default"
+	bindsym Shift+c exec google-chrome-stable; mode "default"
 	bindsym d exec discord; mode "default"
-	bindsym e exec baobab; mode "default"
+	bindsym e exec baobab; mode "default"
 	bindsym f exec 'firefox --new-tab'; mode "default"
-	bindsym g exec gedit; mode "default"
+	bindsym g exec '~/Documents/copilot-gpt4-service-linux-amd64-0.2.0/copilot-gpt4-service '; exec next-chat; mode "default"
 	bindsym i exec ibus-setup; mode "default"
 	bindsym j exec 'firefox https://jisho.org/'; mode "default"
 	bindsym k exec keepassxc; mode "default"
 	bindsym l exec libreoffice; mode "default"
-	bindsym m exec 'firefox https://www.messenger.com'; mode "default"
+	bindsym m exec gnome-system-monitor; mode "default"
 	bindsym n exec 'kitty nvim ~/Documents/Vault/YL/Orga/Notes.md'; mode "default"
 	bindsym o exec obsidian; mode "default"
 	bindsym p exec pinta; mode "default"
 	bindsym q exec anki; mode "default"
-	bindsym t exec thunderbird; mode "default"
+	bindsym s exec 'kitty speedtest; mode "default"
+	bindsym t exec $term; mode "default"
 	bindsym v exec code; mode "default"
 	bindsym w exec 'wofi --show drun'; mode "default"
 	bindsym x exec nautilus; mode "default"
 	bindsym y exec 'kitty ytfzf --async-thumbnails -l -T swayimg -t'; mode "default"
 	bindsym z exec 'kitty lf'; mode "default"
-	bindsym XF86Explorer exec $term; mode "default"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"

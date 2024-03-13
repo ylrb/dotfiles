@@ -34,7 +34,6 @@ cronie
 cryptsetup
 ctpv-git
 cups
-desmume
 device-mapper
 dhclient
 dhcpcd
@@ -225,7 +224,6 @@ systemd
 systemd-fsck-silent
 systemd-sysvcompat
 tar
-tensorboard
 tepl
 texinfo
 time
