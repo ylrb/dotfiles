@@ -56,6 +56,7 @@ lfcd () {
 bindkey -s '^o' 'lfcd\n'
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:/home/yl/.local/share/gem/ruby/3.0.0/bin"
 export XDG_DATA_HOME="$HOME/.local/share"
 
 

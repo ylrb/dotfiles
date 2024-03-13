@@ -6,7 +6,8 @@ android-sdk
 android-sdk-build-tools
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
-anki-official-binary-bundle
+anki-bin
+chat-gpt-next-web-bin
 ctpv-git
 dragon-drop
 electron21

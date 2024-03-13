@@ -35,6 +35,8 @@ map ms ${{udisksctl unmount -b /dev/sda1}}
 map t push $touch<space>
 map a &dragon-drop -x -a $fx
 map A $dragon-drop -x -t | xargs -I {} mv {} ./
+map R rename_numbers
+map w extract_audio  
 
 cmd open ${{
     case $f in
@@ -97,4 +99,29 @@ cmd fzf_find ${{
         res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
         lf -remote "send $id $cmd \"$res\""
     fi
+}}
+
+cmd rename_numbers ${{
+	for file in $fx; do
+    	if [ -f "$file" ]; then
+        	new_name=$(echo "$file" | sed 's/.*\///;s/[^0-9]*\([0-9]\+\).*/\1/')
+        	mv "$file" "${new_name}.${file##*.}"
+    	fi
+	done
+}}
+
+cmd extract_audio ${{
+	printf "\nAudio track index: "
+	read index
+
+	if ! command -v ffmpeg &> /dev/null; then
+    	echo "ffmpeg is not installed."
+    	exit 1
+	fi
+
+	for file in $fx; do
+    	if [ -r "$file" ]; then
+        	ffmpeg -hide_banner -loglevel warning -i "$file" -map 0:a:$index -vn -acodec copy "${file%.mkv}.aac"
+    	fi
+	done
 }}

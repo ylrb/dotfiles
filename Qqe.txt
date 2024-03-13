@@ -10,7 +10,7 @@ android-sdk
 android-sdk-build-tools
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
-anki-official-binary-bundle
+anki-bin
 asar
 atool
 audacity
@@ -25,6 +25,7 @@ btrfs-progs
 btrfsmaintenance
 bzip2
 calibre
+chat-gpt-next-web-bin
 clamav
 cmake
 coreutils
@@ -46,7 +47,6 @@ dosfstools
 dragon-drop
 dust
 e2fsprogs
-ecryptfs-utils
 efibootmgr
 elinks
 evince
@@ -62,6 +62,7 @@ firefox
 firefox-profile-switcher-connector-bin
 flutter
 foliate
+fontforge
 fprintd
 fzf
 gawk
@@ -175,7 +176,6 @@ ntfs-3g
 ntp
 numlockx
 nvm
-obsidian
 ookla-speedtest-bin
 openasar-git
 openbsd-netcat
@@ -203,6 +203,7 @@ qgnomeplatform-qt5
 qgnomeplatform-qt6
 reiserfsprogs
 remmina
+ruby
 s-nail
 sassc
 sed

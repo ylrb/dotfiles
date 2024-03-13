@@ -46,9 +46,7 @@ focus_on_window_activation focus
 workspace 1  output $screen1
 workspace 10 output $screen2
 
-exec discord
 exec udiskie --automount --tray --notify --appindicator
-exec "kitty syncthing"
 exec ibus-daemon --xim --daemonize -r
 
 assign	[class="discord"] 					10
@@ -188,7 +186,6 @@ mode "launcher" {
 	bindsym o exec obsidian; mode "default"
 	bindsym p exec pinta; mode "default"
 	bindsym q exec anki; mode "default"
-	bindsym s exec 'firefox https://open.spotify.com/'; mode "default"
 	bindsym t exec thunderbird; mode "default"
 	bindsym v exec code; mode "default"
 	bindsym w exec 'wofi --show drun'; mode "default"
