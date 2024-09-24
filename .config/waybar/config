@@ -1,116 +1,150 @@
 {
 	"layer": "top",
     "position": "top",
-	"height": 40,
-	"spacing": 3,
 	"output": "eDP-1",
-	"modules-left": ["custom/launcher",  "cpu", "disk", "memory", "backlight", "temperature",],
-	"modules-center": ["sway/workspaces"],
-	"modules-right": ["network", "pulseaudio", "battery", "clock", "custom/separator", "custom/power-menu"],
-   "custom/separator": {
-      "format": "<span color='#C7C7C7'>|</span>"
-   },
-	"custom/launcher": {
-      "format": " ",
-      "on-click": "wofi --show drun",
-   },
-   "backlight": {
-      "device": "DP-1",
-      "format": "<span color='#FAC536'>{icon}</span>   {percent}%",
-      "format-icons": ["󰃞", "󰃝", "󰃟", "󰃠"],
-      "on-click": "",
-   },
-   "tray": {
-      "icon-size": 20,
-      "spacing": 8
-   },
-   "sway/workspaces": {
-      "format": "{icon}",
-      "active-only": true,
-      "on-click": "activate",
-      "persistent_workspaces": {
-         "1": [],
-         "10": []
-      },
-	  "format-icons": {
-	  	 "1": "1",
-		 "2": "2",
-		 "3": "3",
-		 "4": "4",
-		 "5": "5",
-		 "6": "6",
-		 "7": "7",
-		 "8": "8",
-		 "9": "9"
-      },
-      "sort-by-number": true
-   },
-   "temperature": {
-      "thermal-zone": 0,
-      "critical-threshold": 80,
-      "format-critical": "<span color='#FF7724'></span>  {temperatureC}°C",
-      "format": "<span color='#FF7724'></span>  {temperatureC}°C"
-   },
+    "height": 32,
+    "spacing": 1,
+    "modules-left": [
+		"user",
+        "clock",
+        "custom/weather",
+        "sway/window",
+    ],
+    "modules-center": [
+        "sway/workspaces"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+		"cpu",
+		"backlight",
+        "battery",
+		"custom/yay",
+        "tray"
+    ],
+    "sway/window": {
+    	"format": "{title}",
+    	"max-length": 40,
+    	"all-outputs" : true,
+    	"rewrite": {
+        	"(.*) — Mozilla Firefox": "$1",
+    	},
+	},
+	"tray": {
+        "spacing": 9
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+		"format-alt": "{:%d/%m/%Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"calendar": {
+        	"mode"          : "year",
+            "mode-mon-col"  : 3,
+            "on-scroll"     : 1,
+            "on-click-right": "mode",
+            "format": {
+                "months":     "<span color='#32ffff'><b>{}</b></span>",
+                "days":       "<span color='#ffffff'><b>{}</b></span>",
+                "weekdays":   "<span color='#c9fff2'><b>{}</b></span>",
+                "today":      "<span color='#ff0000'><b>{}</b></span>"
+            }
+        },
+		"actions":  {
+        	"on-click-right": "mode",
+        	"on-click-forward": "tz_up",
+        	"on-click-backward": "tz_down",
+        	"on-scroll-up": "shift_up",
+        	"on-scroll-down": "shift_down"
+    	}
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
 	"battery": {
-		"states": {
-         "warning": 25,
-         "critical": 15
-      },
-		"format": "<span color='#AAD94C'>{icon}</span>    {capacity}%",
-		"format-charging": "<span color='#AAD94C'></span>  {capacity}%",
-		"format-full": "<span color='#AAD94C'></span>  full",
-		"format-plugged": "<span color='#AAD94C'></span>  {capacity}%",
-		"format-icons": ["", "", "", "", ""]
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "on-click": "ags -t quicksettings"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{icon} {volume}% {format_source}",
+        "format-bluetooth-muted": "  {icon} {format_source}",
+        "format-muted": "  {format_source}",
+        "format-source": "   {volume}%",
+        "format-source-muted": "",
+        "format-icons": {
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/weather": {
+        "format": "☀ {}°C",
+        "interval": 3600,
+        "exec": "curl -s 'https://wttr.in/~?format=1' | sed 's/[^0-9-]*//g'",
+        "exec-if": "ping wttr.in -c1",
+        "on-click": "firefox 'https://wttr.in/'",
+    },
+    "network": {
+        "format-wifi": " {essid}",
+        "format-ethernet": "⬇{bandwidthDownBytes} ⬆{bandwidthUpBytes}",
+        "interval": 3,
+        "format-linked": "{ifname} (No IP) ",
+        "format": "",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "wl-copy $(ip address show up scope global | grep inet | head -n1 | cut -d/ -f 1 | tr -d [:space:] | cut -c5-)",
+        "tooltip-format": " {bandwidthUpBits}  {bandwidthDownBits}\n{ifname}\n{ipaddr}/{cidr}\n",
+        "tooltip-format-wifi": " {essid} {frequency}MHz\nStrength: {signaldBm}dBm ({signalStrength}%)\nIP: {ipaddr}/{cidr}\n {bandwidthUpBits}  {bandwidthDownBits}",
+        "min-length": 1,
+        "max-length": 20
+    },
+	"cpu": {
+    	"interval": 5,
+    	"format": " {usage}%",
+		"on-click": "gnome-system-monitor",
 	},
-	"memory": {
-      "interval": 30,
-      "format-alt": "<span color='#2EA2DB'></span>   {}%",
-      "format":"<span color='#2EA2DB'></span>   {used:0.1f} GB",
-      "max-length": 10,
-   },
-   "cpu": {
-      "interval": 10,
-      "format": "<span color='#AAD94C'>󰻠</span>    {}%",
-      "max-length": 10,
-   },
-   "disk": {
-      "format": "<span color='#F25056'>󰋊</span>  {percentage_used}%",
-      "tooltip": true,
-      "interval": 30
-   },
-	"clock": {
-		"format": "<span color='#2EA2DB'></span>   {:%H:%M}",
-		"format-alt": "<span color='#2EA2DB'></span>   {:%a %d/%m/%Y}",
-      "tooltip-format": "<tt>{calendar}</tt>",
-	},
-	"network": {
-		"interface": "wlan0",
-      "format": "{ifname}",
-      "format-wifi": "<span color='#92E7CB'></span>    {essid}",
-      "format-ethernet": "<span color='#92E7CB'></span> Wired",
-      "format-disconnected": "<span color='#92E7CB'></span>   Offline",
-      "tooltip-format": "{ifname}",
-      "tooltip-format-wifi": "<span color='#92E7CB'></span>    {essid} <span color='#C7C7C7'>|</span> <span color='#FAC536'>{signalStrength}%</span>",
-      "tooltip-format-ethernet": "{ifname} ",
-      "tooltip-format-disconnected": "Disconnected",
-   },
-	"custom/power-menu": {
-      "format": "⏻",
-   },
-   "pulseaudio": {
-      "format": "<span color='#A282C7'>{icon}</span>    {volume}%",
-      "format-bluetooth": " ",
-      "format-bluetooth-muted": " ",
-      "tooltip": false,
-      "format-muted": "󰖁",
-      "format-icons": {
-         "headphone": "",
-         "hands-free": "",
-         "headset": "",
-         "phone": "",
-         "portable": "",
-         "car": "",
-         "default": ["", "󰕾", ""]
-      },
-  }
+	"custom/yay": {
+        "format": "<small>♦</small>{}",
+        "interval": 3600,
+        "exec": "yay -Qu | wc -l",
+        "exec-if": "exit 0",
+        "on-click": "kitty -e 'yay'; pkill -SIGRTMIN+8 waybar",
+        "signal": 8,
+        "max-length": 5,
+        "min-length": 3
+    },
+	"user": {
+        "format": "  {user}",
+        "interval": 60,
+        "height": 30,
+        "width": 30,
+        "icon": true,
+	}
 }

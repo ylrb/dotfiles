@@ -21,6 +21,7 @@ fi
 export EDITOR=/usr/bin/vim
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60"
 alias la="ls -a"
+unset LD_LIBRARY_PATH
 
 # Aliases
 alias n="nvim"
@@ -35,6 +36,7 @@ alias lf="lfcd"
 export ANDROID_HOME=$HOME/android-sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export TERM=xterm-256color
 
 lfcd () {
     tmp="$(mktemp)"

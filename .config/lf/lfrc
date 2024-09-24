@@ -27,16 +27,20 @@ map k mark-remove
 # Custom shortcuts
 
 map g fzf
+map f fzf_find
+map c fzf_config
 map e ${{nvim $fx}}
 map E extract
 map n ${{nautilus . &}}
 map m push $mkdir<space>
-map ms ${{udisksctl unmount -b /dev/sda1}}
+map M mkdir_with_selection
+map P ${{python $f}}
 map t push $touch<space>
 map a &dragon-drop -x -a $fx
 map A $dragon-drop -x -t | xargs -I {} mv {} ./
 map R rename_numbers
-map w extract_audio  
+map w extract_audio
+map Z zip
 
 cmd open ${{
     case $f in
@@ -57,6 +61,51 @@ set ifs "\n"
 set scrolloff 10
 map <enter> shell
 
+
+# Commands : navigation
+
+cmd fzf ${{
+    res="$(find ~ -maxdepth 5 -not -path '*/\.*' | fzf -i --reverse)"
+    if [ -n "$res" ]; then
+        if [ -d "$res" ]; then
+            cmd="cd"
+        else
+            cmd="select"
+        fi
+        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+        lf -remote "send $id $cmd \"$res\""
+    fi
+}}
+
+cmd fzf_find ${{
+    res="$(find . -maxdepth 1 | fzf -i --reverse)"
+    if [ -n "$res" ]; then
+        if [ -d "$res" ]; then
+            cmd="cd"
+        else
+            cmd="select"
+        fi
+        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+        lf -remote "send $id $cmd \"$res\""
+    fi
+}}
+
+cmd fzf_config ${{
+    res="$(find ~/.config -maxdepth 4 | fzf -i --reverse)"
+    if [ -n "$res" ]; then
+        if [ -d "$res" ]; then
+            cmd="cd"
+        else
+            cmd="select"
+        fi
+        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+        lf -remote "send $id $cmd \"$res\""
+    fi
+}}
+
+
+# Commands : file manipulation
+
 cmd trash ${{
     set -f
     mkdir -p ~/.trash
@@ -75,30 +124,20 @@ cmd extract ${{
     esac
 }}
 
-cmd fzf ${{
-    res="$(find . -maxdepth 4 | fzf --reverse --header='Jump to location')"
-    if [ -n "$res" ]; then
-        if [ -d "$res" ]; then
-            cmd="cd"
-        else
-            cmd="select"
-        fi
-        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
-        lf -remote "send $id $cmd \"$res\""
-    fi
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
 }}
 
-cmd fzf_find ${{
-    res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location')"
-    if [ -n "$res" ]; then
-        if [ -d "$res" ]; then
-            cmd="cd"
-        else
-            cmd="select"
-        fi
-        res="$(printf '%s' "$res" | sed 's/\\/\\\\/g;s/"/\\"/g')"
-        lf -remote "send $id $cmd \"$res\""
-    fi
+cmd mkdir_with_selection ${{
+  set -f
+  printf "Directory name: "
+  read newd
+  mkdir -- "$newd"
+  mv -- $fx "$newd"
 }}
 
 cmd rename_numbers ${{
@@ -109,6 +148,9 @@ cmd rename_numbers ${{
     	fi
 	done
 }}
+
+
+# Commands : editing
 
 cmd extract_audio ${{
 	printf "\nAudio track index: "
@@ -125,3 +167,4 @@ cmd extract_audio ${{
     	fi
 	done
 }}
+

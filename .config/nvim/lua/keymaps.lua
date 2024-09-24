@@ -3,10 +3,6 @@ vim.g.mapleader = ' '
 
 -- Disable some defaults
 vim.keymap.set('n', '<leader>', '<nop>')
-vim.keymap.set('n', '<up>', '<nop>')
-vim.keymap.set('n', '<down>', '<nop>')
-vim.keymap.set('n', '<left>', '<nop>')
-vim.keymap.set('n', '<right>', '<nop>')
 
 -- Exit & Save
 vim.keymap.set('', '<c-s>', '<cmd>write<cr>', {desc = 'Save'})
