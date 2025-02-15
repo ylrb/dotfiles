@@ -181,7 +181,6 @@ mode "launcher" {
 	bindsym d exec discord; mode "default"
 	bindsym e exec baobab; mode "default"
 	bindsym f exec 'firefox --new-tab'; mode "default"
-	bindsym g exec 'zsh ~/.local/bin/gpt'; mode "default"
 	bindsym i exec ibus-setup; mode "default"
 	bindsym j exec 'firefox https://jisho.org/'; mode "default"
 	bindsym k exec keepassxc; mode "default"
@@ -202,7 +201,7 @@ mode "launcher" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym twosuperior mode "launcher"
+bindsym $mod+twosuperior mode "launcher"
 bindsym $mod+o mode "launcher"
 
 

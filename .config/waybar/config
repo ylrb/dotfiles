@@ -7,7 +7,6 @@
     "modules-left": [
 		"user",
         "clock",
-        "custom/weather",
         "sway/window",
     ],
     "modules-center": [
